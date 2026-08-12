@@ -2,69 +2,77 @@
 
 Facilitator notes. Not for the cohort.
 
+Assume: **beginners, browser only, no terminal.** Nobody is installing anything.
+
 ## The night before
 
-- [ ] Repo is public. Test the install from a clean machine or a fresh session:
-      `/plugin marketplace add getluckyjo/claudeworkshop`
-- [ ] Run `/launchpad:onboard` end to end yourself. Every station.
-- [ ] Have the two install lines on a slide, big. People will be typing them.
-- [ ] Ask people to install Claude Code **before** they arrive. This is the
-      single biggest time sink on the day.
+- [ ] Repo is public and the download link works. Test it in a private window:
+      https://github.com/getluckyjo/claudeworkshop/raw/HEAD/dist/launchpad.zip
+- [ ] **Test the skill upload yourself, end to end.** Download the zip, add it at
+      Settings → Capabilities → Skills, start a fresh chat, say "help me get set
+      up". This is the one step that has to work — everything else is
+      recoverable.
+- [ ] Run the whole flow once as if you were a beginner. Time it.
+- [ ] Get the download link onto a slide, big. And short-link it — nobody is
+      typing that URL.
+- [ ] Confirm your own Vercel connector works, so your live demo can't fail.
 
-## Pre-workshop message to the cohort
+## Message to the cohort beforehand
 
-> Before Friday, please install Claude Code — it takes 5 minutes:
+> Before Friday, two minutes of admin:
 >
-> 1. Install Node from nodejs.org (take the LTS version)
-> 2. Open your terminal and run: `npm install -g @anthropic-ai/claude-code`
-> 3. Run `claude` and sign in
+> 1. Make sure you can log into Claude (claude.ai) — Pro or Max
+> 2. That's it. Bring a laptop and a browser.
 >
-> If you get stuck, don't stress — we'll sort it on the day. Just try first so we
-> can spend the time building instead of installing.
->
-> Also worth doing: create a GitHub account at github.com/signup if you don't
-> have one.
+> No installing, no coding, nothing to set up. We'll do the rest together.
+
+Deliberately light. The moment you ask beginners to prepare something technical,
+a third of them arrive already feeling behind.
 
 ## Timing (90 minutes)
 
 | Time | What |
 |---|---|
-| 0:00 | Why this matters. Show a live URL you built in five minutes. Don't explain, demonstrate. |
-| 0:10 | Everyone installs the plugin. Fix stragglers while the room works. |
-| 0:20 | `/launchpad:onboard` — Stations 0 and 1. Everyone at the same place. |
-| 0:30 | Station 2 — GitHub. Expect this to be the slowest one. |
-| 0:45 | **Station 3 — Vercel.** The big moment. Everyone gets a live URL. Do a round of the room and have people read theirs out. |
-| 1:05 | Station 4 — Connectors. Demo on your own real inbox first. |
-| 1:15 | Station 5 — their own skill. This is the one they'll thank you for. |
-| 1:25 | Station 6 — first mission. Send them out with three specific things. |
+| 0:00 | Why this matters. **Show, don't tell** — put a live site on screen that you built in five minutes, then change it live. |
+| 0:10 | Everyone downloads and installs the skill. Walk the room. Nobody moves on until everyone's in. |
+| 0:20 | Stop 0 and 1 — business context, then connect one tool. Get everyone to a working demo on their own inbox or calendar. |
+| 0:35 | Stop 2 — their own skill. Quiet, focused, high-value. Expect this to be the one they talk about afterwards. |
+| 0:55 | **Stop 3 — live URL.** The big moment. Do a round of the room and have people read their address out loud. |
+| 1:15 | Stop 4 — GitHub, for whoever wants it. Let the rest keep polishing their site. |
+| 1:25 | Stop 5 — first mission. Send them out with three specific things. |
 
 ## What will actually go wrong
 
-**Node/npm not installed.** The number one blocker. Have the nodejs.org link
-ready and expect 2–3 people.
+**The skill upload.** Highest-risk step, because it's the first one and it's
+fiddly for a beginner. Have the fallback ready: start a new chat, ask Claude to
+create the skill, paste the content in. No file handling at all.
 
-**Corporate laptops.** Locked-down machines block OAuth callbacks to localhost.
-Fallback: move them to claude.ai in the browser and do connectors + skills there.
-They still get real value. Don't let one laptop eat the room.
+**Connector pop-ups getting blocked.** Common on locked-down work laptops.
+Incognito window usually fixes it.
 
-**Everyone hits GitHub auth at once.** Consider walking the room through GitHub
-signup as a group before turning them loose, rather than 12 people getting stuck
-individually.
+**Wrong Google account.** Half the room has personal and business Gmail. Expect
+it, call it out early, save yourself ten minutes.
 
-**Someone races ahead.** Give them `/launchpad:ship` and let them build a second
-thing. They become your floor assistant.
+**Vercel signup wobbles.** Free Hobby plan, personal account. If someone stalls,
+switch them to an artifact so they still leave with a public link. Do not let a
+signup form cost someone the best moment of the day.
 
-**Someone falls behind.** The progress file is the safety net. Get them to
-Station 3 (live URL) at minimum — that's the one that makes the day worth it.
+**Someone races ahead.** Give them a second site to build, or have them help a
+neighbour. Peer help scales better than you do.
+
+**Someone falls behind.** Get them to Stop 3. That's the one that makes the day
+worth the ticket.
 
 ## The one thing that matters
 
-If people leave with nothing else, they should leave with **a live URL they
-changed themselves.** That's the moment the whole thing clicks. Protect the time
-for Station 3 even if you have to cut Station 4 short.
+If people leave with nothing else, they should leave with **a live web address
+they changed themselves.** That's the moment it clicks — when "AI writes code"
+becomes "I can change my own website by asking."
 
-## After the workshop
+Protect the time for Stop 3. Cut Stop 4 without hesitation.
 
-- [ ] Send the repo link again — most people won't have bookmarked it
-- [ ] Ask for the URLs they shipped. Great social proof for the next cohort.
-- [ ] Note what broke and fix it in the repo before the next one runs
+## Afterwards
+
+- [ ] Send the repo link again — nobody bookmarked it
+- [ ] Ask for the URLs they shipped. Best possible marketing for the next cohort.
+- [ ] Note what broke, fix it in the repo, rebuild the zip before the next one

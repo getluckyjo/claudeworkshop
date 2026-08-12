@@ -1,6 +1,7 @@
-dist/
 node_modules/
 .DS_Store
 *.log
 .env
 .env.local
+
+# dist/launchpad.zip IS committed on purpose — it's what the cohort downloads.

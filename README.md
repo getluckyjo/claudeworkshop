@@ -1,137 +1,115 @@
 # Launchpad
 
-**Claude tooling for founders.** Built for the Entrepreneur Coach workshop cohort — 22 August.
+**Get set up with Claude, properly, in about half an hour.** Built for the
+Entrepreneur Coach workshop cohort — 22 August.
 
-Most people leave an AI workshop impressed and then do nothing on Monday. The gap
-isn't motivation, it's setup. This closes that gap.
+No terminal. No coding. No installing anything. It all happens in your browser.
 
-Run one command and Claude walks you through the whole thing: GitHub connected,
-Vercel deploying, your connectors switched on, your first live URL, and a
-personal skill that teaches Claude your business so you never explain it again.
+Most people leave an AI workshop impressed and then do nothing on Monday. The
+gap isn't motivation, it's setup. This closes it.
 
-Takes about 30 minutes. You don't need to be technical.
+By the end you'll have your email and calendar connected, a website live on the
+internet that you can change just by asking, and Claude permanently taught about
+your business so you never explain it twice.
 
 ---
 
-## Get started
+## Three steps
 
-Open your terminal, and run:
+### 1. Download the skill
 
-```
-/plugin marketplace add getluckyjo/claudeworkshop
-/plugin install launchpad@entrepreneur-coach
-```
+**[⬇ Download launchpad.zip](https://github.com/getluckyjo/claudeworkshop/raw/HEAD/dist/launchpad.zip)**
 
-If it tells you to run `/reload-plugins`, do that. Then:
+One click. It'll land in your Downloads folder.
 
-```
-/launchpad:onboard
-```
+### 2. Add it to Claude
+
+In Claude, go to **Settings → Capabilities → Skills**, click to add a skill, and
+choose the file you just downloaded.
+
+### 3. Ask Claude to start
+
+Open a new chat and say:
+
+> **Help me get set up**
 
 That's it. Claude takes it from there — it asks about your business first, then
-does the setup work itself. You'll be clicking "Approve" in a browser now and
-then, not typing commands you don't understand.
-
-**Don't have Claude Code yet?** Install it first:
-
-```bash
-npm install -g @anthropic-ai/claude-code
-```
-
-No Node on your machine? Grab it from [nodejs.org](https://nodejs.org) (take the
-LTS version), then run the line above.
+does the work. You'll click "Approve" in a pop-up now and then, and answer some
+questions. Nothing else.
 
 ---
 
-## What you get
+## What happens
 
-**`/launchpad:onboard`** — the guided setup. Six stations, one at a time, and you
-can stop and pick up where you left off. It keeps track for you.
-
-**`/launchpad:ship`** — idea to a live web address, in one session. Use it on the
-day, use it every time after.
-
-**`/launchpad:my-voice`** — a short interview about your business and how you
-write, and it builds you a permanent skill file. After this, Claude knows what
-you sell, who buys it, and how you talk. Every session, forever.
-
----
-
-## The six stations
+Six stops, one at a time. You can stop anywhere and pick it up later — Claude
+keeps track.
 
 | | | |
 |---|---|---|
-| **0** | What are you building | Two questions. Everything after this is tailored to your actual business. |
-| **1** | Ground control | Thirty seconds of checks so nothing bites you later. |
-| **2** | GitHub | Where your work lives. Backup that thinks, and the plug everything else uses. |
-| **3** | Vercel | A live link you can send to a customer today. This is the one that lands. |
-| **4** | Connectors | Your real inbox, your real calendar. Claude stops being clever and starts being useful. |
-| **5** | Your own skill | Stop re-explaining your business every session. |
-| **6** | First mission | Three specific things to try this week, written for your business. |
+| **0** | What are you building | Two questions. Everything after this is about your actual business. |
+| **1** | Switch on your tools | Your real inbox and calendar. Claude stops being clever and starts being useful. |
+| **2** | Teach Claude your business | It learns what you sell and how you write. Once. Forever. |
+| **3** | Put something live | A real web address you can send to a customer today. **This is the one.** |
+| **4** | Keep your work safe | GitHub. Optional — skip it if you're not feeling it. |
+| **5** | Your first week | Three specific things to try, written for your business. |
 
-Stuck on a station? Skip it and come back. Station 5 needs nothing external and
-is worth doing on its own.
-
----
-
-## In the browser instead of the terminal?
-
-Plugins are a Claude Code thing. If you're working on claude.ai or in the Claude
-desktop app, you can still take the best part with you — package a skill as a zip
-and upload it:
-
-```bash
-./scripts/package-skills.sh
-```
-
-Then go to **claude.ai → Settings → Capabilities → Skills** and upload the zip
-you want. Your connectors get set up in **Settings → Connectors** — no terminal
-needed at all.
+Stuck on one? Skip it and come back. Stop 2 needs nothing but a conversation and
+is worth the whole session on its own.
 
 ---
 
-## What's actually in here
+## What you need
 
-```
-claudeworkshop/
-├── .claude-plugin/marketplace.json     the catalogue
-├── plugins/launchpad/
-│   ├── .claude-plugin/plugin.json
-│   ├── .mcp.json                       GitHub + Vercel, pre-wired
-│   └── skills/
-│       ├── onboard/                    the six-station flow
-│       ├── ship/                       idea to live URL
-│       └── my-voice/                   builds your personal skill
-├── scripts/package-skills.sh           zip skills for claude.ai
-└── docs/workshop-runsheet.md           facilitator notes
-```
+- A Claude account (Pro or Max)
+- A browser
+- About 30 minutes
 
-Installing the plugin also wires up the GitHub and Vercel MCP servers for you.
-You'll authenticate them with `/mcp` — a browser window, one click, no tokens to
-copy and paste anywhere.
+That's the list. You don't need GitHub, you don't need to know what a terminal
+is, and you won't be asked to install anything.
+
+A free Vercel account gets created along the way for your website — Claude walks
+you through it, it takes a minute, and it doesn't cost anything.
 
 ---
 
 ## A word on safety
 
-The onboarding will ask you to connect real things — your GitHub, your email,
-your calendar. Worth knowing:
+Claude will ask to connect real things — your email, your calendar. Worth
+knowing before you say yes:
 
-- Claude reads freely, but **asks before it sends, changes or deletes anything**
-- You can revoke any connector in seconds, from the same screen you added it
-- **Never paste an API key or token into a file in a repo.** Everything here uses
-  browser sign-in instead. If something ever asks you to paste a secret, stop and
-  ask.
+- Claude **reads** freely, but **asks before it sends, changes or deletes**
+  anything
+- You can switch any connection off in seconds, from the same screen you added it
+- **Nobody should ever ask you to paste a password or an API key into a chat.**
+  Everything here is proper browser sign-in. If something asks you for a secret,
+  stop and ask me.
 
 ---
 
-## Something broken?
+## Something not working?
 
-Claude can fix most of it — tell it what went wrong and it'll sort it out. There
-are proper troubleshooting notes in
-`plugins/launchpad/skills/onboard/references/troubleshooting.md`.
+Tell Claude what happened — it can fix most of it, and it's got proper
+troubleshooting notes built in.
 
-Still stuck? Open an issue on this repo, or grab me on the day.
+Still stuck? [Open an issue](https://github.com/getluckyjo/claudeworkshop/issues)
+on this repo, or grab me on the day.
+
+---
+
+## For the curious
+
+```
+claudeworkshop/
+├── dist/launchpad.zip          what you download
+├── skills/launchpad/           what's inside it
+│   ├── SKILL.md                the flow
+│   └── references/             detailed notes for each stop
+├── scripts/package-skill.sh    rebuilds the zip after edits
+└── docs/workshop-runsheet.md   facilitator notes
+```
+
+It's all plain text. Open it, read it, change it — it's yours. If you edit
+anything under `skills/`, run `./scripts/package-skill.sh` to rebuild the zip.
 
 ---
 
