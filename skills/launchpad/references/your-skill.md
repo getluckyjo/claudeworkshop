@@ -61,17 +61,28 @@ them. Lowercase and hyphens only.
 
 ## Getting it installed
 
-They can't zip a file without a terminal, so make this easy:
+They can't zip a file without a terminal, so **start with the route that needs no
+files at all**:
 
-1. Give them the finished SKILL.md **as a downloadable file**, not as a wall of
-   text in the chat.
-2. Send them to **Settings → Capabilities → Skills** and have them add it there.
-3. Walk them through it one click at a time and wait for confirmation.
+> Open a new chat and ask Claude to create a skill for you, then paste in the
+> text I've just written.
 
-If the upload wants a `.zip` and they're stuck, there's a much easier route that
-needs no files at all: **start a new chat and ask Claude to create the skill for
-them**, pasting in the content you wrote. Claude builds and installs it
-conversationally. Same result, zero file handling.
+Claude builds and installs it conversationally. No downloading, no uploading, no
+file handling. For a beginner this is far and away the easiest path — reach for
+it first.
+
+If they'd rather have the file, give them the finished SKILL.md as a
+**downloadable file** (not a wall of text in the chat), then walk them through
+it one click at a time, waiting for confirmation at each step:
+
+1. Click their **name or initials**, bottom-left
+2. **Settings**
+3. **Customize**
+4. Find the **Skills** section
+5. Add or upload a skill
+6. Choose the file
+
+Tell them what success looks like: the skill's name appears in their list.
 
 ## Then test it
 

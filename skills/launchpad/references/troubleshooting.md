@@ -26,10 +26,26 @@ Profile icon, bottom left. Then Connectors. Walk them there one click at a time.
 
 ## Skills
 
-**The upload wants a .zip and they have a file**
+**They can't find where skills live**
+Click their **name or initials** in the bottom-left → **Settings** →
+**Customize** → **Skills**. It used to be under Capabilities, so anyone
+following an older guide will be looking in the wrong place.
+
+**They unzipped the file and now have a folder**
+Very common on a Mac, which unzips downloads automatically. The upload wants the
+`.zip` file itself, not the folder. It'll still be sitting in Downloads next to
+the folder — point them at that.
+
+**The upload wants a .zip and they have a loose file**
 Don't try to talk a beginner through zipping anything. Use the other route:
 start a new chat, ask Claude to create the skill, paste in the content. Same
 result, no file handling.
+
+**Uploaded, but nothing happens when they ask for help**
+Three things, in order: are they in a **new** chat (skills don't load into a
+conversation that was already running), does the skill appear in their list, and
+have they tried typing `/launchpad` directly rather than asking in plain
+language.
 
 **Skill uploaded but doesn't seem to do anything**
 Skills fire based on their description. If it's not triggering, the description

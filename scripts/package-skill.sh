@@ -5,7 +5,7 @@
 # Run this after editing anything under skills/, then commit dist/launchpad.zip.
 #
 # The zip has SKILL.md at its ROOT (with references/ alongside it), which is
-# what claude.ai expects at Settings -> Capabilities -> Skills.
+# what claude.ai expects at Settings -> Customize -> Skills.
 #
 # Usage: ./scripts/package-skill.sh
 

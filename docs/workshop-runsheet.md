@@ -9,9 +9,11 @@ Assume: **beginners, browser only, no terminal.** Nobody is installing anything.
 - [ ] Repo is public and the download link works. Test it in a private window:
       https://github.com/getluckyjo/claudeworkshop/raw/HEAD/dist/launchpad.zip
 - [ ] **Test the skill upload yourself, end to end.** Download the zip, add it at
-      Settings → Capabilities → Skills, start a fresh chat, say "help me get set
+      Settings → Customize → Skills, start a fresh chat, say "help me get set
       up". This is the one step that has to work — everything else is
       recoverable.
+- [ ] Take a screenshot of the Skills screen with the upload button visible. On
+      the day, one picture beats three minutes of "no, the *other* menu".
 - [ ] Run the whole flow once as if you were a beginner. Time it.
 - [ ] Get the download link onto a slide, big. And short-link it — nobody is
       typing that URL.

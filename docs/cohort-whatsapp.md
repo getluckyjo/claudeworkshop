@@ -23,13 +23,16 @@ short link still resolves to the `.zip`.
 >
 > *Do this on your laptop, not your phone:*
 >
-> 1. Download this file:
+> *1.* Download this file (don't open or unzip it — just leave it in Downloads):
 > [LINK]
 >
-> 2. In Claude, go to Settings → Capabilities → Skills, and add the file you just
-> downloaded
+> *2.* Go to claude.ai and sign in. Click your name in the bottom-left corner →
+> Settings → Customize → find Skills → add a skill → choose the file you just
+> downloaded.
 >
-> 3. Open a new chat and say: *Help me get set up*
+> You'll know it worked when *Launchpad* shows up in your skills list.
+>
+> *3.* Open a new chat and type: *Help me get set up*
 >
 > That's it. Claude takes it from there — you'll click approve once or twice and
 > answer a few questions about your business. No coding, nothing to install.

@@ -16,26 +16,41 @@ your business so you never explain it twice.
 
 ## Three steps
 
+Do this on a laptop, not your phone.
+
 ### 1. Download the skill
 
 **[⬇ Download launchpad.zip](https://github.com/getluckyjo/claudeworkshop/raw/HEAD/dist/launchpad.zip)**
 
-One click. It'll land in your Downloads folder.
+One click. It lands in your **Downloads** folder.
+
+> ⚠️ **Don't open or unzip it.** Leave it exactly as it is — Claude wants the zip
+> file itself. If your Mac unzipped it automatically and you now have a *folder*
+> called `launchpad`, ignore that folder and use the `.zip` file next to it.
 
 ### 2. Add it to Claude
 
-In Claude, go to **Settings → Capabilities → Skills**, click to add a skill, and
-choose the file you just downloaded.
+1. Go to **[claude.ai](https://claude.ai)** and sign in
+2. Click your **name or initials** in the bottom-left corner
+3. Click **Settings**
+4. Click **Customize** in the menu
+5. Find the **Skills** section
+6. Click the button to add or upload a skill
+7. Choose **launchpad.zip** from your Downloads folder
+
+You'll know it worked when **Launchpad** appears in your list of skills.
 
 ### 3. Ask Claude to start
 
-Open a new chat and say:
+Open a **new chat** — not this one — and type:
 
 > **Help me get set up**
 
-That's it. Claude takes it from there — it asks about your business first, then
+That's it. Claude takes it from there. It asks about your business first, then
 does the work. You'll click "Approve" in a pop-up now and then, and answer some
 questions. Nothing else.
+
+*Nothing happening?* Type `/launchpad` instead — that starts it directly.
 
 ---
 
