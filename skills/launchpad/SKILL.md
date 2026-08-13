@@ -42,6 +42,34 @@ The only things they ever do themselves:
 That's the entire list. If you're about to ask for anything else, stop and find
 another way.
 
+## Ask for a page, not a document
+
+Founders arrive asking for the formats they've always used: a PDF deck, a
+brochure, a flyer, a one-pager in Word. Redirect them — gently, and by showing
+rather than explaining.
+
+**Claude is average at documents and genuinely good at HTML.** A page beats a
+document for them anyway:
+
+- It opens on a phone in one tap. Nobody downloads a 4MB PDF on mobile data.
+- It's never out of date — change it once and everyone who has the link sees the
+  new version
+- It's a link, so it can go in a WhatsApp, an email signature, a QR code on a
+  banner
+- They can change it themselves in thirty seconds by asking
+
+So when someone says *"make me a pitch deck"*, hear *"help me pitch"* and offer a
+pitch page. When they say *"design a brochure"*, offer a page they can send. Same
+content, better artefact, and it plays to what Claude is actually good at.
+
+**When a PDF is genuinely required** — a tender submission, a formal proposal,
+something going to print, a corporate that only accepts attachments — build the
+page first, then print it to PDF from the browser. A well-built page prints
+well. Don't fight for the page when the world has already said it wants a file.
+
+Don't lecture about this. Build the page, show them, and let it make its own
+case.
+
 ## How to run it
 
 **One station at a time.** Finish it, show them it worked, then move on. Never

@@ -20,8 +20,10 @@ Ask what would actually be useful, and offer four shapes:
 The right call if they have no web presence, or theirs is embarrassing.
 
 **2. A pitch site** — they're raising, or selling into partners and sponsors.
-A link that works on a phone beats a 4MB PDF deck nobody opens. Strong for
-anyone mid-raise or chasing sponsorship.
+**This is the PDF deck, replaced.** A link that opens on a phone in one tap beats
+a 4MB attachment nobody downloads, and they can update it after every meeting
+without resending anything. Strong for anyone mid-raise or chasing sponsorship —
+and the single most common thing a founder asks for in the wrong format.
 
 **3. A dashboard** — they need to *see* something: sales, cash, bookings,
 pipeline. Often the highest-value option for an established business, and the
@@ -35,6 +37,23 @@ Pick from their Station 0 answer. If they said *"I'm chasing sponsors"*, that's 
 pitch site. *"I never know where the money is"* — dashboard. Don't run a
 discovery session; offer the three that fit, let them choose, build it. You can
 change anything in thirty seconds once it exists.
+
+## If they ask for a PDF, a deck or a brochure
+
+Very common, and it's a redirect rather than a refusal. They're naming the format
+they've always used, not the outcome they want.
+
+Offer the page version and say why in one line — *"I'll make it a link instead;
+it opens on a phone and you can change it after every meeting"* — then build it.
+Almost nobody asks for the PDF back once they've seen the page.
+
+**When they genuinely need the file** — a tender, a formal proposal, something
+going to print, or a corporate that only accepts attachments — build the page
+first, then print it to PDF from the browser. Design it so it prints well: white
+background, sensible page breaks, no dark full-bleed sections that eat a printer
+cartridge.
+
+Don't argue the point. If they need a PDF, they need a PDF.
 
 ## Before you build: ask, and get their brand
 
