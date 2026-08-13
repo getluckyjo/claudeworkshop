@@ -39,7 +39,7 @@ a third of them arrive already feeling behind.
 | 0:10 | Everyone downloads and installs the skill. Walk the room. Nobody moves on until everyone's in. |
 | 0:20 | Stop 0 and 1 — business context, then connect one tool. Get everyone to a working demo on their own inbox or calendar. |
 | 0:35 | Stop 2 — their own skill. Quiet, focused, high-value. Expect this to be the one they talk about afterwards. |
-| 0:55 | **Stop 3 — live URL.** The big moment. Do a round of the room and have people read their address out loud. |
+| 0:55 | **Stop 3 — ship something.** The big moment. Push people past "a landing page" — a pitch site or a dashboard is often worth far more to them. Do a round of the room and have people read their link out loud. |
 | 1:15 | Stop 4 — GitHub, for whoever wants it. Let the rest keep polishing their site. |
 | 1:25 | Stop 5 — first mission. Send them out with three specific things. |
 

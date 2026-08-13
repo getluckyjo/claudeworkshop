@@ -64,7 +64,7 @@ keeps track.
 | **0** | What are you building | Two questions. Everything after this is about your actual business. |
 | **1** | Switch on your tools | Your real inbox and calendar. Claude stops being clever and starts being useful. |
 | **2** | Teach Claude your business | It learns what you sell and how you write. Once. Forever. |
-| **3** | Put something live | A real web address you can send to a customer today. **This is the one.** |
+| **3** | Ship something real | A one-pager, a pitch site, a dashboard or a small tool — your call. Live on the internet, and you change it by asking. **This is the one.** |
 | **4** | Keep your work safe | GitHub. Optional — skip it if you're not feeling it. |
 | **5** | Your first week | Three specific things to try, written for your business. |
 

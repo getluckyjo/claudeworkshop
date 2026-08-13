@@ -141,16 +141,21 @@ in the flow — lean on it if something else is broken.
 End state: their own skill is uploaded and they've seen it fire on a real piece
 of writing.
 
-## Station 3 — Put something live
+## Station 3 — Ship something real
 
-**Why:** a real web address they can send to a customer today. This is the one
-that lands.
+**Why:** something real on the internet for their business, today. This is the
+one that lands.
 
-Read `references/live-url.md`.
+Read `references/ship.md`.
 
-You can deploy for them directly — no GitHub, no terminal, nothing to install.
-Build them a genuinely good one-page site for their real business, ship it, and
-hand them the URL.
+**Don't default to a landing page.** Plenty of founders already have a website
+they don't need another of. Ask what would actually be useful and offer the four
+shapes: a one-pager, a pitch site, a dashboard, or a small tool. Pick from their
+Station 0 answer, offer the ones that fit, let them choose.
+
+Then ship it — you can deploy directly, with no GitHub, no terminal and nothing
+installed. Anything public goes to Vercel; anything showing their own live
+numbers is better as an artifact, because it can read their connected tools.
 
 Then change one thing and redeploy while they watch. **That thirty seconds is
 the most important part of the whole onboarding** — it's when "AI helps people
