@@ -44,7 +44,7 @@ result, no file handling.
 **Uploaded, but nothing happens when they ask for help**
 Three things, in order: are they in a **new** chat (skills don't load into a
 conversation that was already running), does the skill appear in their list, and
-have they tried typing `/launchpad` directly rather than asking in plain
+have they tried typing `/claudeforentrepreneurs` directly rather than asking in plain
 language.
 
 **Skill uploaded but doesn't seem to do anything**

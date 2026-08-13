@@ -30,7 +30,7 @@ short link still resolves to the `.zip`.
 > Settings → Customize → find Skills → add a skill → choose the file you just
 > downloaded.
 >
-> You'll know it worked when *Launchpad* shows up in your skills list.
+> You'll know it worked when *Claude for Entrepreneurs* shows up in your skills list.
 >
 > *3.* Open a new chat and type: *Help me get set up*
 >

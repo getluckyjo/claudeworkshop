@@ -1,4 +1,4 @@
-# Launchpad
+# Claude for Entrepreneurs
 
 **Get set up with Claude, properly, in about half an hour.** Built for the
 Entrepreneur Coach workshop cohort — 22 August.
@@ -21,13 +21,14 @@ Do this on a laptop, not your phone.
 
 ### 1. Download the skill
 
-**[⬇ Download launchpad.zip](https://github.com/getluckyjo/claudeworkshop/raw/HEAD/dist/launchpad.zip)**
+**[⬇ Download claudeforentrepreneurs.zip](https://github.com/getluckyjo/claudeworkshop/raw/HEAD/dist/claudeforentrepreneurs.zip)**
 
 One click. It lands in your **Downloads** folder.
 
 > ⚠️ **Don't open or unzip it.** Leave it exactly as it is — Claude wants the zip
 > file itself. If your Mac unzipped it automatically and you now have a *folder*
-> called `launchpad`, ignore that folder and use the `.zip` file next to it.
+> called `claudeforentrepreneurs`, ignore that folder and use the `.zip` file
+> next to it.
 
 ### 2. Add it to Claude
 
@@ -37,9 +38,9 @@ One click. It lands in your **Downloads** folder.
 4. Click **Customize** in the menu
 5. Find the **Skills** section
 6. Click the button to add or upload a skill
-7. Choose **launchpad.zip** from your Downloads folder
+7. Choose **claudeforentrepreneurs.zip** from your Downloads folder
 
-You'll know it worked when **Launchpad** appears in your list of skills.
+You'll know it worked when **Claude for Entrepreneurs** appears in your list of skills.
 
 ### 3. Ask Claude to start
 
@@ -51,7 +52,7 @@ That's it. Claude takes it from there. It asks about your business first, then
 does the work. You'll click "Approve" in a pop-up now and then, and answer some
 questions. Nothing else.
 
-*Nothing happening?* Type `/launchpad` instead — that starts it directly.
+*Nothing happening?* Type `/claudeforentrepreneurs` instead — that starts it directly.
 
 ---
 
@@ -119,8 +120,8 @@ on this repo, or grab me on the day.
 
 ```
 claudeworkshop/
-├── dist/launchpad.zip          what you download
-├── skills/launchpad/           what's inside it
+├── dist/claudeforentrepreneurs.zip          what you download
+├── skills/claudeforentrepreneurs/           what's inside it
 │   ├── SKILL.md                the flow
 │   └── references/             detailed notes for each stop
 ├── scripts/package-skill.sh    rebuilds the zip after edits
