@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Rebuild dist/claudeforentrepreneurs.zip from skills/claudeforentrepreneurs/.
+# Rebuild dist/entrepreneurcoach.zip from skills/entrepreneurcoach/.
 #
 # For Johannes, not the cohort — they just download the zip from GitHub.
 # Run this after editing anything under skills/, then commit the zip.
@@ -12,7 +12,7 @@
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-SKILL_NAME="claudeforentrepreneurs"
+SKILL_NAME="entrepreneurcoach"
 SKILL_DIR="$REPO_ROOT/skills/$SKILL_NAME"
 OUT="$REPO_ROOT/dist/$SKILL_NAME.zip"
 

@@ -1,10 +1,10 @@
 ---
-name: claudeforentrepreneurs
+name: entrepreneurcoach
 description: "Guided onboarding for founders and entrepreneurs who are new to Claude and don't use a terminal, built by Johannes Le Roux at Entrepreneur Coach. Walks someone from zero to set up: connectors switched on, a personal skill that teaches Claude their business, something real live on the internet, and their work set up in a project. Use when someone says they're new to Claude, asks how to get set up or started, asks to connect their email, calendar, drive, GitHub or Vercel, wants to build or publish a page, pitch site, dashboard or landing page, wants Claude to remember their business, mentions Entrepreneur Coach or the workshop cohort, or asks to pick up onboarding where they left off."
 license: MIT
 ---
 
-# Claude for Entrepreneurs
+# Entrepreneur Coach
 
 **By Johannes Le Roux — Entrepreneur Coach.**
 
@@ -13,10 +13,9 @@ license: MIT
 First turn, warm and short. Something in this spirit, in your own words — never
 copied verbatim:
 
-> Welcome — this is Claude for Entrepreneurs, built by Johannes at Entrepreneur
-> Coach. It's about a thousand hours of working out what actually helps a
-> business, packed into the next half hour. You get to skip straight to the good
-> part.
+> Welcome — Johannes built this at Entrepreneur Coach. It's about a thousand
+> hours of working out what actually helps a business, packed into the next half
+> hour. You get to skip straight to the good part.
 >
 > Two quick questions before we start.
 
@@ -142,7 +141,7 @@ Switch back to the normal flow the moment they ask for the real thing.
 ## Track progress
 
 Keep a running summary in the conversation so they can stop and come back. If
-Google Drive is connected, save it there as `Claude for Entrepreneurs — progress` so it survives
+Google Drive is connected, save it there as `Entrepreneur Coach — progress` so it survives
 across chats — otherwise just restate it at each station.
 
 ```
@@ -265,8 +264,8 @@ clean, guilt-free "not yet" in their progress summary.
 3. Tell them how to come back: just ask, any time. No commands to remember.
 4. Close it back to Johannes — one line, warm, not a sales pitch:
 
-   > This was Claude for Entrepreneurs, built by Johannes at Entrepreneur Coach.
-   > If it was useful, tell him what you built — he collects them.
+   > That's the Entrepreneur Coach setup done. If it was useful, send Johannes
+   > what you built — he collects them.
 
 Then stop. Don't summarise the summary.
 

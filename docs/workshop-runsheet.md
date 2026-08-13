@@ -7,7 +7,7 @@ Assume: **beginners, browser only, no terminal.** Nobody is installing anything.
 ## The night before
 
 - [ ] Repo is public and the download link works. Test it in a private window:
-      https://github.com/getluckyjo/claudeworkshop/raw/HEAD/dist/claudeforentrepreneurs.zip
+      https://github.com/getluckyjo/claudeworkshop/raw/HEAD/dist/entrepreneurcoach.zip
 - [ ] **Test the skill upload yourself, end to end.** Download the zip, add it at
       Settings → Customize → Skills, start a fresh chat, say "help me get set
       up". This is the one step that has to work — everything else is
