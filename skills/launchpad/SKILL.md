@@ -153,9 +153,15 @@ they don't need another of. Ask what would actually be useful and offer the four
 shapes: a one-pager, a pitch site, a dashboard, or a small tool. Pick from their
 Station 0 answer, offer the ones that fit, let them choose.
 
-Then ship it — you can deploy directly, with no GitHub, no terminal and nothing
-installed. Anything public goes to Vercel; anything showing their own live
-numbers is better as an artifact, because it can read their connected tools.
+**Then ask four questions and ask for their brand** — logo, photos, colours, an
+old deck. Most people don't realise they can upload it. That's the difference
+between a template and something they'll send to a sponsor tonight.
+
+Be straight about the two routes before you build. An **artifact** is free,
+instant, needs no setup and can read their live data, but it lives inside their
+Claude account. **Vercel** is customer-facing and independent, and takes a domain
+later, but can't reach their connected tools and may need a paid plan for
+commercial use. If in doubt, artifact first — moving it later is quick.
 
 Then change one thing and redeploy while they watch. **That thirty seconds is
 the most important part of the whole onboarding** — it's when "AI helps people
@@ -163,19 +169,32 @@ code" becomes "I can change my own website by asking."
 
 End state: a live public URL, and they've seen it update on request.
 
-## Station 4 — Keep your work safe (optional)
+## Station 4 — Set up your project
 
-**Why:** somewhere for their projects to live that isn't one browser tab.
+**Why:** a chat is disposable. Anything they care about needs to live somewhere
+that outlives the conversation.
 
-Read `references/github.md`.
+Read `references/project.md`.
 
-**Judge the room.** For a beginner who just got a live site, GitHub can be a
-step too far on day one — it's the highest-friction station and the least
-immediately useful. Offer it, explain what it's for in one line, and let them
-decline without any sense they're missing out. It'll still be here next week.
+Two layers, and they're not equally urgent:
 
-End state: either a GitHub account connected, or a clean, guilt-free "not yet"
-noted in their progress summary.
+**Layer 1 — a Claude Project. Everyone does this.** Two minutes, no accounts,
+and it's where the brand assets from Station 3 belong permanently. Every future
+chat started inside it begins already knowing the business. Most people have
+never opened the menu.
+
+**Layer 2 — the build loop, for anyone who shipped something they'll keep
+changing.** Claude Code on the web → GitHub → Vercel: Claude works on it in the
+cloud, every version is kept, and the live site updates when they approve a
+change. No terminal, ever.
+
+**Judge the room on Layer 2.** They've just put their business on the internet —
+that's a good day. It's the highest-friction thing in the flow and pushing it can
+turn a great session into a confusing one. Offer it in one line, let them decline
+cleanly.
+
+End state: a Project with their brand in it, and either the build loop wired or a
+clean, guilt-free "not yet" in their progress summary.
 
 ## Station 5 — Your first week
 

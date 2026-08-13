@@ -36,26 +36,77 @@ pitch site. *"I never know where the money is"* — dashboard. Don't run a
 discovery session; offer the three that fit, let them choose, build it. You can
 change anything in thirty seconds once it exists.
 
+## Before you build: ask, and get their brand
+
+**Don't start building off one sentence.** The gap between a generic template and
+something they're proud to send is about four questions and a logo.
+
+Ask these, in one turn, conversationally:
+
+1. Who's going to open this link, and what do you want them to do?
+2. What are the three things they need to know?
+3. Any numbers worth leading with? (Founders undersell their own scale — push
+   here. "600+ golf days a year" lands harder than "we run events.")
+4. What should it *feel* like — premium, friendly, sharp, understated?
+
+Then ask for their brand. **Say it as an upload, because most people don't
+realise they can:**
+
+> Drop in whatever you've got — logo, a photo or two, your colours, an old deck
+> or brochure. Even a screenshot of your Instagram works. I'll pull the styling
+> from it.
+
+What to do with what you get:
+- **Logo** — embed it as a data URI so the page stays self-contained
+- **Deck, brochure or existing site** — read the colours, fonts and tone off it
+  and match them; don't invent a new brand
+- **Photos** — use them. Real photos of the real business beat stock every time
+- **Nothing at all** — pick a restrained palette, say what you chose, and tell
+  them it's a five-second change once they find the logo
+
+This is the difference between "that's neat" and "I'm sending this to a sponsor
+tonight." Don't skip it to save two minutes.
+
 ## Which way to ship it
 
-This decision matters, and it comes down to one question: **does it need live
-data, or does it need to be public?**
+Two routes. **Be straight about the trade-off before you pick** — founders
+resent discovering a cost or a limit after they've told people about the link.
 
-| | Deploy to Vercel | Build as an artifact |
+| | **Artifact** | **Vercel** |
 |---|---|---|
-| Public link, anyone can open | ✅ | ✅ (once published) |
-| Custom domain later | ✅ | ✗ |
-| **Reads their live Xero / Gmail / Calendar** | ✗ | ✅ |
-| Needs no signup at all | ✗ | ✅ |
+| **Cost** | Included in their Claude plan. Nothing extra, ever. | Free tier covers personal projects. A commercial site may need a paid plan — check current terms. |
+| **Public link** | ✅ Publish and share — anyone with the link, no sign-in | ✅ Public by default |
+| **Their own domain** | ✗ Always a claude.ai link | ✅ Domain costs extra (~annual fee) |
+| **Live data from their Xero / Gmail / Calendar** | ✅ Can call their connectors | ✗ Can't reach their accounts |
+| **Setup needed** | None at all | Free account + connector |
+| **Outlives their Claude subscription** | ✗ Tied to their Claude account | ✅ Theirs, independent |
+| **Looks like a real business** | Fine, but the URL gives it away | ✅ Especially with a domain |
 
-**Rule of thumb:** anything the public sees — one-pager, pitch site, tool — goes
-to **Vercel**. Anything that shows *their own live numbers* — a dashboard — is
-better as an **artifact**, because it can call their connectors and pull real
-data. A deployed static site can't reach their Xero.
+### Choosing
 
-A dashboard can go to Vercel too, but the numbers have to be baked in at build
-time. That's fine for a snapshot they send a sponsor; useless as a thing they
-check on Mondays. Be straight with them about which they're getting.
+**Artifact** when it's for them or a small circle, needs live numbers, or they
+want zero setup. Perfect for a dashboard, an internal tool, or getting something
+in front of them in ninety seconds.
+
+**Vercel** when it's customer-facing and needs to look like a real business —
+a one-pager, a pitch site, anything they'll put a domain on later.
+
+**The two rows people miss:**
+
+- **Live data only works as an artifact.** A dashboard on Vercel holds numbers
+  baked in at build time — fine as a snapshot for a sponsor, useless as something
+  they check on Mondays.
+- **An artifact lives inside their Claude account.** If they ever stop paying, it
+  goes. Anything the business genuinely depends on belongs on Vercel.
+
+**Not sure? Artifact first.** It's free and instant, they see it working, and
+moving it to Vercel later is a two-minute job. Don't let a signup form stand
+between a beginner and their first win.
+
+> ⚠️ **Facilitator:** Vercel's free tier is intended for non-commercial use, so a
+> business site may need a paid plan. Check their current pricing and terms
+> before the workshop and tell the room straight — an entrepreneur who finds out
+> later feels misled, and that's the one thing that undoes a good session.
 
 ### Deploying to Vercel
 

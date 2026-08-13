@@ -8,9 +8,10 @@ No terminal. No coding. No installing anything. It all happens in your browser.
 Most people leave an AI workshop impressed and then do nothing on Monday. The
 gap isn't motivation, it's setup. This closes it.
 
-By the end you'll have your email and calendar connected, a website live on the
-internet that you can change just by asking, and Claude permanently taught about
-your business so you never explain it twice.
+By the end you'll have your email and calendar connected, something real live on
+the internet that you can change just by asking — a pitch site, a dashboard, a
+one-pager, whatever's actually useful to you — and Claude permanently taught
+about your business so you never explain it twice.
 
 ---
 
@@ -65,7 +66,7 @@ keeps track.
 | **1** | Switch on your tools | Your real inbox and calendar. Claude stops being clever and starts being useful. |
 | **2** | Teach Claude your business | It learns what you sell and how you write. Once. Forever. |
 | **3** | Ship something real | A one-pager, a pitch site, a dashboard or a small tool — your call. Live on the internet, and you change it by asking. **This is the one.** |
-| **4** | Keep your work safe | GitHub. Optional — skip it if you're not feeling it. |
+| **4** | Set up your project | Where your brand and your work live, so nothing gets lost in a chat. |
 | **5** | Your first week | Three specific things to try, written for your business. |
 
 Stuck on one? Skip it and come back. Stop 2 needs nothing but a conversation and
@@ -82,8 +83,11 @@ is worth the whole session on its own.
 That's the list. You don't need GitHub, you don't need to know what a terminal
 is, and you won't be asked to install anything.
 
-A free Vercel account gets created along the way for your website — Claude walks
-you through it, it takes a minute, and it doesn't cost anything.
+**On cost:** what you build can be published free either way, and Claude explains
+the trade-off before you choose. The quickest route needs no account at all. If
+you go the Vercel route for a customer-facing site, the free tier is aimed at
+personal projects, so a commercial site may need a paid plan eventually — Claude
+tells you that up front rather than after you've sent the link around.
 
 ---
 
