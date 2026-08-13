@@ -14,46 +14,62 @@ This is the mistake to avoid. "Let's build you a landing page" is the obvious
 move and it's often the *least* useful thing for the founder in front of you —
 plenty of them already have a website they don't need another of.
 
-Ask what would actually be useful, and offer four shapes:
+Ask what would actually be useful, and offer six shapes:
 
-**1. A one-pager** — they need to be found, or take bookings and enquiries.
+**1. A spreadsheet model** — a cashflow forecast, margin analysis by product or
+channel, a pricing model, a month-end pack rebuilt from source. Often the single
+highest-value artefact in the room, especially for an established business, and
+the one an owner will still be using in a year. Build it as a real working file
+with real formulas — not a picture of a model.
+
+**2. A document or deck** — an investor deck they can defend, a proposal on
+their template, the SOP they've never written down. Right when a specific person
+or institution expects a file: a bank, a board, a tender, an auditor.
+
+**3. A one-pager** — they need to be found, or take bookings and enquiries.
 The right call if they have no web presence, or theirs is embarrassing.
 
-**2. A pitch site** — they're raising, or selling into partners and sponsors.
-**This is the PDF deck, replaced.** A link that opens on a phone in one tap beats
-a 4MB attachment nobody downloads, and they can update it after every meeting
-without resending anything. Strong for anyone mid-raise or chasing sponsorship —
-and the single most common thing a founder asks for in the wrong format.
+**4. A pitch site** — they're raising, or selling into partners and sponsors.
+A link that opens on a phone in one tap beats a 4MB attachment nobody downloads,
+and they can update it after every meeting without resending anything. Strong for
+anyone mid-raise or chasing sponsorship.
 
-**3. A dashboard** — they need to *see* something: sales, cash, bookings,
-pipeline. Often the highest-value option for an established business, and the
-one they'd never have thought to ask for.
+**5. A dashboard** — they need to *see* something: sales, cash, bookings,
+pipeline. Often the one they'd never have thought to ask for.
 
-**4. A small tool** — a quote calculator, a booking form, a pricing estimator,
+**6. A small tool** — a quote calculator, a booking form, a pricing estimator,
 something their team or customers actually use. Great when they describe a
 repetitive job someone does by hand.
 
-Pick from their Station 0 answer. If they said *"I'm chasing sponsors"*, that's a
-pitch site. *"I never know where the money is"* — dashboard. Don't run a
-discovery session; offer the three that fit, let them choose, build it. You can
-change anything in thirty seconds once it exists.
+Pick from their Station 0 answer. *"I'm chasing sponsors"* — pitch site. *"I
+never know where the money is"* — dashboard, or a cashflow model if they need to
+plan rather than watch. *"Month-end swallows a week"* — spreadsheet, every time.
+Don't run a discovery session; offer the two or three that fit, let them choose,
+build it. You can change anything in thirty seconds once it exists.
 
-## If they ask for a PDF, a deck or a brochure
+## File or link?
 
-Very common, and it's a redirect rather than a refusal. They're naming the format
-they've always used, not the outcome they want.
+Ask one question: **what happens to this after they leave the room?**
 
-Offer the page version and say why in one line — *"I'll make it a link instead;
-it opens on a phone and you can change it after every meeting"* — then build it.
-Almost nobody asks for the PDF back once they've seen the page.
+- **Someone else has to edit it** → file. A model handed over as a web page is
+  useless to the accountant who has to work in it.
+- **A bank, board, tender or auditor expects it** → file. The world already said
+  what format it wants.
+- **They'll send it to many people and change it often** → link. One URL, always
+  current, no resending.
+- **They need to watch numbers move** → dashboard, live.
 
-**When they genuinely need the file** — a tender, a formal proposal, something
-going to print, or a corporate that only accepts attachments — build the page
-first, then print it to PDF from the browser. Design it so it prints well: white
-background, sensible page breaks, no dark full-bleed sections that eat a printer
-cartridge.
+**Where a page genuinely is better, build it rather than argue for it.** Someone
+asking for a pitch deck to email around is usually naming the format they've
+always used, not the outcome they want. Offer it in one line — *"I'll make it a
+link instead; it opens on a phone and you can change it after every meeting"* —
+then build it. Almost nobody asks for the PDF back once they've seen the page.
 
-Don't argue the point. If they need a PDF, they need a PDF.
+**And when both help,** build the page and print it to PDF for the version that
+has to be attached. Design it so it prints: white background, sensible page
+breaks, no dark full-bleed sections that eat a cartridge.
+
+Don't argue the point. If they need a file, they need a file.
 
 ## Before you build: ask, and get their brand
 
@@ -88,8 +104,13 @@ tonight." Don't skip it to save two minutes.
 
 ## Which way to ship it
 
-Two routes. **Be straight about the trade-off before you pick** — founders
-resent discovering a cost or a limit after they've told people about the link.
+**Building a file? Skip this section.** A spreadsheet, document or deck is
+finished when it's in their hands — there's no hosting decision, no account, no
+signup. Hand it over and go straight to "Then change something".
+
+For anything that needs to be a link, there are two routes. **Be straight about
+the trade-off before you pick** — founders resent discovering a cost or a limit
+after they've told people about the link.
 
 | | **Artifact** | **Vercel** |
 |---|---|---|
@@ -156,18 +177,21 @@ contact details, from Station 0.
 
 ## Then change something
 
-**Do not skip this.**
+**Do not skip this.** It works the same whatever you built.
 
-Ask for one change — a headline, a colour, a number. Make it. Redeploy. Have
-them refresh.
+Ask for one change — a headline, a colour, a growth assumption, a price. Make it.
+Rebuild. Have them look.
 
-This is the whole lesson, and it's the reason they'll come back to Claude on
-Monday. Give it the airtime.
+On a site: redeploy and refresh. On a model: change the assumption and watch the
+five years redo themselves. On a deck: reorder the argument. Same lesson either
+way, and it's the reason they'll come back to Claude on Monday. Give it airtime.
 
 ## Hand it over
 
-Give them the link and tell them to send it to someone **right now**, while
-you're both still here. Later never happens. Note it in their progress summary.
+Give them the link — or the file — and get it in front of someone **right now**,
+while you're both still here. Send the link, email the model to their accountant,
+WhatsApp the one-pager to a customer. Later never happens. Note it in their
+progress summary.
 
 ## Snags
 

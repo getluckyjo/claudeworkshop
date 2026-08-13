@@ -1,14 +1,45 @@
 # Station 2 — Teach Claude your business
 
 The highest-leverage thing a founder can do with Claude: stop re-explaining
-their business every single session.
+their business, and stop doing the same job from memory every month.
 
-You interview them, write them a skill, and they upload it. From then on, Claude
-knows what they sell, who buys it, and how they write — in every future
-conversation.
+You interview them, write them a skill, and they install it. From then on it's
+there in every future conversation.
 
 Needs no external service, so it works even when everything else is broken. Lean
 on it.
+
+## Two kinds of skill — pick the one they're paying for
+
+**A process skill** captures how *they* do a recurring piece of work. The
+month-end pack. Quotes on their template. What goes into a proposal and in what
+order. How a weekly report should read. **This is what the workshop sells** — "a
+skill that repeats your process" — and for anyone who named a recurring task in
+the pre-work, it's the thing they came for.
+
+**A voice skill** captures how they write — emails, WhatsApps, LinkedIn,
+proposals. Quicker to build, more immediately delightful, and the one people show
+their friends.
+
+**Default to the process skill.** Build the voice skill second if there's time;
+once you've done one, the other takes fifteen minutes. If they didn't name a
+recurring task, or the job they named is mostly writing, go straight to voice.
+
+The interview below is the voice version. For a process skill, ask these instead:
+
+1. Walk me through the job, start to finish, as if I'm doing it next month.
+2. Where does the information come from — which file, which system, who sends it?
+3. What does "done" look like, and who sees it?
+4. What goes wrong when someone else does it?
+5. What do you check before you'd sign it off?
+6. Show me the last one you did.
+
+**Question 6 is the whole thing**, same as question 8 below. One real month-end
+pack beats any description of a month-end pack. Ask for the file.
+
+Then write it as steps, in order, with their actual thresholds and their actual
+format — and name the output. A process skill that doesn't say what it produces
+just produces conversation.
 
 ## The interview
 
@@ -55,9 +86,11 @@ that doesn't:
 - **Under 150 lines.** Long skills get skimmed. Sharp ones get followed.
 - **Invent nothing.** If they didn't tell you, leave it out.
 
-Naming: name it after **them**, not their company — `sarah-voice`, not
+Naming: a voice skill goes after **them**, not their company — `sarah-voice`, not
 `bloomcatering-voice`. People run more than one business; their voice moves with
-them. Lowercase and hyphens only.
+them. A process skill goes after **the job** — `month-end-pack`, `client-quote`,
+`weekly-numbers` — because that's what they'll look for when they want it.
+Lowercase and hyphens only.
 
 ## Getting it installed
 
@@ -82,15 +115,22 @@ it one click at a time, waiting for confirmation at each step:
 5. Add or upload a skill
 6. Choose the file
 
+Same menus on the desktop app and the browser, so don't make a thing of which
+they're on.
+
 Tell them what success looks like: the skill's name appears in their list.
 
 ## Then test it
 
-**Immediately.** Ask them for one real thing they need to write this week — an
-actual email to an actual person — and draft it using the new skill.
+**Immediately.** Not a demo of it — the real job.
 
-Watching it come back in their own voice is what makes them believe it. Refine
-once based on their reaction. There will be something. There always is.
+- **Voice skill:** one real thing they need to write this week, to an actual
+  person. Watching it come back in their own words is what makes them believe it.
+- **Process skill:** run the job. Next month's pack, this week's quote, the
+  report that's due. Feed it the real file they brought.
+
+Refine once based on their reaction. There will be something. There always is —
+usually that it's too long, or it invented a step they don't do.
 
 Then tell them it's just a text file they own — they can change it any time, or
 ask Claude to update it as the business grows.

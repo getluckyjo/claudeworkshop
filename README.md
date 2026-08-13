@@ -1,17 +1,21 @@
 # Entrepreneur Coach
 
-**Get set up with Claude, properly, in about half an hour.** Built for the
-Entrepreneur Coach workshop cohort — 22 August.
+**Get set up with Claude, properly.** Built for the Entrepreneur Coach workshop
+cohort — Saturday 22 August 2026, Ideas Cartel, Claremont.
 
-No terminal. No coding. No installing anything. It all happens in your browser.
+No terminal. No coding. It all happens in the Claude app.
 
 Most people leave an AI workshop impressed and then do nothing on Monday. The
 gap isn't motivation, it's setup. This closes it.
 
-By the end you'll have your email and calendar connected, something real live on
-the internet that you can change just by asking — a pitch site, a dashboard, a
-one-pager, whatever's actually useful to you — and Claude permanently taught
-about your business so you never explain it twice.
+By the end you'll have a Project that knows your business, your real data
+connected, one real thing built — a model, a deck, a dashboard, a site, whatever
+is actually useful to you — a skill that repeats how you work, and one job
+running on a schedule without you.
+
+**Workshop cohort:** installing this is part of your pre-work, and we run the
+session together on the day — three hours. **On your own:** allow about
+45 minutes and take it one stop at a time. You can stop anywhere and come back.
 
 ---
 
@@ -58,17 +62,18 @@ questions. Nothing else.
 
 ## What happens
 
-Six stops, one at a time. You can stop anywhere and pick it up later — Claude
+Seven stops, one at a time. You can stop anywhere and pick it up later — Claude
 keeps track.
 
 | | | |
 |---|---|---|
 | **0** | What are you building | Two questions. Everything after this is about your actual business. |
-| **1** | Switch on your tools | Your real inbox and calendar. Claude stops being clever and starts being useful. |
-| **2** | Teach Claude your business | It learns what you sell and how you write. Once. Forever. |
-| **3** | Ship something real | A one-pager, a pitch site, a dashboard or a small tool — your call. Live on the internet, and you change it by asking. **This is the one.** |
-| **4** | Set up your project | Where your brand and your work live, so nothing gets lost in a chat. |
-| **5** | Your first week | Three specific things to try, written for your business. |
+| **1** | Switch on your tools | Your real inbox, calendar or accounts. Claude stops being clever and starts being useful. |
+| **2** | Teach Claude your business | How you work and how you write, captured once. Then it just knows. |
+| **3** | Ship something real | A model, a deck, a dashboard, a pitch site, a small tool — your call. Real, and you change it by asking. **This is the one.** |
+| **4** | Build the business brain | A Project holding your documents, numbers and standards, so nothing gets lost in a chat. |
+| **5** | Make it repeat | One job running on a schedule. The first thing that happens without you. |
+| **6** | Your first week | Three specific things to try, and one you'll actually do by Friday. |
 
 Stuck on one? Skip it and come back. Stop 2 needs nothing but a conversation and
 is worth the whole session on its own.
@@ -78,11 +83,11 @@ is worth the whole session on its own.
 ## What you need
 
 - A Claude account (Pro or Max)
-- A browser
-- About 30 minutes
+- The Claude desktop app, or a browser
+- One real, messy file from your business — not a tidy example
 
 That's the list. You don't need GitHub, you don't need to know what a terminal
-is, and you won't be asked to install anything.
+is, and there's nothing to install beyond the app itself.
 
 **On cost:** what you build can be published free either way, and Claude explains
 the trade-off before you choose. The quickest route needs no account at all. If
@@ -124,6 +129,12 @@ claudeworkshop/
 ├── skills/entrepreneurcoach/           what's inside it
 │   ├── SKILL.md                the flow
 │   └── references/             detailed notes for each stop
+│       ├── connectors.md       stop 1 — Google, Microsoft, Xero
+│       ├── your-skill.md       stop 2 — process and voice skills
+│       ├── ship.md             stop 3 — files and links
+│       ├── project.md          stop 4 — the business brain
+│       ├── schedule.md         stop 5 — recurring jobs
+│       └── troubleshooting.md  when something breaks
 ├── scripts/package-skill.sh    rebuilds the zip after edits
 └── docs/workshop-runsheet.md   facilitator notes
 ```

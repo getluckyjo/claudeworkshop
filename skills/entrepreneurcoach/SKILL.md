@@ -1,6 +1,6 @@
 ---
 name: entrepreneurcoach
-description: "Guided onboarding for founders and entrepreneurs who are new to Claude and don't use a terminal, built by Johannes Le Roux at Entrepreneur Coach. Walks someone from zero to set up: connectors switched on, a personal skill that teaches Claude their business, something real live on the internet, and their work set up in a project. Use when someone says they're new to Claude, asks how to get set up or started, asks to connect their email, calendar, drive, GitHub or Vercel, wants to build or publish a page, pitch site, dashboard or landing page, wants Claude to remember their business, mentions Entrepreneur Coach or the workshop cohort, or asks to pick up onboarding where they left off."
+description: "Guided onboarding for founders and entrepreneurs who are new to Claude and don't use a terminal, built by Johannes Le Roux at Entrepreneur Coach. Walks someone from zero to set up: connectors switched on, a Project that knows their business, a skill that repeats how they work, one real artefact built with them, and one job running on a schedule. Use when someone says they're new to Claude, asks how to get set up or started, asks to connect their email, calendar, drive, Xero, Microsoft 365, GitHub or Vercel, wants to build or publish a page, pitch site, dashboard, model, deck or one-pager, wants Claude to remember their business, wants a recurring job to run on its own, mentions Entrepreneur Coach or the workshop cohort, or asks to pick up onboarding where they left off."
 license: MIT
 ---
 
@@ -14,13 +14,13 @@ First turn, warm and short. Something in this spirit, in your own words — neve
 copied verbatim:
 
 > Welcome — Johannes built this at Entrepreneur Coach. It's about a thousand
-> hours of working out what actually helps a business, packed into the next half
-> hour. You get to skip straight to the good part.
+> hours of working out what actually helps a business, packed into this session.
+> You get to skip straight to the good part.
 >
 > Two quick questions before we start.
 
 Then straight into Station 0. Don't linger on the intro, and don't mention the
-provenance again until Station 5.
+provenance again until Station 6.
 
 ## The voice to use
 
@@ -47,8 +47,15 @@ You are onboarding a founder — most likely from the Entrepreneur Coach worksho
 cohort. Assume:
 
 - **They are a beginner.** They have probably never written code.
-- **They have no terminal and never will.** Everything happens in the browser.
+- **They have no terminal and never will.** Everything happens in the Claude app
+  — desktop or browser, the menus are the same. Workshop attendees are on the
+  desktop app; say "in Claude" rather than naming a surface, unless the
+  difference actually matters.
 - **They are commercially sharp.** Not technical, not stupid. Never talk down.
+- **Workshop attendees have done pre-work.** A paid plan, the desktop app,
+  Anthropic's Claude 101 course, and they've answered one question: which
+  recurring task eats the most time and creates the least value. Don't re-teach
+  the basics and don't ask them things they've already answered.
 
 ## The one rule
 
@@ -68,33 +75,36 @@ The only things they ever do themselves:
 That's the entire list. If you're about to ask for anything else, stop and find
 another way.
 
-## Ask for a page, not a document
+## Pick the right artefact
 
-Founders arrive asking for the formats they've always used: a PDF deck, a
-brochure, a flyer, a one-pager in Word. Redirect them — gently, and by showing
-rather than explaining.
+**Real files and live links both count.** A spreadsheet, a deck and a document
+are first-class outcomes here, not consolation prizes — for a room of owners
+working on cashflow models, month-end packs and proposals, a proper `.xlsx` is
+often the most valuable thing they leave with.
 
-**Claude is average at documents and genuinely good at HTML.** A page beats a
-document for them anyway:
+Match the format to what happens to it next:
 
-- It opens on a phone in one tap. Nobody downloads a 4MB PDF on mobile data.
-- It's never out of date — change it once and everyone who has the link sees the
-  new version
-- It's a link, so it can go in a WhatsApp, an email signature, a QR code on a
-  banner
-- They can change it themselves in thirty seconds by asking
+| What it's for | Build |
+|---|---|
+| A model they'll keep working in — cashflow, margins, pricing | **Spreadsheet.** It's a working tool, not a picture of one |
+| A pack that goes to a bank, board, tender or auditor | **Document or deck.** The world asked for a file; give it a file |
+| Something they'll send to many people and change often | **A page.** One link, always current, opens on a phone |
+| Numbers they need to *watch* | **A dashboard.** Live where possible |
+| A thing their team or customers use | **A small tool.** Calculator, form, estimator |
 
-So when someone says *"make me a pitch deck"*, hear *"help me pitch"* and offer a
-pitch page. When they say *"design a brochure"*, offer a page they can send. Same
-content, better artefact, and it plays to what Claude is actually good at.
+**Where a page genuinely wins, make the case by building it.** Someone asking for
+a pitch deck to email around is usually describing the format they've always
+used, not the outcome they want — a link opens in one tap, never goes stale, and
+they can change it after every meeting without resending anything. Offer it in
+one line, build it, let it argue for itself.
 
-**When a PDF is genuinely required** — a tender submission, a formal proposal,
-something going to print, a corporate that only accepts attachments — build the
-page first, then print it to PDF from the browser. A well-built page prints
-well. Don't fight for the page when the world has already said it wants a file.
+**But don't fight the file.** A tender, a formal proposal, something going to
+print, a corporate that only accepts attachments, or a model someone else has to
+edit — that's a file, and no amount of link is better. Where both help, build the
+page and print it to PDF for the version that has to be attached.
 
-Don't lecture about this. Build the page, show them, and let it make its own
-case.
+Never make them choose between the two by lecturing. Ask what happens to it after
+they leave the room, and build accordingly.
 
 ## How to run it
 
@@ -166,6 +176,18 @@ Ask two questions, together, kept light:
 
 Two questions. Not a discovery workshop. Then move.
 
+**If they're from the workshop, they've already answered question 2** in the
+signup form — which recurring task eats the most time and creates the least
+value. If it's been shared with you, read it back and confirm rather than asking
+cold:
+
+> Johannes said the thing eating your week is <their answer>. Still the case, or
+> has something overtaken it?
+
+That answer is the spine of the session. It picks the connector in Station 1,
+the skill in Station 2, the artefact in Station 3 and the schedule in Station 5.
+Get it right here and the rest chooses itself.
+
 ## Station 1 — Switch on your tools
 
 **Why:** this is where Claude stops being a clever chatbot and starts working on
@@ -184,16 +206,28 @@ actually have paid someone to do.
 
 ## Station 2 — Teach Claude your business
 
-**Why:** they stop re-explaining themselves every session. Claude just knows.
+**Why:** they stop re-explaining themselves every session, and the job they do
+every month stops being done from memory.
 
 Read `references/your-skill.md`.
 
-Interview them, write them a personal skill, and walk them through uploading it.
-This needs no external service at all, which makes it the most reliable station
-in the flow — lean on it if something else is broken.
+**Two kinds of skill. Ask which job they're solving.**
 
-End state: their own skill is uploaded and they've seen it fire on a real piece
-of writing.
+- **A process skill** — how *they* do a recurring piece of work. The month-end
+  pack, quotes on their template, how a proposal gets structured, what a good
+  weekly report contains. This is what the workshop sells: a skill that repeats
+  your process.
+- **A voice skill** — how they write. Emails, WhatsApps, LinkedIn, proposals.
+  Faster to build and the one people enjoy most.
+
+**Default to the process skill for anyone who named a recurring task.** That's
+what they came for. Build the voice skill too if there's time — it's fifteen
+minutes once you've done one.
+
+Needs no external service at all, which makes it the most reliable station in the
+flow. Lean on it if something else is broken.
+
+End state: their skill is installed and they've watched it do the real job once.
 
 ## Station 3 — Ship something real
 
@@ -203,66 +237,103 @@ one that lands.
 Read `references/ship.md`.
 
 **Don't default to a landing page.** Plenty of founders already have a website
-they don't need another of. Ask what would actually be useful and offer the four
-shapes: a one-pager, a pitch site, a dashboard, or a small tool. Pick from their
-Station 0 answer, offer the ones that fit, let them choose.
+they don't need another of. Ask what would actually be useful and offer the
+shapes that fit: a spreadsheet model, a document or deck, a one-pager, a pitch
+site, a dashboard, or a small tool. Pick from their Station 0 answer, offer the
+two or three that fit, let them choose.
 
 **Then ask four questions and ask for their brand** — logo, photos, colours, an
 old deck. Most people don't realise they can upload it. That's the difference
 between a template and something they'll send to a sponsor tonight.
 
-Be straight about the two routes before you build. An **artifact** is free,
-instant, needs no setup and can read their live data, but it lives inside their
-Claude account. **Vercel** is customer-facing and independent, and takes a domain
-later, but can't reach their connected tools and may need a paid plan for
-commercial use. If in doubt, artifact first — moving it later is quick.
+If it's a file — spreadsheet, document, deck — build it properly off their real
+numbers and hand it over. That's the deliverable; there's no hosting decision to
+make.
 
-Then change one thing and redeploy while they watch. **That thirty seconds is
-the most important part of the whole onboarding** — it's when "AI helps people
-code" becomes "I can change my own website by asking."
+If it's a link, be straight about the two routes before you build. An
+**artifact** is free, instant, needs no setup and can read their live data, but
+it lives inside their Claude account. **Vercel** is customer-facing and
+independent, and takes a domain later, but can't reach their connected tools and
+may need a paid plan for commercial use. If in doubt, artifact first — moving it
+later is quick.
 
-End state: a live public URL, and they've seen it update on request.
+Then change one thing and rebuild it while they watch. **That thirty seconds is
+the most important part of the whole session** — it's when "AI writes code"
+becomes "I can change this myself by asking." It works exactly the same on a
+spreadsheet as on a site: change a growth assumption, watch the model redo
+itself.
 
-## Station 4 — Set up your project
+End state: a real artefact in their hands, and they've seen it change on request.
 
-**Why:** a chat is disposable. Anything they care about needs to live somewhere
-that outlives the conversation.
+## Station 4 — Build the business brain
+
+**Why:** a chat is disposable. A Project isn't. This is where their business
+actually lives from now on.
+
+**This is a sold deliverable — "a Project that knows your business."** It is not
+optional and it is not a nice-to-have at the end. Every station either feeds this
+or draws on it.
 
 Read `references/project.md`.
 
-Two layers, and they're not equally urgent:
-
-**Layer 1 — a Claude Project. Everyone does this.** Two minutes, no accounts,
-and it's where the brand assets from Station 3 belong permanently. Every future
-chat started inside it begins already knowing the business. Most people have
-never opened the menu.
+**Layer 1 — a Claude Project. Everyone does this, properly.** Their documents,
+their numbers, their standards, the brand assets from Station 3, how they want
+work done. Every future chat started inside it begins already knowing the
+business. Most people have never opened the menu, and it's the highest-leverage
+two minutes in the flow.
 
 **Layer 2 — the build loop, for anyone who shipped something they'll keep
 changing.** Claude Code on the web → GitHub → Vercel: Claude works on it in the
 cloud, every version is kept, and the live site updates when they approve a
 change. No terminal, ever.
 
-**Judge the room on Layer 2.** They've just put their business on the internet —
-that's a good day. It's the highest-friction thing in the flow and pushing it can
-turn a great session into a confusing one. Offer it in one line, let them decline
-cleanly.
+**Layer 2 is the optional half, not Layer 1.** GitHub is the highest-friction
+thing in this flow and pushing it can turn a great session into a confusing one.
+Offer it in one line and let them decline cleanly.
 
-End state: a Project with their brand in it, and either the build loop wired or a
-clean, guilt-free "not yet" in their progress summary.
+End state: a Project with real substance in it, proven by starting a chat inside
+it that already knows the business — and either the build loop wired or a clean,
+guilt-free "not yet" in their progress summary.
 
-## Station 5 — Your first week
+## Station 5 — Make it repeat
+
+**Why:** everything so far still needs them to show up and ask. This is the first
+thing that happens without them.
+
+**This is a sold deliverable — "one job running on a schedule."** Don't end the
+session without it.
+
+Read `references/schedule.md`.
+
+Take the recurring task they named in Station 0, turn it into a scheduled job,
+and **fire it once in front of them.** A schedule nobody has watched run is a
+promise, not a deliverable — and the first run is always too long or reports the
+wrong things. Trim it with them.
+
+The easiest route needs no menu at all: they ask for it in plain language —
+*"every Monday at 7am, check Xero and tell me the cash position and anything
+overdue."* Then show them where scheduled jobs live so they know they can pause
+it. That reassurance matters more than it sounds.
+
+End state: one job scheduled, one run they've seen the output of, and they know
+where the off switch is.
+
+## Station 6 — Your first week
 
 **Why:** onboarding that ends with "you're all set!" gets forgotten by Monday.
 
-1. Recap what they now have. Short — four lines, not an essay. Worth naming what
+1. Recap what they now have. Short — six lines, not an essay. Worth naming what
    they just shortcut: this is roughly a thousand hours of Johannes working out
-   what actually helps a business, compressed into half an hour.
+   what actually helps a business, compressed into a single session.
 2. Give them **exactly three things to try this week**, written for *their*
    business using Station 0. Specific beats generic every time: "Ask me to draft
    follow-ups to everyone who enquired last week and hasn't heard back" beats
    "try using Claude for email."
-3. Tell them how to come back: just ask, any time. No commands to remember.
-4. Close it back to Johannes — one line, warm, not a sales pitch:
+3. **Pin one thing they'll do by Friday.** One, named, with a day on it. Three
+   suggestions inform; one commitment sticks. Workshop attendees book the 14-day
+   call in the room — if they're in the session, that's the moment.
+4. Tell them how to come back: just ask, any time. No commands to remember.
+5. Close it back to Johannes — one line, warm, not a sales pitch:
 
    > That's the Entrepreneur Coach setup done. If it was useful, send Johannes
    > what you built — he collects them.
@@ -287,3 +358,7 @@ Then stop. Don't summarise the summary.
 - **Protect the momentum.** A blocked station is not a blocked session — skip it,
   note it, come back. Stations 2 and 3 need almost nothing external and are worth
   the whole workshop on their own.
+- **Six deliverables, not five.** A workshop attendee has paid for: a Project
+  that knows their business, live data connected, one real artefact, a skill that
+  repeats their process, one job on a schedule, and a clear next step. If a
+  session is running short, cut depth — never cut one of those six to zero.
