@@ -206,10 +206,9 @@ Johannes
 
 ## 5. Maxime — maximeedavenport@gmail.com
 
-*Carries two asks: the narrowing question, and billing details — she submitted
-none, so her seat can't be confirmed.*
+*Complimentary seat — no invoice, no billing ask.*
 
-**Subject:** Saturday — setup, and two quick questions
+**Subject:** Saturday — setup, and a quick question
 
 Maxime,
 
@@ -234,7 +233,7 @@ Since you're already using Claude daily you can move quickly through it.
 
 Quick one: Gmail or Outlook?
 
-You said the job is tracking and logging data manually. Two questions so I can
+You said the job is tracking and logging data manually. One question so I can
 have something ready rather than working it out on the day: **what exactly are you
 logging, and what do you do with it once it's logged** — invoice off it, report on
 it, update a client? A line each is plenty.
@@ -245,10 +244,6 @@ row under the right client. Then it rolls itself up on a Friday.
 
 Bring the thing you're currently logging by hand. The actual file, however rough
 — that'll narrow this faster than any amount of describing it.
-
-One admin thing: your form came through without billing details, so I can't raise
-the invoice yet. Send me the name to invoice, the billing email, and a
-registration number if there is one.
 
 Laptop and charger.
 
