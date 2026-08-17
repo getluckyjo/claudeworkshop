@@ -83,8 +83,9 @@ ATTENDEES = [
             "rebuild."
         ),
         "needs": [
-            "Last week's exports from all four retailers — untidied, as they arrive",
-            "Which store codes matter to you and which are noise",
+            "The Checkers, Makro and Tops exports — untidied, as they arrive "
+            "(PnP already sent, thank you)",
+            "Which Site Article Statuses count as active, and which are noise",
             "What 'slow' means in your business — a number, not a feeling",
         ],
         "repeats": (
@@ -92,9 +93,11 @@ ATTENDEES = [
             "waiting for you before your first meeting."
         ),
         "watch": (
-            "One retailer done properly beats four done badly. We'll be "
-            "straight with you about how much of the Monday read runs on its "
-            "own versus waiting for you to drop the file in."
+            "One retailer done properly beats four done badly. Your PnP file "
+            "has a trap in it — Days Cover reads zero for stores that are fully "
+            "stocked but not selling, so the obvious sort is 82% wrong. We'll "
+            "fix that first. And we'll be straight about how much of the Monday "
+            "read runs on its own versus waiting for you to drop the file in."
         ),
     },
     {
