@@ -77,14 +77,17 @@ ATTENDEES = [
         ],
         "building": "Your weekly retailer read",
         "why": (
-            "One retailer's export in, three answers out — who's out of stock, "
-            "who's selling, who isn't. Then a skill that does the same thing to "
-            "the other three, so retailer two is a ten-minute job instead of a "
-            "rebuild."
+            "Your PnP and Makro files look nothing alike — one is a table, the "
+            "other a 30-day grid, and they share not one SKU name. So we build "
+            "the thing that makes them the same shape, then run your three "
+            "answers off that. Out of stock, selling, not selling — across "
+            "retailers, from one place."
         ),
         "needs": [
-            "The Checkers, Makro and Tops exports — untidied, as they arrive "
-            "(PnP already sent, thank you)",
+            "The Checkers and Tops exports — untidied, as they arrive "
+            "(PnP and Makro already sent, thank you)",
+            "Anything that maps your products to each retailer's name for them "
+            "— a price list, a listing sheet, an old spreadsheet",
             "Which Site Article Statuses count as active, and which are noise",
             "What 'slow' means in your business — a number, not a feeling",
         ],
@@ -93,11 +96,12 @@ ATTENDEES = [
             "waiting for you before your first meeting."
         ),
         "watch": (
-            "One retailer done properly beats four done badly. Your PnP file "
-            "has a trap in it — Days Cover reads zero for stores that are fully "
-            "stocked but not selling, so the obvious sort is 82% wrong. We'll "
-            "fix that first. And we'll be straight about how much of the Monday "
-            "read runs on its own versus waiting for you to drop the file in."
+            "Both files have a trap in them. PnP's Days Cover reads zero for "
+            "stores that are fully stocked but not selling, so the obvious sort "
+            "is 82% wrong. Makro's blanks mean 'not listed', not 'none left' — "
+            "read them as zero and you invent thousands of out-of-stocks. We fix "
+            "both first. A combined league table across retailers is a later "
+            "job, not a Saturday one."
         ),
     },
     {
