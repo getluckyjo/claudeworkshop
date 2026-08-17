@@ -1,6 +1,6 @@
 # Pre-work emails — 22 August cohort
 
-Five drafts, ready to send. Short on purpose. The setup block is identical in
+Six drafts, ready to send. Short on purpose. The setup block is identical in
 each; the last few lines are personal.
 
 Send now — Claude 101 needs to land by Wednesday.
@@ -204,7 +204,61 @@ Johannes
 
 ---
 
-## 5. Liezl — liezlkruger.sa@gmail.com
+## 5. Maxime — maximeedavenport@gmail.com
+
+*Carries two asks: the narrowing question, and billing details — she submitted
+none, so her seat can't be confirmed.*
+
+**Subject:** Saturday — setup, and two quick questions
+
+Maxime,
+
+Looking forward to Saturday. 10:00 at Ideas Cartel, we're done by 13:00.
+
+Three things before then:
+
+**1.** Paid Claude plan — about R400 a month, billed by Anthropic, not me. Then
+install the desktop app, not just the browser. If your card declines it's almost
+always your bank blocking the international payment, so enable that in your
+banking app and try again. Shout if it still fights you. I'd rather sort it
+Wednesday than at 10:05 on Saturday.
+
+**2.** Add the workshop skill:
+https://github.com/getluckyjo/claudeworkshop/raw/HEAD/dist/entrepreneurcoach.zip
+
+Don't unzip it. In Claude: click your name bottom-left → Settings → Customize →
+Skills → upload the zip. You'll see "Entrepreneur Coach" appear in the list.
+
+**3.** Claude 101 — Anthropic's free course, about an hour. Do it by Wednesday.
+Since you're already using Claude daily you can move quickly through it.
+
+Quick one: Gmail or Outlook?
+
+You said the job is tracking and logging data manually. Two questions so I can
+have something ready rather than working it out on the day: **what exactly are you
+logging, and what do you do with it once it's logged** — invoice off it, report on
+it, update a client? A line each is plenty.
+
+Where we're heading: you stop typing into a spreadsheet. You say what happened in
+plain words, or paste in the email or the call notes, and it lands in the right
+row under the right client. Then it rolls itself up on a Friday.
+
+Bring the thing you're currently logging by hand. The actual file, however rough
+— that'll narrow this faster than any amount of describing it.
+
+One admin thing: your form came through without billing details, so I can't raise
+the invoice yet. Send me the name to invoice, the billing email, and a
+registration number if there is one.
+
+Laptop and charger.
+
+See you Saturday.
+
+Johannes
+
+---
+
+## 6. Liezl — liezlkruger.sa@gmail.com
 
 **Subject:** Saturday — setup, and can I grab you for 10 minutes?
 

@@ -163,6 +163,36 @@ ATTENDEES = [
         ),
     },
     {
+        "slug": "maxime",
+        "name": "Maxime Davenport",
+        "business": "Self employed",
+        "role": "Project manager · creative producer · marketing manager",
+        "job": [
+            "Tracking and logging data manually.",
+        ],
+        "building": "A log that fills itself in",
+        "why": (
+            "You stop typing things into a spreadsheet. You tell it what "
+            "happened in plain words — or paste in the email, the brief, the "
+            "call notes — and it lands in the right row, in the right format, "
+            "under the right client. Then it rolls itself up at the end of "
+            "the week."
+        ),
+        "needs": [
+            "The thing you're currently logging by hand — the actual file, however rough",
+            "What you do with it once it's logged: invoice, report, status update?",
+            "Who sees the output, and how often they need it",
+        ],
+        "repeats": (
+            "A skill that turns a sentence into a logged entry, and a weekly "
+            "roll-up that writes itself."
+        ),
+        "watch": (
+            "Your brief is six words, so we'll spend the first two minutes "
+            "narrowing it. Bring the file and it narrows itself."
+        ),
+    },
+    {
         "slug": "liezl",
         "name": "Liezl Kruger",
         "business": "Cape of Storms Apothecary",
@@ -538,15 +568,15 @@ def facilitator_pack():
 <section class="page">
   <p class="eyebrow eyebrow-red">Facilitator pack &nbsp;·&nbsp; not for the cohort</p>
   <h2>Run of show</h2>
-  <p class="standfirst">{e(DATE)} · {e(TIME)} · {e(VENUE)} · 5 of 8 seats</p>
+  <p class="standfirst">{e(DATE)} · {e(TIME)} · {e(VENUE)} · 6 of 8 seats</p>
   {schedule_table()}
 
   <div class="note">
     <p class="label">Where your attention goes</p>
-    <p>Block 7 is 35 minutes. Kowie first, Danielle second — theirs are the
-    hard builds. Reni and Carla run themselves once briefed, and Reni's finished
-    build is your demo. Liezl needs the brief narrowed for her or she'll explore
-    for three hours.</p>
+    <p>Block 7 is 35 minutes across six people. Don't try to see everyone.
+    Kowie first — nothing of his works until the retailer files parse. Then
+    Liezl, who needs her brief held. Then one check on Carla. Danielle, Reni and
+    Maxime can run unaided; put Reni's finished link on the projector.</p>
   </div>
 
   <h3>Before Saturday</h3>
@@ -562,16 +592,16 @@ def facilitator_pack():
 
 <section class="page">
   <h2>The room</h2>
-  <p class="standfirst">Three of four are physical-product businesses with stock.
-  Danielle and Kowie have the same problem from opposite ends — data about
-  product movement arriving faster than anyone can turn it into a decision. Sit
-  them together, and let that overlap land when the jobs go on the board.</p>
+  <p class="standfirst">Three camps. Danielle and Kowie turn data into
+  decisions. Reni and Carla turn a request into a response. Maxime's data only
+  exists because she types it. Sit Danielle and Kowie together, and let the
+  overlap land when the jobs go on the board.</p>
   {''.join(briefs)}
 
   <div class="callout">
-    <p><strong>Only Danielle uses Claude daily.</strong> The other three are
-    weekly. The briefing block matters more than the run sheet assumes — don't
-    rush it to buy time elsewhere.</p>
+    <p><strong>Danielle and Maxime use Claude daily; the other four are
+    weekly.</strong> The briefing block matters more than the run sheet assumes —
+    don't rush it to buy time elsewhere unless the last two seats sell.</p>
   </div>
 
   <div class="coverfoot" style="margin-top:8mm">
