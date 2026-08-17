@@ -154,8 +154,6 @@ Johannes
 
 ## 4. Carla — carla.potgter@gmail.com
 
-*Check that address before sending — it looks like a typo for Potgieter.*
-
 **Subject:** Saturday — quick setup before we start
 
 Carla,
