@@ -1,6 +1,6 @@
 # Pre-work emails — 22 August cohort
 
-Four drafts, ready to send. Short on purpose. The setup block is identical in
+Five drafts, ready to send. Short on purpose. The setup block is identical in
 each; the last few lines are personal.
 
 Send now — Claude 101 needs to land by Wednesday.
@@ -152,7 +152,59 @@ Johannes
 
 ---
 
-## 4. Liezl — liezlkruger.sa@gmail.com
+## 4. Carla — carla.potgter@gmail.com
+
+*Check that address before sending — it looks like a typo for Potgieter.*
+
+**Subject:** Saturday — quick setup before we start
+
+Carla,
+
+Looking forward to Saturday. 10:00 at Ideas Cartel, we're done by 13:00.
+
+Three things before then:
+
+**1.** Paid Claude plan — about R400 a month, billed by Anthropic, not me. Then
+install the desktop app, not just the browser. If your card declines it's almost
+always your bank blocking the international payment, so enable that in your
+banking app and try again. Shout if it still fights you. I'd rather sort it
+Wednesday than at 10:05 on Saturday.
+
+**2.** Add the workshop skill:
+https://github.com/getluckyjo/claudeworkshop/raw/HEAD/dist/entrepreneurcoach.zip
+
+Don't unzip it. In Claude: click your name bottom-left → Settings → Customize →
+Skills → upload the zip. You'll see "Entrepreneur Coach" appear in the list.
+
+**3.** Claude 101 — Anthropic's free course, about an hour. Do it by Wednesday.
+It's what lets us skip the basics on the day.
+
+Quick one: Gmail or Outlook?
+
+On bookings and invoicing — one thing worth saying now so you're not waiting for
+it on the day. The booking widget on your site and taking card payments are
+sign-ups rather than builds, so we won't be making those from scratch. What we
+will do is automate everything between a booking landing and the money arriving:
+the session gets booked, the invoice drafts itself on your template, and every
+morning it tells you what came in yesterday and what's still unpaid. That's the
+part eating your evenings.
+
+Bring:
+
+- The sessions you sell and what each one costs
+- A real invoice you've sent recently, so we match your format
+- Your banking details as they appear on invoices
+- Your logo, and how you like to be paid — upfront, on the day, or after
+
+Laptop and charger.
+
+See you Saturday.
+
+Johannes
+
+---
+
+## 5. Liezl — liezlkruger.sa@gmail.com
 
 **Subject:** Saturday — setup, and can I grab you for 10 minutes?
 

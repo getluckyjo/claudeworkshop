@@ -6,7 +6,7 @@ For Johannes, not the cohort. Run after editing anything in here:
     ./scripts/build-handouts.py
 
 Everything lands in handouts/. The .html files are intermediates — the PDFs are
-what you print. Re-run it when the other four seats fill; add a dict to
+what you print. Re-run it as seats fill; add a dict to
 ATTENDEES and it picks them up.
 """
 
@@ -127,6 +127,39 @@ ATTENDEES = [
             "You'll finish before the rest of the room. Come find me — the "
             "same trick pointed at your Meta ad questions is a twenty-minute "
             "build."
+        ),
+    },
+    {
+        "slug": "carla",
+        "name": "Carla le Roux",
+        "business": "Modern Muse",
+        "role": "Founder",
+        "job": [
+            "Difficult to say — I'd like to set up automatic bookings and "
+            "invoicing for my new coaching website.",
+        ],
+        "building": "Booking in, invoice out",
+        "why": (
+            "A booking lands in your calendar and the invoice is drafted "
+            "before you've thought about it — on your template, with the right "
+            "client, the right session, the right amount. Then it checks each "
+            "morning for anything booked yesterday and anything still unpaid."
+        ),
+        "needs": [
+            "The sessions you sell and what each one costs",
+            "An invoice you've sent recently — the real one, so we match your format",
+            "Your banking details as they appear on invoices",
+            "Your logo, and how you want to be paid — upfront, on the day, or after",
+        ],
+        "repeats": (
+            "A skill that turns any booking into a finished invoice, and a "
+            "morning check for yesterday's bookings and anything unpaid."
+        ),
+        "watch": (
+            "The booking widget itself and taking card payments are sign-ups, "
+            "not builds — an afternoon won't produce a payment gateway. What we "
+            "automate is everything between the booking and the money, which is "
+            "the part actually eating your evenings."
         ),
     },
     {
@@ -505,14 +538,15 @@ def facilitator_pack():
 <section class="page">
   <p class="eyebrow eyebrow-red">Facilitator pack &nbsp;·&nbsp; not for the cohort</p>
   <h2>Run of show</h2>
-  <p class="standfirst">{e(DATE)} · {e(TIME)} · {e(VENUE)} · four of eight seats</p>
+  <p class="standfirst">{e(DATE)} · {e(TIME)} · {e(VENUE)} · 5 of 8 seats</p>
   {schedule_table()}
 
   <div class="note">
-    <p class="label">Four people, not eight</p>
-    <p>Double the per-person time. Spend the surplus on Danielle and Kowie —
-    theirs are the hard builds. Reni finishes early and becomes your demo. Liezl
-    needs the brief narrowed for her or she'll explore for three hours.</p>
+    <p class="label">Where your attention goes</p>
+    <p>Block 7 is 35 minutes. Kowie first, Danielle second — theirs are the
+    hard builds. Reni and Carla run themselves once briefed, and Reni's finished
+    build is your demo. Liezl needs the brief narrowed for her or she'll explore
+    for three hours.</p>
   </div>
 
   <h3>Before Saturday</h3>
@@ -531,7 +565,7 @@ def facilitator_pack():
   <p class="standfirst">Three of four are physical-product businesses with stock.
   Danielle and Kowie have the same problem from opposite ends — data about
   product movement arriving faster than anyone can turn it into a decision. Sit
-  them together, and let that overlap land when the four jobs go on the board.</p>
+  them together, and let that overlap land when the jobs go on the board.</p>
   {''.join(briefs)}
 
   <div class="callout">
