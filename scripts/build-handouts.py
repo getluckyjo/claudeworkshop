@@ -79,16 +79,17 @@ ATTENDEES = [
         "why": (
             "Your PnP and Makro files look nothing alike — one is a table, the "
             "other a 30-day grid, and they share not one SKU name. So we build "
-            "the thing that makes them the same shape, then run your three "
-            "answers off that. Out of stock, selling, not selling — across "
-            "retailers, from one place."
+            "the thing that makes them the same shape, put your price list "
+            "against it, and answer your three questions in rands instead of "
+            "units. Out of stock, selling, not selling — across retailers, from "
+            "one place."
         ),
         "needs": [
             "The Checkers and Tops exports — untidied, as they arrive "
-            "(PnP and Makro already sent, thank you)",
-            "Anything that maps your products to each retailer's name for them "
-            "— a price list, a listing sheet, an old spreadsheet",
+            "(PnP, Makro and the price list already sent, thank you)",
             "Which Site Article Statuses count as active, and which are noise",
+            "Whether Happy Days, Suncove, Malachite and Distillery Road are still "
+            "live — they're in PnP's data but not on the August price list",
             "What 'slow' means in your business — a number, not a feeling",
         ],
         "repeats": (
