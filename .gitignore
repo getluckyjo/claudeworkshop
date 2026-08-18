@@ -8,3 +8,7 @@ node_modules/
 
 # Handout HTML is an intermediate — the PDFs are the deliverable
 handouts/*.html
+
+# Python bytecode
+__pycache__/
+*.pyc
