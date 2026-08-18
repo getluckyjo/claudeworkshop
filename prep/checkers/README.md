@@ -47,3 +47,25 @@ counts 4-packs; store counts must not be either, because they repeat.
 
 Both obvious moves — "sum everything" and "de-duplicate to one row per article" —
 produce a confidently wrong answer. That's what makes it a good teaching file.
+
+## On verification
+
+LibreOffice could not complete a recalculation pass in the build environment —
+three timeouts at 178s, 540s and 849s on a workbook with 343 formulas, which
+should calculate in milliseconds. It hangs rather than computes here.
+
+`verify.py` stands in for it, and checks more than `recalc.py` would: not just
+that formulas evaluate without error, but that each returns the right number.
+
+```
+python3 verify.py "Creative Beverages - Checkers read.xlsx"
+```
+
+47 checks: every `eaches` formula is units x pack size, every SUMIF range covers
+the full Data block, every article key resolves one-to-one between sheets, every
+Summary figure matches its recomputation from source, and both portfolio totals
+reconcile to the exports' own `Vendor and VSR Total View` to the cent.
+
+The workbook uses only `SUMIF`, `COUNTIF`, `COUNTIFS` and `IF` — all Excel
+2007-era. The `#NAME?` failure a recalculation pass exists to catch comes from
+newer functions, and there are none here.
