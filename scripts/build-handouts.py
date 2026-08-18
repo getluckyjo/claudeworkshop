@@ -77,32 +77,30 @@ ATTENDEES = [
         ],
         "building": "Your weekly retailer read",
         "why": (
-            "Your PnP and Makro files look nothing alike — one is a table, the "
-            "other a 30-day grid, and they share not one SKU name. So we build "
-            "the thing that makes them the same shape, put your price list "
-            "against it, and answer your three questions in rands instead of "
-            "units. Out of stock, selling, not selling — across retailers, from "
-            "one place."
+            "Your three retailers send three unrelated formats measuring three "
+            "different things, so we build one account at a time — starting "
+            "with Checkers, where the money and the trend are. Out of stock, "
+            "selling, not selling, in rands. Patch reported separately, the way "
+            "Checkers already structures it."
         ),
         "needs": [
-            "The Checkers and Tops exports — untidied, as they arrive "
-            "(PnP, Makro and the price list already sent, thank you)",
+            "The Tops export, if it comes — everything else is in, thank you",
             "Which Site Article Statuses count as active, and which are noise",
             "Whether Happy Days, Suncove, Malachite and Distillery Road are still "
             "live — they're in PnP's data but not on the August price list",
             "What 'slow' means in your business — a number, not a feeling",
         ],
         "repeats": (
-            "A skill for the other three retailers, and a Monday morning read "
-            "waiting for you before your first meeting."
+            "A skill that turns a Checkers export into your read, so next week "
+            "is a drag-and-drop — then the same pattern for PnP and Makro. And "
+            "a Monday morning brief waiting before your first meeting."
         ),
         "watch": (
-            "Both files have a trap in them. PnP's Days Cover reads zero for "
-            "stores that are fully stocked but not selling, so the obvious sort "
-            "is 82% wrong. Makro's blanks mean 'not listed', not 'none left' — "
-            "read them as zero and you invent thousands of out-of-stocks. We fix "
-            "both first. A combined league table across retailers is a later "
-            "job, not a Saturday one."
+            "Every file has a trap. Checkers repeats each article once per pack "
+            "size, so totals come out 3 to 5 times too big. PnP's Days Cover "
+            "reads zero for stores that are fully stocked but not selling. "
+            "Makro's blanks mean 'not listed', not 'none left'. We fix those "
+            "first, then build. One account properly beats four half-done."
         ),
     },
     {

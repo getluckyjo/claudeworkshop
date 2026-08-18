@@ -102,3 +102,48 @@ MASSMART = {
 
 def price(canonical):
     return MASTER[canonical][2] if canonical in MASTER else None
+
+
+# ---------------------------------------------------------------------------
+# Portfolio split.
+#
+# Kowie wants Patch reported separately from the rest of the range. That isn't a
+# preference — Checkers already structures the account that way: one vendor
+# number (196005) with two sub-ranges, 01-CREATIVE PATCH and 02-CREATIVE
+# BEVERAGE DISTRIBUTORS.
+#
+# So don't build two systems. Build one, with portfolio as a column, and let
+# "separate" be a filter. If he ever wants them together it's a toggle, not a
+# rebuild.
+# ---------------------------------------------------------------------------
+
+PATCH = {
+    "Patch Margarita":       ("Patch", "150ml CAN", None),
+    "Patch Paloma":          ("Patch", "150ml CAN", None),
+    "Patch Mojito":          ("Patch", "150ml CAN", None),
+    "Patch Espresso Martini":("Patch", "150ml CAN", None),
+    "Patch Negroni":         ("Patch", "150ml CAN", None),
+    "Patch Old Fashioned":   ("Patch", "150ml CAN", None),
+}
+# Prices are None: Patch is not on the 1 Aug 2026 price list. Checkers reports
+# rand sales directly, so the Checkers view doesn't need them — but any PnP or
+# Makro Patch listing will price as blank until Kowie sends a Patch price list.
+
+MASTER.update(PATCH)
+
+
+def portfolio(canonical):
+    """'Patch' or 'Core' — the only split Kowie has asked for."""
+    return "Patch" if canonical in PATCH else "Core"
+
+
+# Checkers identifies products by Article Key, which is stable and numeric —
+# far better than the name matching the other two retailers force on us.
+CHECKERS_PATCH = {
+    "10938912": "Patch Margarita",
+    "10938913": "Patch Paloma",
+    "10938914": "Patch Mojito",
+    "10938915": "Patch Espresso Martini",
+    "10938916": "Patch Negroni",
+    "10938917": "Patch Old Fashioned",
+}
