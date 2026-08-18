@@ -12,3 +12,9 @@ handouts/*.html
 # Python bytecode
 __pycache__/
 *.pyc
+
+# Invoice HTML is an intermediate — the PDFs are the deliverable
+invoices/*.html
+
+# The assembled pack is generated — rebuild it rather than committing it
+Entrepreneur Coach — *.zip
