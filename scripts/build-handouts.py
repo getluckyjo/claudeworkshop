@@ -123,6 +123,8 @@ ATTENDEES = [
             "Your current price list and brochure",
             "Your stockist terms — minimums, margins, lead times",
             "Two or three enquiries you've answered well, so it sounds like you",
+            "A few of the 'when is it back in stock' emails, and roughly when "
+            "your next batches are due",
             "Your logo and a couple of product photos",
         ],
         "repeats": (
@@ -130,9 +132,11 @@ ATTENDEES = [
             "and hasn't heard back."
         ),
         "watch": (
-            "You'll finish before the rest of the room. Come find me — the "
-            "same trick pointed at your Meta ad questions is a twenty-minute "
-            "build."
+            "You'll finish before the rest of the room, so we have a second "
+            "build ready: an availability page for customers. Your plug-in "
+            "tells people when something is back; it can't tell them WHEN it "
+            "will be back, which is what they keep emailing to ask. Publish "
+            "the date and most of those emails stop being sent at all."
         ),
     },
     {
