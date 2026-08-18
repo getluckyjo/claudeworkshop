@@ -5,3 +5,10 @@ node_modules/
 .env.local
 
 # dist/launchpad.zip IS committed on purpose — it's what the cohort downloads.
+
+# Handout HTML is an intermediate — the PDFs are the deliverable
+handouts/*.html
+
+# Python bytecode
+__pycache__/
+*.pyc

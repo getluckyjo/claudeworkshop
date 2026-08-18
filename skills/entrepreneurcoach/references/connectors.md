@@ -35,11 +35,40 @@ Match it to what they said in Station 0. Prove it works. *Then* offer more.
 | Admin and email are eating my week | **Gmail** | Who emailed this week and hasn't had a reply |
 | I'm drowning in meetings | **Google Calendar** | Where the free 90-minute blocks are next week |
 | Our documents are chaos | **Google Drive** | Find and summarise the latest version of a real doc |
+| We're a Microsoft shop, not Google | **Microsoft 365** | Same demos — one connector covers Outlook mail, calendar, OneDrive/SharePoint and Teams |
 | I need to stay on top of the numbers | **Xero** | Cash position, and who owes them money |
 | I want to actually email my list | **Resend** | Draft a broadcast to their contacts |
 
 Note: **there is no GitHub connector** in the directory. GitHub is Station 4 and
 works differently — don't send them hunting for it here.
+
+## If they're on Microsoft, not Google
+
+Ask "Google or Microsoft?" *before* the station, not during it. The clicks are
+identical up to which card they pick, so you can run both halves of a room
+together.
+
+One connector — **Microsoft 365** — covers Outlook mail, Outlook calendar,
+OneDrive/SharePoint and Teams. It's on every plan including Free, so nobody is
+blocked by billing. Two things will trip you up:
+
+1. **It needs a Microsoft *business* tenant.** Personal accounts —
+   `@outlook.com`, `@hotmail.com`, `@live.com` — don't work at all, and plenty
+   of small businesses run on one with a custom domain bolted on without knowing
+   the difference. No amount of clicking fixes it. Pivot to Drive, Xero, or
+   straight to Station 2.
+2. **Write tools are admin-gated.** Reading mail and calendar works on connect.
+   Drafting, sending and creating events only work if the tenant admin has
+   switched write tools on. In a five-person business the founder usually is the
+   admin. In anyone who's ever hired an IT company, they are not — and that
+   person is not answering their phone during a workshop.
+
+Neither blocks the station. **The read-only demo is the one that lands anyway** —
+"who emailed this week and hasn't had a reply" needs no write access. If they hit
+an admin wall, note it as homework and keep moving.
+
+Test one Microsoft account yourself the week before. Consent flows vary by
+tenant and you don't want to meet that live.
 
 ## The demo is the point
 
@@ -82,6 +111,14 @@ incognito window signed into the right account usually sorts it.
 **Wrong Google account**
 Very common when someone has personal and business Gmail. Disconnect, sign out
 of Google in that browser, reconnect with the business account.
+
+**Microsoft 365 won't connect at all**
+Almost always a personal Microsoft account rather than a business tenant. Not
+fixable in the room — switch them to another connector and move on.
+
+**Microsoft 365 connects but won't draft or send**
+Write tools are off at the tenant. Their IT admin turns them on. Do the
+read-only demo, note it as homework.
 
 **They're nervous about access**
 Completely reasonable. Start with Calendar instead of Gmail — lower stakes, still

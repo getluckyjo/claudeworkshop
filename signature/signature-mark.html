@@ -1,0 +1,44 @@
+<!-- Source for signature-mark.png — the real brand mark, rendered.
+     Rendered at 3x and scaled down in use, so it stays sharp on retina.
+     Built by scripts/build-signature.py; not used directly in email. -->
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../handouts/fonts.css">
+<style>
+  html, body { margin: 0; padding: 0; background: #FFFFFF; }
+  .wrap {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 8px;
+    padding: 30px 30px 34px 26px;
+  }
+  .name {
+    font-family: "Caveat", cursive;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 1;
+    letter-spacing: 0.005em;
+    color: #0E0E10;
+    transform: rotate(-2deg);
+    transform-origin: left bottom;
+    white-space: nowrap;
+  }
+  .dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 999px;
+    background: #F25C2A;
+    flex-shrink: 0;
+    align-self: flex-end;
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <span class="name">Johannes le Roux</span><span class="dot"></span>
+  </div>
+</body>
+</html>

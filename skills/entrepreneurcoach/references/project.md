@@ -1,4 +1,9 @@
-# Station 4 — Set up your project
+# Station 4 — Build the business brain
+
+**Layer 1 is a sold deliverable.** The workshop page promises "a Project that
+knows your business" as the first thing they walk out with. Treat it as a
+headline outcome with real time against it, not a two-minute tidy-up at the end.
+Layer 2 — GitHub — is the optional half.
 
 ## The mental model to teach
 
@@ -15,10 +20,10 @@ frame once — it's four lines and it does a lot of work:
 The line that lands: **a chat is disposable, a project is not.** Anything they
 care about should live somewhere that outlives the conversation.
 
-## Layer 1 — A Claude Project (everyone does this)
+## Layer 1 — A Claude Project (everyone does this, properly)
 
 Lowest friction thing in the entire flow, and most people have never opened the
-menu.
+menu. It's also the one that makes every future session shorter.
 
 A Project is a container for related chats that carries its own knowledge and
 instructions. Every conversation started inside it begins already knowing the
@@ -28,16 +33,28 @@ context — no re-explaining, no re-uploading the logo.
 
 1. Click **Projects** in the sidebar → **New project**
 2. Name it after the actual thing — "Hole in One Challenge", not "Work"
-3. Add the brand assets they uploaded in Station 3 — logo, photos, colours, deck
-4. Add anything else that never changes: pricing, service list, standard terms
-5. Set the project instructions — a few lines on what this project is for and
-   how Claude should behave inside it
+3. Load it with real substance, not just branding:
+   - **Their documents** — pricing, service list, standard terms, contracts,
+     the messy real file they were asked to bring
+   - **Their numbers** — last year's figures, the current model, whatever they'd
+     have to re-explain otherwise
+   - **Their standards** — what good looks like, what they'd reject, house style
+   - **Brand assets** from Station 3 — logo, photos, colours, deck
+4. Set the project instructions — a few lines on what this project is for and how
+   Claude should behave inside it
 
-Then start a chat inside it and show them it already knows. That's the proof.
+**Push on step 3.** Most people add a logo and stop, and then wonder why the
+Project doesn't feel like much. The difference between a folder and a business
+brain is whether the real documents went in. They brought a messy file for
+exactly this reason — put it in.
 
-**Why it matters commercially:** the brand assets they just uploaded are stuck in
-one conversation. Put them in a Project and every future piece of work — next
-pitch site, next dashboard, next proposal — starts on-brand automatically.
+Then start a chat inside it and ask it something only their business would know.
+That's the proof, and it's worth doing out loud.
+
+**Why it matters commercially:** everything they've built today is stuck in one
+conversation. Put it in a Project and every future piece of work — next pitch
+site, next dashboard, next proposal, next month-end — starts already knowing the
+business.
 
 ## Layer 2 — The build loop (anyone who shipped in Station 3)
 
@@ -76,7 +93,7 @@ rather than presenting it as bulletproof.
 
 ## Read the room
 
-Layer 1 is for everyone — two minutes, no accounts, immediate payoff.
+Layer 1 is for everyone, and it's what was sold. Don't shortcut it.
 
 **Layer 2 is genuinely optional on day one.** They've just put their business on
 the internet; that's a good day. GitHub is the highest-friction thing in this

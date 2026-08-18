@@ -78,6 +78,24 @@ Build it as an artifact and publish that instead. They get a public link, they
 keep the momentum, and Vercel becomes homework. Do not let a signup problem cost
 them the moment — that moment is the whole point of the session.
 
+## Schedules
+
+**No way to schedule anything**
+Free plan, or they're signed into a personal free login rather than the paid one.
+Scheduled tasks need Pro or Max.
+
+**Scheduled job runs but returns nothing useful**
+It can't reach the data. The connector has to be available to the scheduled run,
+not just to the chat where they set it up. Re-check, then fire it again.
+
+**Output is far too long**
+The failure that kills the habit. Rewrite the prompt to ask for three lines and a
+recommended action. Don't try to fix it with formatting.
+
+**They can't find where their schedules live**
+Routines / Tasks in the sidebar. If the menu has moved, the conversational route
+still works — they can ask what's scheduled, and ask to pause or delete it.
+
 ## GitHub
 
 **They're looking for a GitHub connector**
