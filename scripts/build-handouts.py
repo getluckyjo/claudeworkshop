@@ -144,28 +144,31 @@ ATTENDEES = [
             "Difficult to say — I'd like to set up automatic bookings and "
             "invoicing for my new coaching website.",
         ],
-        "building": "Booking in, invoice out",
+        "building": "Your site, live — taking bookings",
         "why": (
-            "A booking lands in your calendar and the invoice is drafted "
-            "before you've thought about it — on your template, with the right "
-            "client, the right session, the right amount. Then it checks each "
-            "morning for anything booked yesterday and anything still unpaid."
+            "You leave with a coaching site on the internet that takes a "
+            "booking. The booking lands in your inbox, and the next morning "
+            "the invoice is already drafted on your template with the right "
+            "client, the right session and the right amount. You check it and "
+            "send it."
         ),
         "needs": [
-            "The sessions you sell and what each one costs",
+            "The sessions you sell, what each one costs, and how long they run",
+            "Who they are for, in a sentence you would say out loud",
             "An invoice you've sent recently — the real one, so we match your format",
             "Your banking details as they appear on invoices",
-            "Your logo, and how you want to be paid — upfront, on the day, or after",
+            "Your logo and a photo of you. People book a person, not a service",
         ],
         "repeats": (
             "A skill that turns any booking into a finished invoice, and a "
             "morning check for yesterday's bookings and anything unpaid."
         ),
         "watch": (
-            "The booking widget itself and taking card payments are sign-ups, "
-            "not builds — an afternoon won't produce a payment gateway. What we "
-            "automate is everything between the booking and the money, which is "
-            "the part actually eating your evenings."
+            "Two things we are not doing on the day: card payments on the site, "
+            "and your own domain. Both are sign-ups and money rather than "
+            "builds, and both will eat the whole afternoon if we let them. You "
+            "leave with a live web address and invoices going out by EFT — "
+            "which is how most coaches get paid anyway."
         ),
     },
     {
