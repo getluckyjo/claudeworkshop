@@ -65,7 +65,7 @@ def read_export(path, portfolio):
         rows.append(
             dict(
                 portfolio=portfolio,
-                key=str(r[0]).strip(),
+                key=int(str(r[0]).strip()),  # numeric so SUMIF matches without coercion
                 article=str(r[1]).strip(),
                 pl=str(r[2]).strip(),
                 pack=pack_size(r[3]),
