@@ -128,8 +128,10 @@ ATTENDEES = [
             "Your logo and a couple of product photos",
         ],
         "repeats": (
-            "A reply skill in your voice, and a morning check on who enquired "
-            "and hasn't heard back."
+            "One reply skill in your voice covering both kinds of enquiry — a "
+            "stockist gets the stockist link, a customer asking about stock "
+            "gets the availability link and a date. Plus a morning check on "
+            "who has written in and not heard back."
         ),
         "watch": (
             "You'll finish before the rest of the room, so we have a second "
