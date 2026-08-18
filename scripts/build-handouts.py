@@ -207,27 +207,29 @@ ATTENDEES = [
             "Open to all tips, moving into a new business model and target "
             "audience.",
         ],
-        "building": "Your new positioning, on one page",
+        "building": "Does the subscription box actually work?",
         "why": (
-            "A new model and a new audience is the build. What you're now "
-            "selling, who it's for, and why it's different — written down "
-            "properly, in one place, so every quote, post and conversation "
-            "says the same thing."
+            "You have the direction — a R1,000 monthly box, Cape Town only. "
+            "What you don't have yet is whether the numbers hold. So we build "
+            "the model: what goes in the box, what it costs you, what's left, "
+            "and what it really takes to get to a thousand subscribers. Then "
+            "you change the assumptions until you find a version you believe."
         ),
         "needs": [
-            "Who the new audience is, as specifically as you can manage",
-            "What you're selling them that you weren't selling before",
+            "Your product list with prices, and roughly what each costs to make",
+            "What delivery costs you per order today",
+            "Your best guess at how many subscribers would cancel in a month",
             "Anything you've already written about the new direction — rough is fine",
         ],
         "repeats": (
-            "A skill that keeps your writing consistent while the story is "
-            "still settling, and a weekly prompt that asks you the questions "
-            "you should be answering."
+            "A monthly subscriber review — who joined, who left, where the run "
+            "rate to a thousand stands."
         ),
         "watch": (
-            "Yours is the most open brief in the room, which makes it the "
-            "easiest one to spend three hours exploring and leave empty-handed. "
-            "We'll name the artefact early and hold you to it."
+            "Don't take the plan on faith, including mine. The point of the "
+            "model is that you can break it: change the price, change how "
+            "often the box goes out, change what's in it. The version you "
+            "leave with should be one you argued yourself into."
         ),
     },
 ]
@@ -581,7 +583,8 @@ def facilitator_pack():
     <p class="label">Where your attention goes</p>
     <p>Block 7 is 35 minutes across six people. Don't try to see everyone.
     Kowie first — nothing of his works until the retailer files parse. Then
-    Liezl, who needs her brief held. Then one check on Carla. Danielle, Reni and
+    Liezl: she has a real brief now, but the findings have to be hers, so ask
+    and wait rather than telling. Then one check on Carla. Danielle, Reni and
     Maxime can run unaided; put Reni's finished link on the projector.</p>
   </div>
 
