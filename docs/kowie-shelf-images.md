@@ -19,11 +19,11 @@ one that answers what they **can't**:
 
 | Question | Retailer file | Photograph |
 |---|---|---|
-| Do they have stock? | ✅ | — |
-| Is it **on the shelf**? | ✗ | ✅ |
-| How many facings, and next to whom? | ✗ | ✅ |
-| Is the price right and the promo up? | ✗ | ✅ |
-| Is it in the right place in the aisle? | ✗ | ✅ |
+| Do they have stock? | **Yes** | — |
+| Is it **on the shelf**? | No | **Yes** |
+| How many facings, and next to whom? | No | **Yes** |
+| Is the price right and the promo up? | No | **Yes** |
+| Is it in the right place in the aisle? | No | **Yes** |
 
 **The prize is phantom stock** — the store's system says it has 40 units, the
 photo says the shelf is empty, so the stock is in the back room and nobody has

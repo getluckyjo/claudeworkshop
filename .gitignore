@@ -18,3 +18,7 @@ invoices/*.html
 
 # The assembled pack is generated — rebuild it rather than committing it
 Entrepreneur Coach — *.zip
+
+# Note HTML is an intermediate — the PDFs are the deliverable
+notes/*.html
+notes/note.css
