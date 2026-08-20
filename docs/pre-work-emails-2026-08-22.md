@@ -1,9 +1,10 @@
 # Pre-work emails — 22 August cohort
 
-Six drafts, ready to send. Short on purpose. The setup block is identical in
-each; the last few lines are personal.
+Seven emails, all sent. Short on purpose. The setup block is identical in the
+first six; the last few lines are personal to each.
 
-Send now — Claude 101 needs to land by Wednesday.
+Sent 18 August, except Tertius (below) who signed up on the 20th and got a
+compressed version.
 
 ---
 
@@ -290,6 +291,73 @@ no data, just decisions.
 
 Bring a laptop, a charger, and anything you've already written about the new
 direction. Rough is fine.
+
+See you Saturday.
+
+Johannes
+
+---
+
+## 7. Tertius — tertiusdp@gmail.com
+
+*Signed up 20 Aug, two days out, so this one runs a compressed timeline and
+names Claude 101 as the droppable item. Full trade exchange, so no money in it.*
+
+**Subject:** Saturday — the short version, since you've only got two days
+
+Tertius,
+
+Good to have you in. Saturday, 10:00 at Ideas Cartel, Claremont, done by 13:00.
+
+The others had a week to prepare. You've got two days, so here's what actually
+matters:
+
+**1.** Paid Claude plan — about R400 a month, billed by Anthropic, not me. Then
+install the desktop app, not just the browser. If your card declines it's almost
+always your bank blocking the international payment; enable that in your banking
+app and try again. Shout tonight if it fights you, not Saturday morning.
+
+**2.** Add the workshop skill:
+https://github.com/getluckyjo/claudeworkshop/raw/HEAD/dist/entrepreneurcoach.zip
+
+Don't unzip it. In Claude: click your name bottom-left, then Settings, Customize,
+Skills, and upload the zip. You'll see "Entrepreneur Coach" appear in the list.
+
+**3.** If you have a spare hour, Anthropic's free Claude 101 course. This is the
+one to drop if you're short — 1 and 2 aren't.
+
+Quick one: Gmail or Outlook?
+
+Now the interesting part. You wrote that you spend your time interpreting your
+co-founder's ideas to Claude, re-prompting and editing until it feels like both
+of you are understood.
+
+That's not you being bad at prompting. That's a real job you've taken on without
+anyone noticing, and it's costing you hours a week. We're going to write it down
+instead — how your co-founder thinks, what your business assumes, what a useful
+answer looks like to the two of you — so Claude arrives already understanding,
+and either of you can work with it directly. You stop being the go-between in
+your own company.
+
+One ask: your problem is exactly what I teach in the third block of the day —
+briefing properly instead of prompting. Would you mind if I used one of your
+co-founder's proposals as the live example in front of the room? It's a problem
+most people there have and none of them have named. Say no if you'd rather not,
+it changes nothing.
+
+On QuickBooks — I'll be straight with you. A proper integration is API work and
+account mapping, and you said yourselves you're not at that stage. What we can do
+on Saturday is kill the retyping: an invoice drafted in your format, correctly
+coded, ready to go in. The integration is a conversation for the 14-day call.
+
+Bring:
+
+- Two or three of your co-founder's proposals or ideas, in their own words
+- The version you ended up with after re-prompting and editing
+- What Claude keeps getting wrong about your business
+- An invoice you've sent recently, and how it gets into QuickBooks today
+
+Laptop and charger.
 
 See you Saturday.
 
