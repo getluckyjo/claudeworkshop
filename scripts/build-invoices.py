@@ -24,13 +24,13 @@ OUT = ROOT / "invoices"
 
 ISSUED = "18 August 2026"
 DUE = "Before Saturday 22 August 2026"
-COHORT = "Claude for entrepreneurs — Saturday 22 August 2026, Ideas Cartel, Claremont"
+COHORT = "Claude for entrepreneurs — Saturday 22 August 2026, CHIPS, 21 Roodehek Street, Gardens, Cape Town"
 SEAT_RATE = 3500
 
 FROM = {
     "entity": "Johannes le Roux",
     "sub": "Sole proprietor, trading as Entrepreneur Coach",
-    "addr": ["Ideas Cartel, Claremont", "Cape Town, 7708", "South Africa"],
+    "addr": ["Cape Town", "South Africa"],
     "email": "leroux.johannes@gmail.com",
 }
 

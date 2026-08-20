@@ -6,6 +6,10 @@ first six; the last few lines are personal to each.
 Sent 18 August, except Tertius (below) who signed up on the 20th and got a
 compressed version.
 
+⚠️ **These went out with the old venue — Ideas Cartel, Claremont.** The venue
+moved to CHIPS on 20 August and a separate change-of-venue email went to all
+seven. Left unedited here as the record of what was actually sent.
+
 ---
 
 ## 1. Danielle — danielle@dona.co.za

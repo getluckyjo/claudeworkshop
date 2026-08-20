@@ -1,7 +1,7 @@
 # Entrepreneur Coach
 
 **Get set up with Claude, properly.** Built for the Entrepreneur Coach workshop
-cohort — Saturday 22 August 2026, Ideas Cartel, Claremont.
+cohort — Saturday 22 August 2026, CHIPS, 21 Roodehek Street, Gardens.
 
 No terminal. No coding. It all happens in the Claude app.
 

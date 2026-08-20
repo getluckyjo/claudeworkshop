@@ -21,7 +21,7 @@ OUT = ROOT / "handouts"
 
 DATE = "Saturday 22 August 2026"
 TIME = "10:00 – 13:00"
-VENUE = "Ideas Cartel, Claremont"
+VENUE = "CHIPS · 21 Roodehek Street, Gardens"
 
 # --------------------------------------------------------------------------
 # The room. One dict per seat.

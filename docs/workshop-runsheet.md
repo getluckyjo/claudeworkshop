@@ -1,6 +1,6 @@
 # Workshop runsheet — Saturday 22 August 2026
 
-**Claude for entrepreneurs.** 10:00–13:00, Ideas Cartel, Claremont. 8 seats,
+**Claude for entrepreneurs.** 10:00–13:00, CHIPS, 21 Roodehek Street, Gardens, Cape Town. 8 seats,
 R3,500. Facilitator notes — not for the cohort.
 
 Assume: **owners and executives, no code, no terminal, on the desktop app.**
