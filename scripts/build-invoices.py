@@ -68,6 +68,14 @@ INVOICES = [
         "credit": None,
     },
     {
+        "no": "EC-2608-07", "slug": "tertius",
+        "to": "Awakening Journeys (Pty) Ltd",
+        "attn": "Tertius",
+        "sub": "Reg 2020/461338/07",
+        "email": "joliph@live.com",
+        "credit": None,
+    },
+    {
         "no": "EC-2608-04", "slug": "liezl",
         "to": "Cape of Storms Apothecary",
         "attn": "Liezl Kruger",

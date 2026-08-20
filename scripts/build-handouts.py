@@ -208,6 +208,46 @@ ATTENDEES = [
         ),
     },
     {
+        "slug": "tertius",
+        "name": "Tertius",
+        "business": "Awakening Journeys (Pty) Ltd",
+        "role": "Co-founder",
+        "job": [
+            "Understanding and interpreting my co-founder's ideas and proposals "
+            "to Claude. Re-prompting and editing until it feels like both of us "
+            "are understood and the output is useful.",
+            "A bigger need — we are not even at the implementation stage of "
+            "integrating our invoicing and accounting (QuickBooks).",
+        ],
+        "building": "Stop being the translator",
+        "why": (
+            "Right now you sit between your co-founder and Claude, turning "
+            "their thinking into something it understands, then editing until "
+            "it sounds like both of you. That's a job you've quietly taken on. "
+            "We're going to write it down instead — so Claude arrives already "
+            "understanding how the two of you think, and either of you can "
+            "work with it directly."
+        ),
+        "needs": [
+            "Two or three of your co-founder's proposals or ideas, in their own words",
+            "The version you ended up with after re-prompting and editing",
+            "What Claude keeps getting wrong about your business",
+            "An invoice you've sent recently, and how it gets into QuickBooks today",
+        ],
+        "repeats": (
+            "A skill that carries both of you, so neither has to explain the "
+            "business again — and a first pass at the invoicing, drafted in "
+            "your format ready to enter."
+        ),
+        "watch": (
+            "Two jobs here and only one is an afternoon. The QuickBooks "
+            "integration is a real project, and you said yourselves you're not "
+            "at that stage yet. What we can do today is remove the retyping "
+            "around invoices — and fix the translating, which costs you more "
+            "hours a week than you think."
+        ),
+    },
+    {
         "slug": "liezl",
         "name": "Liezl Kruger",
         "business": "Cape of Storms Apothecary",
@@ -234,11 +274,45 @@ ATTENDEES = [
             "A monthly subscriber review — who joined, who left, where the run "
             "rate to a thousand stands."
         ),
+        "sequence": {
+            "title": "Working through it",
+            "intro": ("You're doing this on your own, so here are the five steps in "
+                      "order. Do them in order — step 1 does more than it looks like "
+                      "it does, and the whole thing rests on it. Each box is what to "
+                      "ask; the rest is you."),
+            "steps": [
+                ("Build the box",
+                 "I'm putting together a R1,000 monthly subscription box. Here's "
+                 "what I sell and what it costs — help me fill the box.",
+                 "Keep going until it reaches R1,000. If you run out of things to "
+                 "put in before you get there, that is the finding. Sit with it."),
+                ("Cost it",
+                 "Now add what each one costs me to make, plus packaging and "
+                 "delivery, and show me what's left per box.",
+                 "That number is your contribution per box. Everything else "
+                 "depends on it."),
+                ("The engine",
+                 "If 5% of subscribers cancel every month, how many new ones do I "
+                 "need each month to reach 1,000 within a year?",
+                 "Then ask: what if churn were 3% instead? The difference is the "
+                 "most useful thing on this page."),
+                ("Break it on purpose",
+                 "What if the box were R750? What if it went out every second "
+                 "month? What if I had four items at R250 instead of twelve?",
+                 "And one more, which is the one worth sitting with: what could go "
+                 "in the box that isn't a product?"),
+                ("Name the answer",
+                 "Given all of that, which version of this do I actually believe?",
+                 "Write it down. That's the version you build."),
+            ],
+        },
         "watch": (
-            "Don't take the plan on faith, including mine. The point of the "
-            "model is that you can break it: change the price, change how "
-            "often the box goes out, change what's in it. The version you "
-            "leave with should be one you argued yourself into."
+            "You're running this one yourself, so work through the five steps "
+            "on the next page in order — they're built to be done in sequence, "
+            "and step 1 does more than it looks like it does. Don't take the "
+            "plan on faith, including mine: change the price, change how often "
+            "the box goes out, change what's in it. The version you land on "
+            "should be one you argued yourself into."
         ),
     },
 ]
@@ -311,6 +385,31 @@ def deliverables_list():
 def lines(n, short=False):
     cls = "lines short" if short else "lines"
     return f'<div class="{cls}">' + "<div></div>" * n + "</div>"
+
+
+def sequence_page(a):
+    """An extra page of prompts, for anyone working through their build alone."""
+    seq = a.get("sequence")
+    if not seq:
+        return ""
+    blocks = []
+    for i, (name, prompt, note) in enumerate(seq["steps"], 1):
+        blocks.append(f"""
+  <div style="margin-bottom:7mm">
+    <p style="font-family:var(--display);font-size:9.5pt;font-weight:600;
+       letter-spacing:var(--tracking-tight);margin:0 0 2mm 0">
+      <span style="color:var(--red)">{i}</span>&nbsp;&nbsp;{e(name)}</p>
+    <div style="background:var(--bone);padding:3.5mm 4.5mm;margin:0 0 2mm 0">
+      <p style="margin:0;font-size:10pt">&ldquo;{e(prompt)}&rdquo;</p>
+    </div>
+    <p class="small" style="margin:0">{e(note)}</p>
+  </div>""")
+    return f"""
+<section class="page">
+  <h2>{e(seq['title'])}</h2>
+  <p class="standfirst">{e(seq['intro'])}</p>
+  {''.join(blocks)}
+</section>"""
 
 
 def workbook(a):
@@ -425,6 +524,7 @@ def workbook(a):
   </div>
 </section>
 
+{sequence_page(a)}
 <section class="page">
   <h2>Before you leave</h2>
   <p class="standfirst">Most training evaporates inside a fortnight. This is the
