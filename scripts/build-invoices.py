@@ -73,7 +73,7 @@ INVOICES = [
         "attn": "Tertius",
         "sub": "Reg 2020/461338/07",
         "email": "joliph@live.com",
-        "credit": None,
+        "credit": ("Trade exchange", "Full exchange against the seat fee. Terms to be confirmed.", SEAT_RATE),
     },
     {
         "no": "EC-2608-04", "slug": "liezl",
