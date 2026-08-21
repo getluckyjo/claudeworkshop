@@ -315,18 +315,103 @@ ATTENDEES = [
             "should be one you argued yourself into."
         ),
     },
+    {
+        "slug": "philipa",
+        "name": "Phillippa Schmulian",
+        "business": "The Magickal Gem",
+        "role": "Owner",
+        "job_label": "The job you're naming",
+        "job": [
+            "You came in on the last seat and there was no form to fill in \u2014 "
+            "which is fine, and possibly better. Everyone else's job was decided "
+            "a week ago off two lines. Yours gets named properly, by you, with "
+            "Claude asking the questions.",
+            "Page 6 is where you do that. Do it tonight, not on Saturday morning.",
+        ],
+        "building": "Name it, then build it",
+        "why": (
+            "You run three businesses out of one shop in Observatory: a "
+            "retail shop that is also an online shop and also makes its own "
+            "stock, a practice doing readings and energy work by appointment, "
+            "and a school running workshops in person and online. Seven days a "
+            "week. The reason you can't name one job in a form is that there "
+            "are three, and they don't share a bottleneck. So we name it first "
+            "and build it second."
+        ),
+        "needs": [
+            "Do the four questions on page 6 before Saturday \u2014 that is the "
+            "whole of your homework and it takes about fifteen minutes",
+            "Whatever Claude tells you it needs, on your laptop as actual files "
+            "\u2014 an order export, a product list, a booking diary, last month's "
+            "numbers. Not described. The file",
+            "Three or four things you have written yourself \u2014 a product "
+            "description, a newsletter, a workshop write-up. This is what makes "
+            "anything it drafts sound like you and not like a wellness brochure",
+            "Your logo and a few product photos",
+        ],
+        "repeats": (
+            "Whichever job you land on, the skill is the same shape: the thing "
+            "you do over and over, written down once, in your words. Plus one "
+            "job on a schedule \u2014 most likely a Monday morning read of what "
+            "actually sold and what didn't move."
+        ),
+        "sequence": {
+            "title": "Naming the job",
+            "intro": ("Fifteen minutes, tonight, in a new chat with the skill "
+                      "installed. Four questions. You are not building anything "
+                      "yet \u2014 you are working out what to build, so that "
+                      "Saturday's build block goes into making the thing "
+                      "instead of deciding what it is."),
+            "steps": [
+                ("Tell it who you are",
+                 "I own The Magickal Gem in Observatory \u2014 a metaphysical "
+                 "shop that sells online and in person, energy work and readings "
+                 "by appointment, and creative workshops. Here is what a normal "
+                 "week actually looks like.",
+                 "Don't tidy it up. The Sunday trading, the parcels, the festival "
+                 "stall, the class that had to be rescheduled, the Google review "
+                 "you answered at ten at night. All of it counts."),
+                ("Find the biggest tax on your week",
+                 "Out of everything I just listed, which takes the most of my "
+                 "time and adds the least? Ask me questions before you answer.",
+                 "It will get it wrong the first time and you should tell it so. "
+                 "Two rounds of correcting it is what turns a guess into your "
+                 "actual answer."),
+                ("Put it in one sentence",
+                 "Write that job as one sentence, the way I'd hand it to somebody "
+                 "on a Monday morning.",
+                 "Write that sentence on the first page of this book, in pen. It "
+                 "is the only thing you have to arrive with."),
+                ("Ask what it needs",
+                 "What would you need from me to actually do that job? List the "
+                 "files.",
+                 "Then put those files on your laptop tonight. This is the step "
+                 "people skip, and it is the one that decides whether Saturday "
+                 "produces something real or a good conversation."),
+            ],
+        },
+        "watch": (
+            "Three businesses, one owner, and the temptation will be to fix all "
+            "three before lunch. Pick one. The other two keep. And be careful of "
+            "the honest answer to question 2 \u2014 across the shop, the readings "
+            "and the workshops, the thing that doesn't scale is you: your voice, "
+            "your hands, your diary. The jobs worth handing over are the ones "
+            "that sound like you without needing you. That's a narrower list "
+            "than it first looks, and it is the right list."
+        ),
+    },
 ]
 
 SCHEDULE = [
-    ("10:00", "12′", "Setup and triage", "Logged in, everything working. Problems solved now, not at 11:30."),
-    ("10:12", "13′", "Name the job", "Four jobs on the board. That list is the spine of the session."),
-    ("10:25", "20′", "Briefing, not prompting", "Rewrite your worst prompt as a proper brief. Watch what changes."),
-    ("10:45", "30′", "Build the business brain", "A real Project — your documents, your numbers, your standards."),
-    ("11:15", "15′", "Break", "The café is downstairs."),
-    ("11:30", "30′", "Point it at real data", "Connect your email, drive or accounts. Ask about your own numbers."),
-    ("12:00", "35′", "Delegate the job", "Hand over the job you named. Get back something real."),
-    ("12:35", "15′", "Make it repeat", "Turn what worked into a skill. Put it on a schedule."),
-    ("12:50", "10′", "Commit and close", "One thing you'll do by Friday. We book the 14-day call here."),
+    ("10:00", "12\u2032", "Setup and triage", "Logged in, everything working. Problems solved now, not at 11:30."),
+    ("10:12", "13\u2032", "Name the job", "Eight jobs on the board. That list is the spine of the session."),
+    ("10:25", "12\u2032", "Briefing, not prompting", "Rewrite your worst prompt as a proper brief. Watch what changes."),
+    ("10:37", "30\u2032", "Build the business brain", "A real Project \u2014 your documents, your numbers, your standards."),
+    ("11:07", "15\u2032", "Break", "The caf\u00e9 is downstairs."),
+    ("11:22", "30\u2032", "Point it at real data", "Connect your email, drive or accounts. Ask about your own numbers."),
+    ("11:52", "43\u2032", "Delegate the job", "Hand over the job you named. Get back something real."),
+    ("12:35", "15\u2032", "Make it repeat", "Turn what worked into a skill. Put it on a schedule."),
+    ("12:50", "10\u2032", "Commit and close", "One thing you'll do by Friday. We book the 14-day call here."),
 ]
 
 DELIVERABLES = [
@@ -431,7 +516,7 @@ def workbook(a):
   </div>
 
   <div class="quoteblock">
-    <p class="label">The job you named</p>
+    <p class="label">{e(a.get("job_label", "The job you named"))}</p>
     {job}
   </div>
 
@@ -469,7 +554,7 @@ def workbook(a):
   {schedule_table()}
 
   <div class="callout">
-    <p><strong>If you fall behind, get to 12:00.</strong> That's the block that
+    <p><strong>If you fall behind, get to 11:52.</strong> That's the block that
     makes the day worth it. Everything before it is setup and everything after
     it is making it repeat — but the middle is where you hand over a real job
     and get something back.</p>
@@ -685,16 +770,20 @@ def facilitator_pack():
 <section class="page">
   <p class="eyebrow eyebrow-red">Facilitator pack &nbsp;·&nbsp; not for the cohort</p>
   <h2>Run of show</h2>
-  <p class="standfirst">{e(DATE)} · {e(TIME)} · {e(VENUE)} · 6 of 8 seats</p>
+  <p class="standfirst">{e(DATE)} · {e(TIME)} · {e(VENUE)} · 8 of 8 — seven in the room, Liezl remote</p>
   {schedule_table()}
 
   <div class="note">
     <p class="label">Where your attention goes</p>
-    <p>Block 7 is 35 minutes across six people. Don't try to see everyone.
-    Kowie first — nothing of his works until the retailer files parse. Then
-    Liezl: she has a real brief now, but the findings have to be hers, so ask
-    and wait rather than telling. Then one check on Carla. Danielle, Reni and
-    Maxime can run unaided; put Reni's finished link on the projector.</p>
+    <p>The room filled, so block 3 is cut to 12 minutes and block 7 takes the
+    eight — 43 minutes across seven, which is the same six minutes a head you
+    had at six people. Everything between the two shifts eight minutes earlier,
+    including the break. Don't try to see everyone. Kowie first — nothing of
+    his works until the retailer files parse. Then Philipa, who arrives with a
+    job she named herself the night before and no prior version of it to fall
+    back on; read her sentence before she starts. Then Tertius, who has two
+    jobs and only one is an afternoon. Then one check on Carla. Danielle, Reni
+    and Maxime run unaided; put Reni's finished link on the projector.</p>
   </div>
 
   <h3>Before Saturday</h3>
@@ -710,16 +799,21 @@ def facilitator_pack():
 
 <section class="page">
   <h2>The room</h2>
-  <p class="standfirst">Three camps. Danielle and Kowie turn data into
-  decisions. Reni and Carla turn a request into a response. Maxime's data only
-  exists because she types it. Sit Danielle and Kowie together, and let the
-  overlap land when the jobs go on the board.</p>
+  <p class="standfirst">Three camps and two outliers. Danielle and Kowie turn
+  data into decisions — sit them together and let the overlap land when the jobs
+  go on the board. Reni and Carla turn a request into a response. Maxime's data
+  only exists because she types it. Tertius has a translation problem, which is
+  literally block 3. Philipa has three businesses under one roof and names her
+  job the night before.</p>
   {''.join(briefs)}
 
   <div class="callout">
-    <p><strong>Danielle and Maxime use Claude daily; the other four are
-    weekly.</strong> The briefing block matters more than the run sheet assumes —
-    don't rush it to buy time elsewhere unless the last two seats sell.</p>
+    <p><strong>Danielle and Maxime use Claude daily; everyone else is
+    weekly.</strong> Cutting block 3 to 12 minutes is the cost of a full room and
+    it is the wrong block to lose — five of seven are weekly users and Tertius's
+    named job <em>is</em> the briefing problem. So don't teach it: run it live off
+    one of his co-founder's proposals, if he said yes. Twelve minutes of a real
+    example beats twenty of a lesson.</p>
   </div>
 
   <div class="coverfoot" style="margin-top:8mm">

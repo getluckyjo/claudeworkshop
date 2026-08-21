@@ -1,10 +1,12 @@
 # Pre-work emails — 22 August cohort
 
-Seven emails, all sent. Short on purpose. The setup block is identical in the
-first six; the last few lines are personal to each.
+Eight emails. Short on purpose. The setup block is identical in the first six;
+the last few lines are personal to each.
 
 Sent 18 August, except Tertius (below) who signed up on the 20th and got a
-compressed version.
+compressed version, and **Philipa, who signed up on the 21st and whose email is
+still to send** — hers is the last one on this page and it's in
+`emails/philipa-prework.txt` ready to go.
 
 ⚠️ **These went out with the old venue — Ideas Cartel, Claremont.** The venue
 moved to CHIPS on 20 August and a separate change-of-venue email went to all
@@ -366,3 +368,15 @@ Laptop and charger.
 See you Saturday.
 
 Johannes
+
+---
+
+## 8. Philipa — info@thegem.co.za
+
+*Signed up 21 Aug with one evening to go, so this one carries the correct venue
+from the start and needs no venue-change mail. Full R3,500 founding rate,
+invoice EC-2608-08 attached — confirm that basis before sending. She never saw a
+signup form, so her four naming questions are in the body of the email as well
+as in her workbook; she cannot wait for the printed copy.*
+
+**Not yet sent.** The text is in `emails/philipa-prework.txt`.

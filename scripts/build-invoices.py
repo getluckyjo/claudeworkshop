@@ -99,6 +99,19 @@ INVOICES = [
         "email": "maximeedavenport@gmail.com",
         "credit": ("Complimentary seat", "Seat offered at no charge. No payment due.", SEAT_RATE),
     },
+    {
+        "no": "EC-2608-08", "slug": "philipa",
+        "to": "The Magickal Gem",
+        "attn": "Phillippa Schmulian",
+        "sub": "92\u201396 Station Road, Observatory, Cape Town 7925",
+        "email": "info@thegem.co.za",
+        "issued": "21 August 2026",
+        "terms": ("<b>Payment before the workshop.</b> The eighth and last seat, taken the day "
+                  "before, so the usual 5-day hold doesn't apply \u2014 settle before Saturday and "
+                  "the seat is confirmed. Full refund if you can't make it; I'll move you to the "
+                  "next cohort at no charge."),
+        "credit": None,
+    },
 ]
 
 BRANDMARK = """<div class="brandmark">
@@ -154,6 +167,8 @@ def render(inv):
         terms = ("<b>No payment due.</b> Your seat is confirmed. Issued so the value of the seat is "
                  "on record for both sides.")
 
+    terms = inv.get("terms", terms)
+
     attn = f'<p class="sub">Attention: {e(inv["attn"])}</p>' if inv["attn"] else ""
     sub = f'<p class="sub">{e(inv["sub"])}</p>' if inv["sub"] else ""
 
@@ -167,7 +182,7 @@ def render(inv):
   <h1>Invoice</h1>
   <div class="meta">
     <b>{e(inv['no'])}</b><br>
-    Issued {e(ISSUED)}<br>
+    Issued {e(inv.get('issued', ISSUED))}<br>
     Due {e(DUE)}
   </div>
 </div>

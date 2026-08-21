@@ -28,13 +28,17 @@ Published on the page, so run to it. A quarter teaching, the rest them doing it.
 |---|---|---|---|
 | 00:00 | 12′ | **Setup and triage** — logged in, desktop app, skill installed. Problems solved now, not at minute 90. | — |
 | 00:12 | 13′ | **Name the job** — eight jobs on the whiteboard, from their own pre-work answers | Station 0 |
-| 00:25 | 20′ | **Briefing, not prompting** — rewrite your worst prompt as a proper brief | — *(facilitator-led, no station)* |
-| 00:45 | 30′ | **Build the business brain** — a real Project: their documents, numbers, standards | Station 4 |
-| 01:15 | 15′ | **Break** — café is downstairs | — |
-| 01:30 | 30′ | **Point it at real data** — connect Workspace, M365 or Xero, ask about their own numbers | Station 1 |
-| 02:00 | 35′ | **Delegate the job** — hand over the job they named, get back a real file or link | Station 3 |
+| 00:25 | 12′ | **Briefing, not prompting** — rewrite your worst prompt as a proper brief | — *(facilitator-led, no station)* |
+| 00:37 | 30′ | **Build the business brain** — a real Project: their documents, numbers, standards | Station 4 |
+| 01:07 | 15′ | **Break** — café is downstairs | — |
+| 01:22 | 30′ | **Point it at real data** — connect Workspace, M365 or Xero, ask about their own numbers | Station 1 |
+| 01:52 | 43′ | **Delegate the job** — hand over the job they named, get back a real file or link | Station 3 |
 | 02:35 | 15′ | **Make it repeat** — turn what worked into a Skill, put it on a schedule | Stations 2 + 5 |
 | 02:50 | 10′ | **Commit and close** — one thing by Friday, book the 14-day call | Station 6 |
+
+**These are the full-room timings.** At six or fewer, give block 3 its full 20
+minutes and run block 7 at 35 — the version published on the page. At seven or
+eight in the room, block 7 needs the eight minutes more than briefing does.
 
 **The station numbers are the skill's solo order, not the room order.** Someone
 running it alone at home goes 0→6 in sequence; in the room you follow the blocks

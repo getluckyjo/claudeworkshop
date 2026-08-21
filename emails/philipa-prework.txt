@@ -1,0 +1,75 @@
+To: info@thegem.co.za
+Subject: Saturday — the short version, since it's tomorrow
+
+Philipa,
+
+Good to have you in — that's the last seat.
+
+Saturday 22 August, 10:00 to 13:00.
+
+    CHIPS
+    21 Roodehek Street
+    Gardens, Cape Town 8001
+
+Parking is limited, so give yourself an extra ten minutes. Ubers drop at
+the door. It's a co-working space — come in and ask for me.
+
+The others had a week to prepare. You've got tonight, so here's what
+actually matters:
+
+1. Paid Claude plan — about R400 a month, billed by Anthropic, not me.
+Then install the desktop app, not just the browser. If your card
+declines it's almost always your bank blocking the international
+payment; enable that in your banking app and try again. Shout tonight if
+it fights you, not Saturday morning.
+
+2. Add the workshop skill:
+https://github.com/getluckyjo/claudeworkshop/raw/HEAD/dist/entrepreneurcoach.zip
+
+Don't unzip it. In Claude: click your name bottom-left, then Settings,
+Customize, Skills, and upload the zip. You'll see "Entrepreneur Coach"
+appear in the list.
+
+3. Fifteen minutes, tonight or over coffee tomorrow. Everyone else
+filled in a form a week ago telling me which job they wanted taken off
+their hands, and I've built their morning around it. You didn't get
+that, so you're going to do it properly instead — with Claude asking the
+questions rather than a form. It's four questions and they're printed in
+your workbook, which I'll hand you on the day. Here they are so you can
+start tonight:
+
+  · Tell it who you are. "I own The Magickal Gem in Observatory — a
+    metaphysical shop that sells online and in person, energy work and
+    readings by appointment, and creative workshops. Here's what a
+    normal week actually looks like." Don't tidy it up.
+
+  · "Out of everything I just listed, which takes the most of my time
+    and adds the least? Ask me questions before you answer." It'll get
+    it wrong first go. Tell it so. Two rounds does it.
+
+  · "Write that job as one sentence, the way I'd hand it to somebody on
+    a Monday morning."
+
+  · "What would you need from me to actually do that job? List the
+    files." Then put those files on your laptop.
+
+That last step is the one people skip and it's the one that decides
+whether Saturday produces something real or a good conversation.
+
+You run three businesses out of one shop, which is why there's no single
+obvious answer — so we name it first and build it second. Bring the
+sentence and we'll spend the time making the thing instead of deciding
+what it is.
+
+Also bring: laptop and charger, and three or four things you've written
+yourself — a product description, a newsletter, a workshop write-up.
+That's what stops anything it drafts sounding like a wellness brochure.
+
+Quick one: Gmail or Outlook?
+
+Invoice attached — R3,500, the founding rate. Before Saturday if you can.
+
+See you tomorrow.
+
+Groete
+Johannes

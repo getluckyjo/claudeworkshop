@@ -1,0 +1,85 @@
+Entrepreneur Coach — Claude for entrepreneurs
+Saturday 22 August 2026 · 10:00–13:00
+CHIPS · 21 Roodehek Street, Gardens, Cape Town 8001
+
+SOLD OUT — 8 of 8. SEVEN IN THE ROOM; Liezl is remote (folder 6).
+
+TWO THINGS BEFORE YOU DO ANYTHING ELSE
+
+  1. Send Philipa her pre-work email tonight, with her invoice attached.
+     She took the last seat today and has one evening. Folder 7.
+     Her homework is four questions and they are in the body of that
+     mail as well as in her workbook — she cannot wait for the print.
+
+  2. Confirm what Philipa's seat costs. She is invoiced at the full
+     R3,500 founding rate because nothing else was agreed. If that's
+     wrong, change it before you send.
+
+THE TIMINGS MOVED
+
+  The room filled, so block 3 comes down to 12 minutes and block 7
+  takes the 8 it gives up — 43 minutes across seven, which is the same
+  six minutes a head you had at six people. Everything between shifts
+  eight minutes earlier, the break included. Start and finish unchanged.
+  Every printed workbook already carries the new times.
+
+  Don't teach block 3 in twelve minutes. Run it — Tertius's co-founder
+  proposal, rewritten live, if he said yes.
+
+1 PRINT — WORKBOOKS
+   Seven workbooks for the room, and the cheat sheet.
+   Print the cheat sheet DOUBLE-SIDED — it is designed as one sheet.
+   Philipa's is the odd one out: it carries no pre-decided build,
+   because she named her own. Page 6 is her homework.
+
+2 INVOICES
+   Eight invoices. R12,250 receivable; R28,000 of seat value delivered.
+     Kowie      R1,750  part trade exchange
+     Danielle   R3,500
+     Reni       R3,500  SETTLED 18 Aug
+     Philipa    R3,500  issued 21 Aug — basis to confirm
+     Tertius        R0  full trade exchange
+     Liezl          R0  full trade exchange
+     Carla          R0  full trade exchange
+     Maxime         R0  complimentary
+   Four trade exchanges still have terms to be confirmed.
+
+3 FACILITATOR
+   Facilitator pack (print this too), the session plan, all seven
+   pre-work emails as sent, the runsheet, and the shelf-images note
+   for Kowie.
+
+   In block 2, ask Philipa for her one sentence. If she hasn't got it,
+   do the four questions with her there and then. There is no version
+   of block 7 that works without it, and block 2 is the last place you
+   can still fix it cheaply.
+
+4 KOWIE PROTOTYPE
+   Insurance, not a handout. Build it live with him if the block allows.
+
+5 BRAND
+   Email signature, and the skill zip the cohort downloads.
+
+6 FOR LIEZL — REMOTE
+   Email her the workbook, the cheat sheet and the skill zip.
+   The covering note is in folder 7.
+
+7 EMAILS TO SEND
+   Philipa's pre-work email — tonight.
+   The venue-change email — one mail, everyone else on Bcc.
+   Liezl's handover note. She is NOT on the venue mail: she's remote,
+   so the change means nothing to her.
+
+STILL OPEN
+   · Philipa — the four questions, Gmail or Outlook, and how much
+     Claude she's actually used. The only person with no fallback
+   · Tertius — yes/no on using his co-founder's proposal in block 3
+   · Maxime — what she's logging
+   · Danielle — is she on Xero
+   · Kowie — which Site Article Statuses count as active
+   · Everyone — Gmail or Outlook (Reni: Gmail)
+   · Set up a scheduled task on your own build before Saturday
+   · Test the skill install end to end, in a fresh chat, on the desktop app
+
+Everything here is generated from github.com/getluckyjo/claudeworkshop
+Rebuild it with ./scripts/build-pack.sh
