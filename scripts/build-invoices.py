@@ -42,6 +42,8 @@ BANK = {
 }
 
 # credit: (label, description, amount) or None
+# EC-2608-04 (Liezl Kruger, Cape of Storms) withdrawn from the cohort — nil
+# invoice pulled rather than left standing against a seat nobody took.
 INVOICES = [
     {
         "no": "EC-2608-01", "slug": "kowie",
@@ -73,14 +75,6 @@ INVOICES = [
         "attn": "Tertius",
         "sub": "Reg 2020/461338/07",
         "email": "joliph@live.com",
-        "credit": ("Trade exchange", "Full exchange against the seat fee. Terms to be confirmed.", SEAT_RATE),
-    },
-    {
-        "no": "EC-2608-04", "slug": "liezl",
-        "to": "Cape of Storms Apothecary",
-        "attn": "Liezl Kruger",
-        "sub": "",
-        "email": "liezlkruger.sa@gmail.com",
         "credit": ("Trade exchange", "Full exchange against the seat fee. Terms to be confirmed.", SEAT_RATE),
     },
     {

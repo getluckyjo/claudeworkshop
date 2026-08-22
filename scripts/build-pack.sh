@@ -19,14 +19,10 @@ echo
 echo
 
 rm -rf "$PACK" "$PACK.zip"
-mkdir -p "$PACK"/{"1 Print — workbooks","2 Invoices","3 Facilitator","4 Kowie prototype","5 Brand","6 For Liezl — remote","7 Emails to send"}
+mkdir -p "$PACK"/{"1 Print — workbooks","2 Invoices","3 Facilitator","4 Kowie prototype","5 Brand","6 Emails to send"}
 
-# 1 — everything that goes through the printer. Liezl's is emailed, not printed.
-for f in handouts/workbook-*.pdf; do
-  [[ "$f" == *liezl* ]] && continue
-  cp "$f" "$PACK/1 Print — workbooks/"
-done
-cp handouts/cheatsheet.pdf "$PACK/1 Print — workbooks/"
+# 1 — everything that goes through the printer
+cp handouts/workbook-*.pdf handouts/cheatsheet.pdf "$PACK/1 Print — workbooks/"
 
 # 2 — invoices
 cp invoices/*.pdf "$PACK/2 Invoices/"
@@ -49,12 +45,8 @@ cp signature/signature-mark.png "$PACK/5 Brand/" 2>/dev/null || true
 cp signature/README.md          "$PACK/5 Brand/" 2>/dev/null || true
 cp dist/entrepreneurcoach.zip   "$PACK/5 Brand/entrepreneurcoach-skill.zip"
 
-# 6 — Liezl runs hers alone, so she gets the workbook, the map and the skill
-cp handouts/workbook-liezl.pdf handouts/cheatsheet.pdf "$PACK/6 For Liezl — remote/"
-cp dist/entrepreneurcoach.zip  "$PACK/6 For Liezl — remote/"
-
-# 7 — the things to actually send
-cp emails/*.txt "$PACK/7 Emails to send/"
+# 6 — the things to actually send
+cp emails/*.txt "$PACK/6 Emails to send/"
 
 cp "docs/START HERE.txt" "$PACK/START HERE.txt"
 

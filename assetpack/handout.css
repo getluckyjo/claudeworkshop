@@ -1,0 +1,367 @@
+/* Entrepreneur Coach — handout styles
+ *
+ * Maps to DESIGN.md in getluckyjo/entrepreneurcoach. Tokens are copied, not
+ * reinterpreted — if DESIGN.md changes, change here second.
+ *
+ * Print-first: white ground, ink type, vermilion for action and emphasis only.
+ * 80 / 15 / 5. No --color-night here: a full-bleed dark page is a screen device
+ * and this gets printed 4 times per person.
+ */
+
+@import url("fonts.css");
+
+:root {
+  /* Surfaces */
+  --paper: #FFFFFF;
+  --bone: #F4F4F1;
+  --soft: #ECEAE3;
+
+  /* Ink */
+  --ink: #0E0E10;
+  --ink-soft: #2A2A2D;
+  --muted: #6F6F73;
+  --rule: #E0DED7;
+  --rule-strong: #C8C5BB;
+
+  /* Primary accent — vermilion */
+  --red: #F25C2A;
+  --red-deep: #C8421A;
+  --red-soft: #FCE6DC;
+
+  /* Editorial secondary */
+  --blue: #2D55FF;
+  --blue-soft: #DDE3FF;
+
+  /* Flair — one per page, never twice */
+  --lime: #C6F03A;
+
+  --display: "Geist", "Inter Tight", ui-sans-serif, system-ui, sans-serif;
+  --sans: "Geist", "Inter Tight", ui-sans-serif, system-ui, sans-serif;
+  --script: "Caveat", "Brush Script MT", cursive;
+
+  --tracking-mega: -0.045em;
+  --tracking-display: -0.035em;
+  --tracking-tight: -0.02em;
+  --tracking-eyebrow: 0.18em;
+}
+
+@page {
+  size: A4;
+  margin: 17mm 15mm 15mm 15mm;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+body {
+  font-family: var(--sans);
+  color: var(--ink);
+  background: var(--paper);
+  font-size: 10.5pt;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  margin: 0;
+  font-feature-settings: "ss01", "cv11";
+}
+
+.page { page-break-after: always; break-after: page; }
+.page:last-child { page-break-after: auto; break-after: auto; }
+
+/* ---------- Brand mark: the signature ---------- */
+
+.brandmark {
+  display: flex;
+  align-items: flex-end;
+  gap: 2mm;
+  margin: 0 0 24mm 0;
+}
+.brandmark .name {
+  font-family: var(--script);
+  font-weight: 700;
+  font-size: 20pt;
+  line-height: 0.85;
+  letter-spacing: 0.005em;
+  transform: rotate(-2deg);
+  transform-origin: left bottom;
+  color: var(--ink);
+}
+.brandmark .dot {
+  width: 4.5pt;
+  height: 4.5pt;
+  border-radius: 999px;
+  background: var(--red);
+  margin-bottom: 1.5pt;
+  flex-shrink: 0;
+}
+.brandmark .role {
+  font-family: var(--display);
+  font-size: 8pt;
+  font-weight: 600;
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-left: 4mm;
+  padding-bottom: 1mm;
+}
+
+/* ---------- Eyebrow ---------- */
+
+.eyebrow {
+  font-family: var(--display);
+  font-size: 8pt;
+  font-weight: 600;
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 3mm 0;
+}
+.eyebrow-red { color: var(--red); }
+
+/* ---------- Cover ---------- */
+
+.cover h1 {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 44pt;
+  line-height: 0.92;
+  letter-spacing: var(--tracking-display);
+  margin: 0 0 6mm 0;
+}
+.cover h1 em { font-style: italic; color: var(--red); }
+
+.hero-rule {
+  width: 22mm;
+  height: 1.6mm;
+  background: var(--red);
+  border-radius: 0.7mm;
+  margin: 0 0 6mm 0;
+}
+
+.cover .lede {
+  font-size: 12.5pt;
+  line-height: 1.4;
+  color: var(--ink-soft);
+  margin: 0 0 18mm 0;
+  max-width: 118mm;
+  letter-spacing: var(--tracking-tight);
+}
+
+.namecard {
+  border-top: 2px solid var(--ink);
+  padding-top: 3.5mm;
+  margin-bottom: 12mm;
+}
+.namecard .who {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 22pt;
+  letter-spacing: var(--tracking-tight);
+  line-height: 1;
+  margin: 0 0 2mm 0;
+}
+.namecard .what { font-size: 10pt; color: var(--muted); margin: 0; }
+
+.quoteblock {
+  background: var(--bone);
+  padding: 5mm 6mm;
+  margin: 0 0 12mm 0;
+  max-width: 138mm;
+}
+.quoteblock .label {
+  font-family: var(--display);
+  font-size: 8pt;
+  font-weight: 600;
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--red);
+  margin: 0 0 3mm 0;
+}
+.quoteblock p {
+  font-size: 11pt;
+  line-height: 1.45;
+  margin: 0 0 2.5mm 0;
+  letter-spacing: var(--tracking-tight);
+}
+.quoteblock p:last-child { margin-bottom: 0; }
+
+.coverfoot {
+  border-top: 1px solid var(--rule);
+  padding-top: 3mm;
+  font-size: 9pt;
+  color: var(--muted);
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ---------- Interior ---------- */
+
+h2 {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 24pt;
+  line-height: 1;
+  letter-spacing: var(--tracking-display);
+  margin: 0 0 3mm 0;
+}
+h2 em { font-style: italic; color: var(--red); }
+
+.standfirst {
+  color: var(--ink-soft);
+  font-size: 10.5pt;
+  line-height: 1.45;
+  margin: 0 0 8mm 0;
+  max-width: 132mm;
+}
+
+h3 {
+  font-family: var(--display);
+  font-size: 8pt;
+  font-weight: 600;
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--red);
+  margin: 9mm 0 3mm 0;
+}
+h3:first-of-type { margin-top: 0; }
+
+p { margin: 0 0 3.5mm 0; }
+strong { font-weight: 600; }
+
+ul, ol { margin: 0 0 4mm 0; padding-left: 5mm; }
+li { margin-bottom: 2mm; }
+.tight li { margin-bottom: 1mm; }
+
+/* ---------- Deliverables ---------- */
+
+.deliverables { list-style: none; padding: 0; margin: 0 0 6mm 0; counter-reset: d; }
+.deliverables li {
+  counter-increment: d;
+  border-bottom: 1px solid var(--rule);
+  padding: 3mm 0 3mm 12mm;
+  position: relative;
+  margin: 0;
+}
+.deliverables li::before {
+  content: counter(d);
+  position: absolute;
+  left: 0;
+  top: 2.6mm;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 15pt;
+  letter-spacing: var(--tracking-mega);
+  color: var(--blue);
+}
+.deliverables li b { font-weight: 600; display: block; letter-spacing: var(--tracking-tight); }
+.deliverables li span { color: var(--muted); font-size: 9.5pt; }
+
+/* ---------- Tables ---------- */
+
+table { width: 100%; border-collapse: collapse; margin: 0 0 6mm 0; font-size: 9.5pt; }
+th {
+  text-align: left;
+  font-family: var(--display);
+  font-size: 8pt;
+  font-weight: 600;
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--muted);
+  border-bottom: 1.5px solid var(--ink);
+  padding: 0 3mm 2mm 0;
+}
+td { padding: 2.5mm 3mm 2.5mm 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+td.time {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: var(--ink);
+  width: 17mm;
+}
+td.dur { white-space: nowrap; color: var(--muted); width: 11mm; font-variant-numeric: tabular-nums; }
+tr.break td { color: var(--muted); }
+tr.break td.time { color: var(--muted); font-weight: 400; }
+
+/* ---------- Writing space ---------- */
+
+.write { margin: 0 0 6mm 0; }
+.write .prompt {
+  font-family: var(--display);
+  font-size: 8pt;
+  font-weight: 600;
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 2.5mm 0;
+}
+.lines { margin: 0; border-top: 1px solid var(--rule-strong); }
+.lines div { border-bottom: 1px solid var(--rule); height: 8mm; }
+.lines.short div { height: 7mm; }
+
+/* ---------- Emphasis blocks ---------- */
+
+.note {
+  border-left: 3px solid var(--red);
+  background: var(--red-soft);
+  padding: 4mm 5mm;
+  margin: 0 0 6mm 0;
+}
+.note .label {
+  font-family: var(--display);
+  font-size: 8pt;
+  font-weight: 600;
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--red-deep);
+  margin: 0 0 2mm 0;
+}
+.note p:last-child { margin-bottom: 0; }
+
+.callout {
+  background: var(--bone);
+  padding: 4mm 5mm;
+  margin: 0 0 6mm 0;
+}
+.callout p:last-child { margin-bottom: 0; }
+
+/* ---------- Layout helpers ---------- */
+
+.cols { display: flex; gap: 8mm; }
+.cols > * { flex: 1; }
+
+.steps { list-style: none; padding: 0; margin: 0 0 5mm 0; counter-reset: s; }
+.steps li {
+  counter-increment: s;
+  padding: 0 0 0 7mm;
+  position: relative;
+  margin-bottom: 1.5mm;
+  font-size: 9.5pt;
+}
+.steps li::before {
+  content: counter(s);
+  position: absolute;
+  left: 0;
+  font-family: var(--display);
+  font-weight: 700;
+  color: var(--red);
+  font-variant-numeric: tabular-nums;
+}
+
+kbd {
+  font-family: var(--display);
+  font-weight: 600;
+  background: var(--soft);
+  border-radius: 2px;
+  padding: 0.4mm 1.5mm;
+  font-size: 9pt;
+  white-space: nowrap;
+}
+
+.small { font-size: 9pt; color: var(--muted); }
+
+.signature {
+  font-family: var(--script);
+  font-weight: 700;
+  color: var(--red);
+  font-size: 17pt;
+  line-height: 1;
+}
