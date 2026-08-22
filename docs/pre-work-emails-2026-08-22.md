@@ -374,8 +374,9 @@ Johannes
 ## 8. Philipa — info@thegem.co.za
 
 *Signed up 21 Aug with one evening to go, so this one carries the correct venue
-from the start and needs no venue-change mail. Full R3,500 founding rate,
-invoice EC-2608-08 attached — confirm that basis before sending. She never saw a
+from the start and needs no venue-change mail. **The seat went complimentary
+after this was written**, so the closing line quoting R3,500 is out of date and
+EC-2608-08 has been reissued at R0. She never saw a
 signup form, so her four naming questions are in the body of the email as well
 as in her workbook; she cannot wait for the printed copy.*
 

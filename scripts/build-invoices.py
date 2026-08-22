@@ -100,11 +100,7 @@ INVOICES = [
         "sub": "92\u201396 Station Road, Observatory, Cape Town 7925",
         "email": "info@thegem.co.za",
         "issued": "21 August 2026",
-        "terms": ("<b>Payment before the workshop.</b> The eighth and last seat, taken the day "
-                  "before, so the usual 5-day hold doesn't apply \u2014 settle before Saturday and "
-                  "the seat is confirmed. Full refund if you can't make it; I'll move you to the "
-                  "next cohort at no charge."),
-        "credit": None,
+        "credit": ("Complimentary seat", "Seat offered at no charge. No payment due.", SEAT_RATE),
     },
 ]
 
