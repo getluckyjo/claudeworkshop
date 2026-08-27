@@ -102,6 +102,20 @@ INVOICES = [
         "issued": "21 August 2026",
         "credit": ("Complimentary seat", "Seat offered at no charge. No payment due.", SEAT_RATE),
     },
+    {
+        "no": "EC-2608-09", "slug": "inus",
+        "to": "Plat\u014d Coffee Group",
+        "attn": "Inus Smuts, Creative Director",
+        "sub": "",
+        "email": "",
+        "issued": "24 August 2026",
+        # Remote, self-paced, so the cohort line has to say so rather than name
+        # a Saturday in Gardens he was never at.
+        "cohort": ("Claude for entrepreneurs \u2014 the remote version, run in his own time. "
+                   "Same programme, delivered as a workbook and the workshop skill."),
+        "due": "\u2014 nothing to pay",
+        "credit": ("Complimentary seat", "Seat offered at no charge. No payment due.", SEAT_RATE),
+    },
 ]
 
 BRANDMARK = """<div class="brandmark">
@@ -124,7 +138,7 @@ def render(inv):
 
     rows = [f"""<tr>
       <td>Workshop seat — founding rate
-        <div class="desc">{e(COHORT)}<br>3 hours, 8 seats. Includes the pre-work,
+        <div class="desc">{e(inv.get('cohort', COHORT))}<br>3 hours. Includes the pre-work,
         the 14-day group call and the 30-day written review.</div></td>
       <td class="r">{rands(SEAT_RATE)}</td></tr>"""]
     if credit:
@@ -173,7 +187,7 @@ def render(inv):
   <div class="meta">
     <b>{e(inv['no'])}</b><br>
     Issued {e(inv.get('issued', ISSUED))}<br>
-    Due {e(DUE)}
+    Due {e(inv.get('due', DUE))}
   </div>
 </div>
 
