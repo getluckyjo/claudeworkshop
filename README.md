@@ -132,6 +132,7 @@ claudeworkshop/
 │       ├── connectors.md       stop 1 — Google, Microsoft, Xero
 │       ├── your-skill.md       stop 2 — process and voice skills
 │       ├── ship.md             stop 3 — files and links
+│       ├── shopify.md          stop 3 — when the build is a Shopify store
 │       ├── project.md          stop 4 — the business brain
 │       ├── schedule.md         stop 5 — recurring jobs
 │       └── troubleshooting.md  when something breaks

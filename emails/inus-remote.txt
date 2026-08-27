@@ -25,32 +25,38 @@ In Claude: your name bottom-left, Settings, Customize, Skills, upload the
 zip. Then open a NEW chat and say "help me get set up". Skills don't load
 into a conversation that's already running, which catches everyone once.
 
-On the Shopify side, so you know where the line falls. It won't build
-the store — theme, payments, domain, navigation is you in the admin.
-Products are a different matter, and there are two routes. The workbook
-lays both out; short version is it can hand you a product import CSV you
-review and import yourself, or it can write straight into the store over
-the Admin API if someone sets up a token.
+On the Shopify side, since the design and build is the part you care
+about. "Build a Shopify site" is three jobs. The store setup — payments,
+domain, shipping — is you in the admin and always will be. The products
+are a CSV and an afternoon, and you've already said that's the easy half.
+The theme is the third one, and it's the one people assume is off the
+table.
 
-I'd do the launch on the CSV. Not because the other one doesn't work,
-but because getting products in takes minutes either way and writing
-forty descriptions that sound like the brand takes an afternoon on both.
-What the spreadsheet buys you is reading all forty before anything
-exists in a store with the group's name on it.
+It isn't. A theme is a folder of files, and Shopify has a GitHub app that
+keeps a repo branch and a theme in sync both ways. Put Claude on that
+repo and the loop is: ask for a change, look at it, merge it, see it in
+the preview. No terminal anywhere in that.
 
-Either way, the copy is the point: product descriptions, SEO fields,
-policy pages, welcome emails. That's the part that actually costs a
-launch three weeks.
+The bit worth reading twice is in the workbook: don't ask it for a page,
+ask it for a section with a schema block. A page is a fixed thing only
+Claude can change. A section with settings shows up in your theme editor
+with its own controls, and you design with it afterwards without asking
+anyone. You're not commissioning pages, you're building yourself a
+control panel.
 
-One steer. Step 1 is writing the brand's voice down, and it looks like
-the soft one. It isn't. Do the range before the voice and you get forty
-products that read like a template, and re-doing them costs more than
-doing them slowly once. You'll want to skip ahead. Don't.
+One rule: work on a duplicate theme, never the live one. Connect the
+GitHub branch to the duplicate. Get that wrong and every merge is a
+deployment to customers.
 
-Bring three or four things already written in the new brand's voice —
-even a packaging back-panel or a caption. That's what decides whether the
-output sounds like the brand or like a stock coffee company. Some Platō
-copy is useful too, so it can hear what to move away from.
+One steer on scope. Aim to finish with the loop working and one section
+you built and then adjusted yourself in the editor. That's the moment it
+clicks. A whole storefront is the week after and it goes quickly once
+the loop exists. The way this goes wrong is perfecting the hero before
+the loop works — get something ugly moving first.
+
+Bring the brand: logo, fonts, colours, whatever art direction exists.
+And three sites you'd be proud to have made plus one you can't stand.
+The one you hate is worth more than the three you like.
 
 Shout if anything fights you. I'd rather hear about it while you're in
 it than afterwards.

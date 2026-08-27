@@ -234,7 +234,10 @@ End state: their skill is installed and they've watched it do the real job once.
 **Why:** something real on the internet for their business, today. This is the
 one that lands.
 
-Read `references/ship.md`.
+Read `references/ship.md`. **If their build is a Shopify store, read
+`references/shopify.md` instead** — it's a hosted platform rather than a
+blank page, and "build my Shopify site" is three different jobs that need
+separating before you offer anything.
 
 **Don't default to a landing page.** Plenty of founders already have a website
 they don't need another of. Ask what would actually be useful and offer the

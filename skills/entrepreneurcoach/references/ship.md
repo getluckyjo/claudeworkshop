@@ -41,6 +41,12 @@ pipeline. Often the one they'd never have thought to ask for.
 something their team or customers actually use. Great when they describe a
 repetitive job someone does by hand.
 
+**On an existing platform — Shopify, WordPress, Webflow?** Then the shapes above
+mostly don't apply and the question changes. For Shopify specifically, read
+`shopify.md`: the store setup, the products and the theme are three separate jobs
+with three different answers, and the design-and-build one is better than people
+expect.
+
 Pick from their Station 0 answer. *"I'm chasing sponsors"* — pitch site. *"I
 never know where the money is"* — dashboard, or a cashflow model if they need to
 plan rather than watch. *"Month-end swallows a week"* — spreadsheet, every time.

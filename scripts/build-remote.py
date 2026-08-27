@@ -38,167 +38,165 @@ PEOPLE = [
         "role": "Creative Director",
         "bringing": (
             "A Shopify site for a new brand — one of the group's, not Platō "
-            "itself."
+            "itself. The design and the build, not the product copy."
         ),
-        "building": "The launch, minus the typing",
+        "building": "Design it by asking",
         "why": (
-            "You already know what the brand is. What stands between you and "
-            "live is a few thousand words of product copy, SEO fields and "
-            "policy pages that nobody enjoys writing and everybody writes "
-            "badly under deadline. That is the part we hand over — in the "
-            "brand's voice, decided by you once and applied everywhere."
+            "The products are the easy half and you know it. What you actually "
+            "want is to change how the thing looks and works without waiting on "
+            "a developer or fighting a theme editor that won't do the layout in "
+            "your head. That is buildable, it needs no terminal, and by the end "
+            "of this you should have changed something on a storefront yourself "
+            "and watched it appear."
         ),
 
-        # The honest limit, named up front rather than discovered at minute 30.
         "cannot": {
-            "label": "Where the line actually falls",
+            "label": "Three jobs wearing one coat",
             "body": (
-                "It will not build the store. The theme, the payment setup, the "
-                "domain and the navigation are yours to click through in the "
-                "Shopify admin, and nothing here changes that.\n\n"
-                "<strong>Products are a different matter.</strong> There are two "
-                "routes and the second one surprises people, so both are on the "
-                "next page. Either way the work is the same — what differs is "
-                "where it lands."
+                "\u201cBuild a Shopify site\u201d is three different jobs, and "
+                "they have nothing in common. <strong>The store setup</strong> — "
+                "plan, payments, domain, shipping zones, tax — is you in the "
+                "admin, clicking. Nothing here changes that. <strong>The "
+                "products</strong> are copy and a CSV, or a direct connection if "
+                "someone sets up an Admin API token; either way it's an "
+                "afternoon and you've said it's the easy part.\n\n"
+                "<strong>The third is the theme</strong> — layout, sections, how "
+                "it looks and moves. That's the one worth your three hours, and "
+                "it's the one people assume is off the table. It isn't."
             ),
         },
 
-        # The routing decision, laid out so he picks rather than assumes.
         "routes": {
-            "title": "Two ways in. Pick before you start.",
-            "intro": ("Getting products into Shopify takes minutes on either "
-                      "route. Writing forty product descriptions that sound like "
-                      "the brand takes an afternoon on both. So choose on what "
-                      "you want between the writing and the shop floor, not on "
-                      "which sounds more advanced."),
+            "title": "The loop, and why there's no terminal in it",
+            "intro": ("A Shopify theme is a folder of files. Shopify publishes a "
+                      "GitHub app that keeps a repository branch and a theme in "
+                      "sync — push to the branch and the theme updates; edit in "
+                      "the admin and it commits back. Put Claude on the "
+                      "repository and the whole build becomes: ask for a change, "
+                      "look at it, merge it, see it in the preview."),
             "options": [
-                ("A file you import",
-                 "It builds a product CSV — titles, descriptions, SEO fields, "
-                 "tags, variants, alt text. You open it, read it, fix what you "
-                 "don't like, then Shopify &rarr; Products &rarr; Import.",
-                 "Nothing needed beyond Claude. The spreadsheet is a review gate: "
-                 "forty descriptions in front of you before a single one exists "
-                 "in a store carrying the group's name. <strong>This is the one "
-                 "I'd use for a launch</strong>, and it's what the five steps "
-                 "assume."),
-                ("Straight into the store",
-                 "Claude connects to the Shopify Admin API and creates the "
-                 "products itself — and can then edit them, set inventory and "
-                 "read orders on request.",
-                 "Real, and worth knowing about. Two caveats. Shopify's own MCP "
-                 "servers don't do this — Storefront and Checkout are "
-                 "shopper-facing and the Dev one is documentation and code "
-                 "validation for engineers — so product writing means a "
-                 "third-party connector plus an Admin API token you generate from "
-                 "a custom app in Shopify admin. That token is group "
-                 "infrastructure, so it's a conversation with whoever owns your "
-                 "Shopify org, not a decision for a Saturday. And there is no "
-                 "spreadsheet in the middle: what it writes is what's in the "
-                 "store."),
+                ("Set it up once",
+                 "In Shopify: Online Store &rarr; Themes &rarr; duplicate the "
+                 "theme you're working from. Connect the GitHub branch to <em>that "
+                 "duplicate</em>, never the live one. Then go to claude.ai/code, "
+                 "sign in with the same Claude account, connect GitHub, and open "
+                 "the repository.",
+                 "Twenty minutes, all of it clicking. The one thing to get right "
+                 "is which theme the branch points at — the integration syncs to "
+                 "whatever it's told, and pointing it at the live theme makes "
+                 "every merge a deployment to customers. Claude Code on the web "
+                 "needs Pro or Max, and it's a research preview, so treat it as "
+                 "very good rather than bulletproof."),
+                ("Then ask for sections, not pages",
+                 "A section with a proper schema block shows up in the theme "
+                 "editor with its own controls — heading, image, alignment, "
+                 "full-bleed or not, whatever you specify.",
+                 "This is the part worth reading twice. Ask for <em>a homepage</em> "
+                 "and you get a fixed thing only Claude can change. Ask for <em>a "
+                 "section with settings</em> and you get a new control in your own "
+                 "editor that you design with afterwards, forever, without asking "
+                 "anyone. You're not commissioning pages. You're building "
+                 "yourself a control panel."),
             ],
-            "verdict": ("Do the launch on the CSV. Once the voice skill exists "
-                        "and you trust what comes out of it, the connector is the "
-                        "obvious next step for the month-after work — adding a "
-                        "line, a seasonal range, a price change across forty "
-                        "SKUs. Earn it on the first route first."),
+            "verdict": ("One rule above all others: <strong>work on a duplicate.</strong> "
+                        "A storefront taking orders is production. Nothing you do "
+                        "in the next three hours should be able to touch what a "
+                        "customer sees, and with an unpublished theme it can't."),
         },
 
         "needs": [
-            "The new brand — name, what it is, who it's for, and how it's "
-            "different from Platō. A paragraph is plenty; it doesn't need to be "
-            "the finished positioning",
-            "Your product list, however rough. Names, sizes, variants, prices, "
-            "cost if you have it. A spreadsheet, a WhatsApp voice note "
-            "transcribed, the back of an envelope — all fine",
-            "Three or four things already written in the brand's voice. Even a "
-            "packaging back-panel or a caption. This is the one that decides "
-            "whether the output sounds like the brand or like a template",
-            "Product photos, if they exist. Not required to start",
-            "Your Platō copy, for contrast — so it can hear what to move away from",
+            "Access to the Shopify store, and a theme you're allowed to duplicate",
+            "A GitHub account — free, and use a personal username rather than a "
+            "company one; you'll launch more than one brand",
+            "The brand: logo, fonts, colours, and whatever art direction exists "
+            "even if it's a moodboard",
+            "Three sites you'd be pleased to have made, and one you can't stand. "
+            "The one you hate is worth more than the three you like",
+            "Which theme the store is on. Dawn and Horizon behave differently and "
+            "it changes what to ask for",
         ],
 
         "repeats": (
-            "A brand voice skill, so product forty costs what product one did. "
-            "Then the same skill writes the launch emails, the collection "
-            "descriptions and the social captions without being re-briefed each "
-            "time."
+            "A skill carrying the brand's design rules — spacing, type scale, how "
+            "it writes headings, what it never does. Then every new section "
+            "arrives already looking like the brand instead of needing to be "
+            "argued into it."
         ),
 
         "sequence": {
             "title": "The five steps",
             "intro": (
-                "Do them in order. Step 1 looks like the soft one and it is the "
-                "one everything else rests on — skip it and steps 2 to 5 produce "
-                "competent copy for a brand that could be anyone's. Each grey "
-                "box is what to ask. Allow about three hours, or three sittings "
-                "of an hour."
+                "Roughly three hours, or three sittings. Be honest with yourself "
+                "about the finish line: what you want by the end is the loop "
+                "working and one section you built and then adjusted yourself. "
+                "That's the moment it clicks. A whole storefront is the week "
+                "after, and it goes fast once the loop exists."
             ),
             "steps": [
-                ("Write the voice down first",
-                 "Here's the new brand — what it is, who it's for, how it "
-                 "differs from Platō. Here are four things already written in "
-                 "its voice, and here's some Platō copy for contrast. "
-                 "Interview me until you could write as this brand yourself.",
-                 "Let it ask questions and answer them properly. When it thinks "
-                 "it has the voice, make it prove it: give it a product it has "
-                 "never seen and ask for fifty words. If that comes back sounding "
-                 "like the brand, you have something. If it comes back sounding "
-                 "like a coffee brand, keep going — that's the gap you're paid to "
-                 "close."),
+                ("Give it the eye before the work",
+                 "Here's the brand — logo, fonts, colours, the moodboard. Here "
+                 "are three sites I'd be proud of and one I can't stand. Tell me "
+                 "what you think the visual rules are, and where I'm "
+                 "contradicting myself.",
+                 "Do this before anything is built. The last clause is the "
+                 "valuable one — it's the closest thing to a second art director "
+                 "in the room, and it will find the contradiction you've been "
+                 "carrying since the pitch. Argue with it. Write down what you "
+                 "settle on."),
 
-                ("One product, argued over",
-                 "Take one product from my list. Write the title, the "
-                 "description, the SEO title and meta description, the tags, and "
-                 "the image alt text. Show me your reasoning on the title.",
-                 "Push back on this one until it's genuinely right — you're not "
-                 "reviewing a product, you're setting the pattern the other "
-                 "thirty-nine inherit. Ten minutes here saves an afternoon of "
-                 "fixing the same flaw forty times."),
+                ("Wire the loop up",
+                 "Walk me through connecting a Shopify theme to GitHub and then "
+                 "to Claude Code, so I can change the theme by asking. I'm "
+                 "duplicating the theme first and I am not touching the live one.",
+                 "Twenty minutes of clicking, and the only step that matters is "
+                 "pointing the branch at the duplicate. Once this works, "
+                 "everything after it is conversation."),
 
-                ("The whole range, as a file Shopify eats",
-                 "Now do the rest of the range the same way, and give me a "
-                 "Shopify product import CSV — Handle, Title, Body (HTML), "
-                 "Vendor, Type, Tags, Published, Option1 Name, Option1 Value, "
-                 "Variant SKU, Variant Price, Variant Inventory Qty, Image Src, "
-                 "Image Alt Text, SEO Title, SEO Description, Status.",
-                 "Shopify → Products → Import takes that file directly. Import "
-                 "into a <em>development</em> store first, or tick nothing as "
-                 "published — either way you look at it in the admin before it can "
-                 "be seen. Expect to reject a few. Reject them out loud and say "
-                 "why, so the fix carries."),
+                ("One section, built properly",
+                 "Build me one section with a full schema block — settings for "
+                 "the heading, the image, the alignment and whether it runs "
+                 "full-bleed. Before you write any Liquid, tell me which theme "
+                 "objects and filters you're relying on and which theme "
+                 "architecture you're assuming.",
+                 "That second sentence is doing real work: Liquid is where it "
+                 "will invent a filter that doesn't exist, and asking it to state "
+                 "its assumptions first surfaces the wrong one while it's still "
+                 "cheap. Then merge it, open the theme editor, and move the "
+                 "controls around. That is the whole point of the day."),
 
-                ("The pages nobody wants to write",
-                 "Same voice: the About page, shipping, returns, FAQ, and the "
-                 "three-email welcome flow for someone who has just bought for "
-                 "the first time.",
-                 "Give it your real terms — actual delivery times, the real "
-                 "returns window, what happens if a bag arrives damaged. Invented "
-                 "policy is a legal problem, not a copy problem, and it will "
-                 "invent cheerfully if you leave a gap."),
+                ("Now the storefront",
+                 "Same rules, the rest of it: the homepage, the product page, the "
+                 "collection page. Sections with settings, not fixed layouts. "
+                 "Show me each one before you move on.",
+                 "Look at everything on a phone before you like it. Most coffee "
+                 "gets bought on a phone in a queue, and a layout that sings on "
+                 "your 27-inch monitor can be unusable at 390 pixels."),
 
                 ("Make it repeat",
-                 "That worked. Write it up as a skill so I can add a product "
-                 "next month without explaining the brand again.",
-                 "This is the step that turns three hours into an asset. Name it "
-                 "after the brand, not after Platō — you'll launch another one, "
-                 "and the voice should travel with the brand it belongs to."),
+                 "Write the brand's design rules up as a skill — spacing, type "
+                 "scale, how headings are written, what this brand never does — "
+                 "so the next section arrives already right.",
+                 "Name it after the brand, not after Platō. You'll launch another "
+                 "one, and the rules should travel with the brand they belong to."),
             ],
         },
 
         "watch": (
-            "Two things will try to eat your afternoon. The first is the store "
-            "itself — the theme, the fonts, the hero image. You're a creative "
-            "director; that pull is real and it is not what this session is for. "
-            "The second is doing the range before the voice. Both roads end with "
-            "forty products that read like a template, and re-doing them costs "
-            "more than doing them slowly once."
+            "Two things will cost you the afternoon. The first is editing in the "
+            "theme editor while Claude is working on the same files — the sync "
+            "runs both ways, so that's a real conflict. One or the other at a "
+            "time. The second is the pull toward polish: you'll want to perfect "
+            "the hero before the loop is even working. Get the loop working "
+            "first, on something ugly. Ugly and live beats beautiful and "
+            "theoretical, and you can make it beautiful in about four minutes "
+            "once you can change it by asking."
         ),
 
         "closing": (
-            "You're doing this without me in the room, so one ask: when you hit "
-            "something that doesn't work, write down what you asked and what came "
-            "back before you work around it. That list is worth more to the next "
-            "version of this than anything that went smoothly."
+            "You're doing this without me in the room, so one ask: when something "
+            "doesn't work, write down what you asked and what came back before "
+            "you work around it. That list is worth more to the next version of "
+            "this than anything that went smoothly."
         ),
     },
 ]
