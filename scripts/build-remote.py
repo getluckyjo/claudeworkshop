@@ -51,17 +51,56 @@ PEOPLE = [
 
         # The honest limit, named up front rather than discovered at minute 30.
         "cannot": {
-            "label": "What this will not do, so you can stop waiting for it",
+            "label": "Where the line actually falls",
             "body": (
-                "It will not build your Shopify store. Shopify is an admin you "
-                "log into — the theme, the payment setup, the domain and the "
-                "navigation are yours to click through, and no amount of asking "
-                "changes that. Anyone who tells you otherwise is selling "
-                "something.\n\n"
-                "What it will do is produce everything that goes <em>into</em> "
-                "the store, in a file Shopify imports directly. That is the "
-                "part that actually costs a launch three weeks."
+                "It will not build the store. The theme, the payment setup, the "
+                "domain and the navigation are yours to click through in the "
+                "Shopify admin, and nothing here changes that.\n\n"
+                "<strong>Products are a different matter.</strong> There are two "
+                "routes and the second one surprises people, so both are on the "
+                "next page. Either way the work is the same — what differs is "
+                "where it lands."
             ),
+        },
+
+        # The routing decision, laid out so he picks rather than assumes.
+        "routes": {
+            "title": "Two ways in. Pick before you start.",
+            "intro": ("Getting products into Shopify takes minutes on either "
+                      "route. Writing forty product descriptions that sound like "
+                      "the brand takes an afternoon on both. So choose on what "
+                      "you want between the writing and the shop floor, not on "
+                      "which sounds more advanced."),
+            "options": [
+                ("A file you import",
+                 "It builds a product CSV — titles, descriptions, SEO fields, "
+                 "tags, variants, alt text. You open it, read it, fix what you "
+                 "don't like, then Shopify &rarr; Products &rarr; Import.",
+                 "Nothing needed beyond Claude. The spreadsheet is a review gate: "
+                 "forty descriptions in front of you before a single one exists "
+                 "in a store carrying the group's name. <strong>This is the one "
+                 "I'd use for a launch</strong>, and it's what the five steps "
+                 "assume."),
+                ("Straight into the store",
+                 "Claude connects to the Shopify Admin API and creates the "
+                 "products itself — and can then edit them, set inventory and "
+                 "read orders on request.",
+                 "Real, and worth knowing about. Two caveats. Shopify's own MCP "
+                 "servers don't do this — Storefront and Checkout are "
+                 "shopper-facing and the Dev one is documentation and code "
+                 "validation for engineers — so product writing means a "
+                 "third-party connector plus an Admin API token you generate from "
+                 "a custom app in Shopify admin. That token is group "
+                 "infrastructure, so it's a conversation with whoever owns your "
+                 "Shopify org, not a decision for a Saturday. And there is no "
+                 "spreadsheet in the middle: what it writes is what's in the "
+                 "store."),
+            ],
+            "verdict": ("Do the launch on the CSV. Once the voice skill exists "
+                        "and you trust what comes out of it, the connector is the "
+                        "obvious next step for the month-after work — adding a "
+                        "line, a seasonal range, a price change across forty "
+                        "SKUs. Earn it on the first route first."),
         },
 
         "needs": [
@@ -226,6 +265,31 @@ def sequence_pages(seq):
 </section>"""
 
 
+def routes_page(p):
+    r = p.get("routes")
+    if not r:
+        return ""
+    blocks = []
+    for i, (name, what, note) in enumerate(r["options"], 1):
+        blocks.append(f"""
+  <div style="margin-bottom:7mm">
+    <p style="font-family:var(--display);font-size:9.5pt;font-weight:600;
+       letter-spacing:var(--tracking-tight);margin:0 0 2mm 0">
+      <span style="color:var(--red)">{i}</span>&nbsp;&nbsp;{e(name)}</p>
+    <p style="margin:0 0 2mm 0">{what}</p>
+    <p class="small" style="margin:0">{note}</p>
+  </div>""")
+    return f"""
+<section class="page">
+  <h2>{e(r['title'])}</h2>
+  <p class="standfirst">{e(r['intro'])}</p>
+  {''.join(blocks)}
+  <div class="callout">
+    <p>{r['verdict']}</p>
+  </div>
+</section>"""
+
+
 def workbook(p):
     needs = "".join(f"<li>{e(n)}</li>" for n in p["needs"])
     cannot = p["cannot"]
@@ -331,6 +395,7 @@ def workbook(p):
     <p>{e(p['watch'])}</p>
   </div>
 </section>
+{routes_page(p)}
 {sequence_pages(p['sequence'])}
 
 <section class="page">

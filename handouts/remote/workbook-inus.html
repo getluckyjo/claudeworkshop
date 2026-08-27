@@ -97,8 +97,8 @@
   <p class="standfirst">You already know what the brand is. What stands between you and live is a few thousand words of product copy, SEO fields and policy pages that nobody enjoys writing and everybody writes badly under deadline. That is the part we hand over — in the brand's voice, decided by you once and applied everywhere.</p>
 
   <div class="note">
-    <p class="label">What this will not do, so you can stop waiting for it</p>
-    <p>It will not build your Shopify store. Shopify is an admin you log into — the theme, the payment setup, the domain and the navigation are yours to click through, and no amount of asking changes that. Anyone who tells you otherwise is selling something.</p><p>What it will do is produce everything that goes <em>into</em> the store, in a file Shopify imports directly. That is the part that actually costs a launch three weeks.</p>
+    <p class="label">Where the line actually falls</p>
+    <p>It will not build the store. The theme, the payment setup, the domain and the navigation are yours to click through in the Shopify admin, and nothing here changes that.</p><p><strong>Products are a different matter.</strong> There are two routes and the second one surprises people, so both are on the next page. Either way the work is the same — what differs is where it lands.</p>
   </div>
 
   <h3>What repeats afterwards</h3>
@@ -107,6 +107,29 @@
   <div class="note">
     <p class="label">Watch for</p>
     <p>Two things will try to eat your afternoon. The first is the store itself — the theme, the fonts, the hero image. You're a creative director; that pull is real and it is not what this session is for. The second is doing the range before the voice. Both roads end with forty products that read like a template, and re-doing them costs more than doing them slowly once.</p>
+  </div>
+</section>
+
+<section class="page">
+  <h2>Two ways in. Pick before you start.</h2>
+  <p class="standfirst">Getting products into Shopify takes minutes on either route. Writing forty product descriptions that sound like the brand takes an afternoon on both. So choose on what you want between the writing and the shop floor, not on which sounds more advanced.</p>
+  
+  <div style="margin-bottom:7mm">
+    <p style="font-family:var(--display);font-size:9.5pt;font-weight:600;
+       letter-spacing:var(--tracking-tight);margin:0 0 2mm 0">
+      <span style="color:var(--red)">1</span>&nbsp;&nbsp;A file you import</p>
+    <p style="margin:0 0 2mm 0">It builds a product CSV — titles, descriptions, SEO fields, tags, variants, alt text. You open it, read it, fix what you don't like, then Shopify &rarr; Products &rarr; Import.</p>
+    <p class="small" style="margin:0">Nothing needed beyond Claude. The spreadsheet is a review gate: forty descriptions in front of you before a single one exists in a store carrying the group's name. <strong>This is the one I'd use for a launch</strong>, and it's what the five steps assume.</p>
+  </div>
+  <div style="margin-bottom:7mm">
+    <p style="font-family:var(--display);font-size:9.5pt;font-weight:600;
+       letter-spacing:var(--tracking-tight);margin:0 0 2mm 0">
+      <span style="color:var(--red)">2</span>&nbsp;&nbsp;Straight into the store</p>
+    <p style="margin:0 0 2mm 0">Claude connects to the Shopify Admin API and creates the products itself — and can then edit them, set inventory and read orders on request.</p>
+    <p class="small" style="margin:0">Real, and worth knowing about. Two caveats. Shopify's own MCP servers don't do this — Storefront and Checkout are shopper-facing and the Dev one is documentation and code validation for engineers — so product writing means a third-party connector plus an Admin API token you generate from a custom app in Shopify admin. That token is group infrastructure, so it's a conversation with whoever owns your Shopify org, not a decision for a Saturday. And there is no spreadsheet in the middle: what it writes is what's in the store.</p>
+  </div>
+  <div class="callout">
+    <p>Do the launch on the CSV. Once the voice skill exists and you trust what comes out of it, the connector is the obvious next step for the month-after work — adding a line, a seasonal range, a price change across forty SKUs. Earn it on the first route first.</p>
   </div>
 </section>
 

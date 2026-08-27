@@ -25,13 +25,22 @@ In Claude: your name bottom-left, Settings, Customize, Skills, upload the
 zip. Then open a NEW chat and say "help me get set up". Skills don't load
 into a conversation that's already running, which catches everyone once.
 
-On the Shopify build, so you're not waiting for something that isn't
-coming: it won't build the store. The theme, the payments, the domain,
-the navigation — that's you in the Shopify admin and no amount of asking
-changes it. What it does is everything that goes into the store: the
-product copy, the SEO fields, the policy pages, the welcome emails, and
-a product import CSV that Shopify takes directly. That's the part that
-actually costs a launch three weeks.
+On the Shopify side, so you know where the line falls. It won't build
+the store — theme, payments, domain, navigation is you in the admin.
+Products are a different matter, and there are two routes. The workbook
+lays both out; short version is it can hand you a product import CSV you
+review and import yourself, or it can write straight into the store over
+the Admin API if someone sets up a token.
+
+I'd do the launch on the CSV. Not because the other one doesn't work,
+but because getting products in takes minutes either way and writing
+forty descriptions that sound like the brand takes an afternoon on both.
+What the spreadsheet buys you is reading all forty before anything
+exists in a store with the group's name on it.
+
+Either way, the copy is the point: product descriptions, SEO fields,
+policy pages, welcome emails. That's the part that actually costs a
+launch three weeks.
 
 One steer. Step 1 is writing the brand's voice down, and it looks like
 the soft one. It isn't. Do the range before the voice and you get forty
