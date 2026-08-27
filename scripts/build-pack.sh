@@ -48,6 +48,11 @@ cp dist/entrepreneurcoach.zip   "$PACK/5 Brand/entrepreneurcoach-skill.zip"
 # 6 — the things to actually send
 cp emails/*.txt "$PACK/6 Emails to send/"
 
+# Remote workbooks are sent, not printed, so they ride along with the emails.
+if compgen -G "handouts/remote/*.pdf" > /dev/null; then
+  cp handouts/remote/*.pdf "$PACK/6 Emails to send/"
+fi
+
 cp "docs/START HERE.txt" "$PACK/START HERE.txt"
 
 zip -qr "$PACK.zip" "$PACK"

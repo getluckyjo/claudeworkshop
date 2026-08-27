@@ -1,0 +1,50 @@
+To: <Inus>
+
+Subject: Your workshop pack — the remote version
+
+Inus,
+
+Workbook attached. It's the workshop, rebuilt for doing on your own —
+the whole sequence written out rather than the short version I'd hand
+someone with me standing next to them.
+
+Set aside about three hours, or three sittings of an hour. It works
+either way.
+
+Two things before you start, and both take twenty minutes the night
+before rather than at the top of the session:
+
+1. Paid Claude plan, then install the desktop app rather than just the
+browser. If your card declines it's your bank blocking the international
+payment — enable that in your banking app.
+
+2. Add the skill, don't unzip it:
+https://github.com/getluckyjo/claudeworkshop/raw/HEAD/dist/entrepreneurcoach.zip
+
+In Claude: your name bottom-left, Settings, Customize, Skills, upload the
+zip. Then open a NEW chat and say "help me get set up". Skills don't load
+into a conversation that's already running, which catches everyone once.
+
+On the Shopify build, so you're not waiting for something that isn't
+coming: it won't build the store. The theme, the payments, the domain,
+the navigation — that's you in the Shopify admin and no amount of asking
+changes it. What it does is everything that goes into the store: the
+product copy, the SEO fields, the policy pages, the welcome emails, and
+a product import CSV that Shopify takes directly. That's the part that
+actually costs a launch three weeks.
+
+One steer. Step 1 is writing the brand's voice down, and it looks like
+the soft one. It isn't. Do the range before the voice and you get forty
+products that read like a template, and re-doing them costs more than
+doing them slowly once. You'll want to skip ahead. Don't.
+
+Bring three or four things already written in the new brand's voice —
+even a packaging back-panel or a caption. That's what decides whether the
+output sounds like the brand or like a stock coffee company. Some Platō
+copy is useful too, so it can hear what to move away from.
+
+Shout if anything fights you. I'd rather hear about it while you're in
+it than afterwards.
+
+Groete
+Johannes
