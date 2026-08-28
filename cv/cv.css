@@ -1,0 +1,143 @@
+
+@import url("fonts.css");
+
+:root {
+  --paper: #FFFFFF;
+  --bone: #F4F4F1;
+  --ink: #0E0E10;
+  --ink-soft: #2A2A2D;
+  --muted: #6F6F73;
+  --rule: #DEDCD5;
+  --red: #F25C2A;
+  --sans: "Geist", "Inter Tight", ui-sans-serif, system-ui, sans-serif;
+  --serif: Georgia, "Times New Roman", serif;
+}
+
+@page { size: A4; margin: 0; }
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; padding: 0; background: var(--paper); }
+
+body {
+  font-family: var(--sans);
+  font-size: 8.2pt;
+  line-height: 1.38;
+  color: var(--ink-soft);
+  -webkit-font-smoothing: antialiased;
+}
+
+.sheet {
+  width: 210mm;
+  min-height: 297mm;
+  padding: 11mm 14mm 9mm;
+  display: flex;
+  flex-direction: column;
+  gap: 4mm;
+}
+
+/* ---- masthead --------------------------------------------------------- */
+
+header { border-bottom: 2px solid var(--ink); padding-bottom: 2.8mm; }
+
+.name {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 23pt;
+  line-height: 1;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin: 0;
+}
+.name .dot { color: var(--red); }
+
+.tagline {
+  font-size: 9.6pt;
+  color: var(--ink);
+  margin: 1.6mm 0 0 0;
+  font-weight: 500;
+}
+
+.target {
+  font-size: 7.4pt;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--red);
+  font-weight: 600;
+  margin: 0 0 2mm 0;
+}
+
+.contact {
+  margin: 2.6mm 0 0 0;
+  font-size: 8pt;
+  color: var(--muted);
+}
+.contact a { color: var(--muted); text-decoration: none; }
+.contact span.sep { color: var(--rule); padding: 0 1.6mm; }
+
+/* ---- profile ---------------------------------------------------------- */
+
+.profile {
+  background: var(--bone);
+  padding: 3mm 3.8mm;
+  font-size: 8.4pt;
+  line-height: 1.46;
+  color: var(--ink);
+  margin: 0;
+}
+
+/* ---- sections --------------------------------------------------------- */
+
+h2 {
+  font-size: 7.4pt;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ink);
+  font-weight: 600;
+  margin: 0 0 2mm 0;
+  padding-bottom: 1.2mm;
+  border-bottom: 1px solid var(--rule);
+}
+
+.entry { margin-bottom: 2.6mm; }
+.entry:last-child { margin-bottom: 0; }
+
+.entry .line {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 5mm;
+  margin-bottom: 0.9mm;
+}
+.entry .org { font-weight: 600; color: var(--ink); font-size: 8.8pt; }
+.entry .meta {
+  color: var(--muted);
+  font-size: 7.8pt;
+  text-align: right;
+  white-space: nowrap;
+}
+.entry p { margin: 0; }
+
+/* ---- strengths grid --------------------------------------------------- */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2mm 7mm;
+}
+.grid .k { font-weight: 600; color: var(--ink); display: block; }
+.grid .v { color: var(--muted); }
+
+/* ---- foot ------------------------------------------------------------- */
+
+footer {
+  margin-top: auto;
+  padding-top: 2.4mm;
+  border-top: 1px solid var(--rule);
+  display: flex;
+  justify-content: space-between;
+  font-size: 7.4pt;
+  color: var(--muted);
+}
+footer .avail { color: var(--ink); font-weight: 600; }
