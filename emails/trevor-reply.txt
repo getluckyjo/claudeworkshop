@@ -12,19 +12,17 @@ you spend a meeting on it — so qualification happens in the room, which
 is the most expensive place it could possibly happen. Right order is:
 score the company on energy first, then go find the person inside it.
 
-I've built you a skill that does exactly that. Install it in Claude and
-it'll score a company out of 100 off industry, shift pattern, equipment
-and size, estimate the monthly spend, and tell you go or no-go. Works on
-one company or on a list of four hundred.
+I've built you two things, both attached.
 
-Download (don't unzip it):
-https://github.com/getluckyjo/claudeworkshop/raw/HEAD/dist/qualify-energy-prospects.zip
+A skill that scores a company out of 100 off industry, shift pattern,
+equipment and size, estimates the monthly spend, and tells you go or
+no-go. Works on one company or on a list of four hundred.
 
-In Claude: your name bottom-left, Settings, Customize, Skills, upload
-the zip. Then start a NEW chat and say "score this company for me" with
-a name.
+And a workbook — the full workshop, written out so you can run it
+yourself. Three hours, or three sittings. Everything you need is in it,
+including the setup, so start there rather than with the skill.
 
-Three things in there worth saying up front.
+Three things from it worth saying up front.
 
 1. The first thing it'll do is make you state a number. Your pitch is
 that you find more waste than the system costs — so there's a minimum
@@ -60,11 +58,14 @@ That turns a 60-month rental from a cost against savings into a cost
 against savings plus a deduction, which is a materially different
 conversation.
 
-Give the skill a run on three companies you already know — one you'd
-love, one you'd pass on, one you're unsure about. If it scores them the
-way you would, trust it on the list. If it doesn't, tell me where it's
-wrong and I'll fix the weightings. You know this market and the model
-doesn't.
+Step 2 in the workbook is the one I'd not skip: run it on three
+companies you already know — one you'd love, one you'd pass on, one
+you're unsure about — and don't tell it which is which. If it ranks them
+the way you would, trust it on four hundred you've never heard of. If it
+doesn't, tell me exactly where it's wrong and I'll fix the weightings.
+You know this market and the model doesn't.
+
+Shout while you're in it rather than after.
 
 Groete
 Johannes

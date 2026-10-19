@@ -199,6 +199,180 @@ PEOPLE = [
             "this than anything that went smoothly."
         ),
     },
+    {
+        "slug": "trevor",
+        "name": "Trevor Davenport",
+        "business": "Efficient Energy SA",
+        "role": "Managing Director",
+        "own_skill": {
+            "blurb": ("The second one is yours, built for this job. It scores a "
+                      "company on how much electricity it probably uses, "
+                      "estimates the monthly spend, and tells you whether it "
+                      "clears your floor."),
+            "url": ("https://github.com/getluckyjo/claudeworkshop/raw/HEAD/"
+                    "dist/qualify-energy-prospects.zip"),
+        },
+        "bringing": (
+            "Reaching decision makers at large energy users \u2014 without "
+            "burning meetings on companies too small to be worth one."
+        ),
+        "building": "A filter, not a bigger list",
+        "why": (
+            "You can already find decision makers. Sales Navigator and Dripify "
+            "do that part fine. What you have no filter for is whether the "
+            "company behind the name is a big enough energy user \u2014 so "
+            "qualification happens in the meeting, which is the most expensive "
+            "place it could possibly happen. By the end of this you'll have a "
+            "scoring system that reads a company and tells you go or no-go "
+            "before you give up an afternoon."
+        ),
+
+        "cannot": {
+            "label": "The order is wrong, not the tooling",
+            "body": (
+                "Nothing here replaces Sales Navigator or Dripify, and you "
+                "shouldn't want it to. They find people, and they're good at "
+                "it.\n\n"
+                "<strong>The fix is the sequence.</strong> Right now you find a "
+                "person, then discover the company. Flip it: score the company "
+                "on energy first, and only then go looking for who signs. Same "
+                "tools, same campaigns \u2014 a filter in front of them."
+            ),
+        },
+
+        "routes": {
+            "title": "Two things to settle before you score anything",
+            "intro": ("Both of these take minutes and both change every number "
+                      "that comes after. Neither is a technology question, which "
+                      "is why they tend to go unasked."),
+            "options": [
+                ("Your floor, as a rand figure",
+                 "Your pitch is that you find more waste than the system costs. "
+                 "That sentence contains a minimum viable customer: "
+                 "<em>monthly rental &divide; the waste you typically find "
+                 "&divide; what clients actually act on.</em>",
+                 "Rental R12,000, you find 15%, half gets acted on &rarr; the "
+                 "floor is R160,000 a month. Below that the deal can't work on "
+                 "its own logic and the meeting was always going to be a no. "
+                 "<strong>Until that's a number, \u201clarge energy user\u201d is "
+                 "a feeling</strong> and every list is a guess. Your figures, not "
+                 "mine \u2014 but write it down."),
+                ("The question that replaces the meeting",
+                 "&ldquo;Which Eskom tariff are you on \u2014 Megaflex, Miniflex, "
+                 "Nightsave \u2014 or does the municipality bill you as a large "
+                 "power user?&rdquo;",
+                 "Megaflex applies above 1 MVA of notified maximum demand, so "
+                 "<strong>&ldquo;we're on Megaflex&rdquo; is the qualification</strong> "
+                 "\u2014 nothing to estimate. People read it off the bill without "
+                 "feeling interrogated, because it's admin rather than "
+                 "commercial. Follow with &ldquo;what's your NMD in kVA?&rdquo; "
+                 "Anyone who answers that is worth a meeting whatever the list "
+                 "said."),
+            ],
+            "verdict": ("And a company that doesn't know its own tariff has told "
+                        "you something too: nobody there is managing energy. That "
+                        "is the problem you sell into, so it's a lead, not a dead "
+                        "end."),
+        },
+
+        "needs": [
+            "Your rental price for a typical install, the share of spend you "
+            "usually identify as recoverable, and roughly how much of it clients "
+            "act on. Three numbers, and the whole thing rests on them",
+            "Your current prospect list or a Sales Navigator export, however "
+            "rough \u2014 and your Dripify sequences as they stand",
+            "Three companies you already know well: one you'd love, one you'd "
+            "walk away from, one you genuinely can't call. These are how you "
+            "test whether the scoring agrees with you",
+            "Two or three GARs you've produced, and what happened after each",
+            "Your mini intro doc, the one you sent me",
+        ],
+
+        "repeats": (
+            "A skill that scores any company on request, so the judgement stops "
+            "living only in your head \u2014 and a Monday morning list of newly "
+            "qualified prospects, built while you sleep, with the reason each one "
+            "scored where it did."
+        ),
+
+        "sequence": {
+            "title": "The five steps",
+            "intro": (
+                "About three hours, or three sittings. Do them in order \u2014 "
+                "step 1 is the one everything else is measured against, and it's "
+                "the one you'll be tempted to skip because it isn't technical."
+            ),
+            "steps": [
+                ("Work out your floor",
+                 "Here's my rental, the share of spend I typically find as "
+                 "recoverable waste, and roughly how much of it clients act on. "
+                 "What's the minimum monthly electricity spend where this still "
+                 "works for both of us? Show your working.",
+                 "Argue with the answer. Then ask what happens to the floor if "
+                 "you find 10% instead of 15%, or if only a third gets acted on. "
+                 "The range you get back is the honest one, and the top of it is "
+                 "the number to run the list against."),
+
+                ("Teach it your judgement",
+                 "Here are three companies I know \u2014 one I'd love, one I'd "
+                 "walk away from, one I'm unsure about. Score each one and tell "
+                 "me why. Don't ask me first.",
+                 "This is the test that matters. If it ranks them the way you "
+                 "would, the model has your judgement in it and you can trust it "
+                 "on four hundred companies you've never heard of. Where it's "
+                 "wrong, say exactly why \u2014 that correction is worth more "
+                 "than the score."),
+
+                ("Run it at your real list",
+                 "Here's my prospect list. Score every company, rank them, group "
+                 "them into priority, qualify, hold and decline, and give me one "
+                 "line on each decline saying why.",
+                 "The decline reasons are the point, not the leftovers. They're "
+                 "what stops the same dead company coming round again next "
+                 "quarter looking new. Expect the list to shrink a lot. That is "
+                 "the result, not a problem with it."),
+
+                ("Put the filter in front of the funnel",
+                 "Rewrite my Dripify sequence so the Gap Analysis Report is "
+                 "gated on the tariff and the NMD rather than on a meeting. One "
+                 "sequence per industry, not one for everyone.",
+                 "Asking for the tariff in order to produce the GAR isn't a "
+                 "hurdle \u2014 it's obviously necessary information, so it reads "
+                 "as competence rather than screening. Do cold storage first; "
+                 "it's the clearest sector you sell into and the waste is easiest "
+                 "to name."),
+
+                ("Make it repeat",
+                 "Turn all of that into a skill so I can score a company next "
+                 "month without re-explaining any of it. Then every Monday at "
+                 "07:00, score anything new and send me three lines and what I "
+                 "should do about it.",
+                 "Three lines. A Monday brief that writes an essay gets ignored "
+                 "inside a fortnight, and then the habit is gone."),
+            ],
+        },
+
+        "watch": (
+            "Two traps. The first is scoring on industry alone \u2014 a food "
+            "producer that outsourced its cold chain has the right SIC code and "
+            "none of the load, so equipment and shift pattern beat sector every "
+            "time. The second is forgetting that energy is only half the "
+            "qualification: plenty of large users have a facilities manager who "
+            "agrees warmly and can't sign anything. Authority was never your "
+            "problem, so don't let fixing the energy half quietly lose it."
+        ),
+
+        "closing": (
+            "One last thing, and check it with your accountant before you put it "
+            "in front of anyone. Section 12L was due to lapse at the end of 2025 "
+            "and Treasury extended it to 31 December 2030, at up to 95c per kWh "
+            "saved, with measurement and verification by a SANAS-accredited body. "
+            "Your system is the measurement layer those claims need \u2014 which "
+            "turns a 60-month rental from a cost against savings into a cost "
+            "against savings plus a deduction. That is a different conversation, "
+            "and worth an hour with whoever does your tax."
+        ),
+    },
 ]
 
 
@@ -288,8 +462,20 @@ def routes_page(p):
 </section>"""
 
 
+def own_skill_block(p):
+    """An extra setup step for anyone who also gets a skill built for them."""
+    sk = p.get("own_skill")
+    if not sk:
+        return ""
+    return f"""<h3>3. Add your own skill</h3>
+  <p>{e(sk['blurb'])} Same route, same rule &mdash; <strong>don't unzip it</strong>:</p>
+  <p class="small" style="word-break:break-all">{sk['url']}</p>"""
+
+
 def workbook(p):
     needs = "".join(f"<li>{e(n)}</li>" for n in p["needs"])
+    own_skill = own_skill_block(p)
+    needs_no = 4 if p.get("own_skill") else 3
     cannot = p["cannot"]
     cannot_body = "".join(f"<p>{para}</p>" for para in cannot["body"].split("\n\n"))
 
@@ -338,7 +524,8 @@ def workbook(p):
   <em>help me get set up</em> — skills don't load into a conversation that was
   already running.</p>
 
-  <h3>3. Have your material to hand</h3>
+  {own_skill}
+  <h3>{needs_no}. Have your material to hand</h3>
   <ul>{needs}</ul>
 
   <div class="note">
