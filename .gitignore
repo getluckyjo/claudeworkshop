@@ -26,3 +26,6 @@ notes/note.css
 # LinkedIn header intermediates — the PNGs are the deliverable
 linkedin/*.html
 linkedin/fonts.css
+
+# Per-client attachment bundles are generated — rebuild with build-client-pack.sh
+/*— *.zip
