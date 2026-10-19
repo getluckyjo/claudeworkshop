@@ -116,6 +116,19 @@ INVOICES = [
         "due": "\u2014 nothing to pay",
         "credit": ("Complimentary seat", "Seat offered at no charge. No payment due.", SEAT_RATE),
     },
+    {
+        "no": "EC-2610-01", "slug": "trevor",
+        "to": "Efficient Energy SA",
+        "attn": "Trevor Davenport, Managing Director",
+        "sub": "Official partner, Best.Energy Global",
+        "email": "trevor.davenport@efficient-energy.co.za",
+        "issued": "19 October 2026",
+        "due": "\u2014 nothing to pay",
+        "cohort": ("Claude for entrepreneurs \u2014 the remote version, run in his own time. "
+                   "Workbook, the workshop skill, and a prospect qualification skill "
+                   "built for Efficient Energy SA."),
+        "credit": ("Complimentary seat", "Seat offered at no charge. No payment due.", SEAT_RATE),
+    },
 ]
 
 BRANDMARK = """<div class="brandmark">
