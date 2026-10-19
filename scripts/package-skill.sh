@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Rebuild dist/entrepreneurcoach.zip from skills/entrepreneurcoach/.
+# Rebuild dist/<skill>.zip from skills/<skill>/.
 #
 # For Johannes, not the cohort — they just download the zip from GitHub.
 # Run this after editing anything under skills/, then commit the zip.
@@ -7,12 +7,12 @@
 # The zip has SKILL.md at its ROOT (with references/ alongside it), which is
 # what claude.ai expects at Settings -> Customize -> Skills.
 #
-# Usage: ./scripts/package-skill.sh
+# Usage: ./scripts/package-skill.sh [skill-name]   (default: entrepreneurcoach)
 
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-SKILL_NAME="entrepreneurcoach"
+SKILL_NAME="${1:-entrepreneurcoach}"
 SKILL_DIR="$REPO_ROOT/skills/$SKILL_NAME"
 OUT="$REPO_ROOT/dist/$SKILL_NAME.zip"
 
@@ -66,4 +66,4 @@ echo
 echo "Built $OUT"
 unzip -l "$OUT" | sed 's/^/  /'
 echo
-echo "Commit it so the cohort can download it directly from GitHub."
+echo "Commit it so it can be downloaded directly from GitHub."

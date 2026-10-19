@@ -136,7 +136,8 @@ claudeworkshop/
 │       ├── project.md          stop 4 — the business brain
 │       ├── schedule.md         stop 5 — recurring jobs
 │       └── troubleshooting.md  when something breaks
-├── scripts/package-skill.sh    rebuilds the zip after edits
+├── skills/qualify-energy-prospects/   a client skill, built in a session
+├── scripts/package-skill.sh    rebuilds a zip: ./scripts/package-skill.sh [name]
 └── docs/workshop-runsheet.md   facilitator notes
 ```
 

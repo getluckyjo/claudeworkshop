@@ -1,0 +1,70 @@
+To: trevor.davenport@efficient-energy.co.za
+Subject: Re: Company details — the qualification problem
+
+Trevor,
+
+Thanks for the intro doc. Read it properly, and I think your problem
+is narrower than it feels.
+
+You're not struggling to find decision makers. Sales Navigator and
+Dripify do that fine. What's missing is a filter on the COMPANY before
+you spend a meeting on it — so qualification happens in the room, which
+is the most expensive place it could possibly happen. Right order is:
+score the company on energy first, then go find the person inside it.
+
+I've built you a skill that does exactly that. Install it in Claude and
+it'll score a company out of 100 off industry, shift pattern, equipment
+and size, estimate the monthly spend, and tell you go or no-go. Works on
+one company or on a list of four hundred.
+
+Download (don't unzip it):
+https://github.com/getluckyjo/claudeworkshop/raw/HEAD/dist/qualify-energy-prospects.zip
+
+In Claude: your name bottom-left, Settings, Customize, Skills, upload
+the zip. Then start a NEW chat and say "score this company for me" with
+a name.
+
+Three things in there worth saying up front.
+
+1. The first thing it'll do is make you state a number. Your pitch is
+that you find more waste than the system costs — so there's a minimum
+monthly electricity spend below which the deal can't work, whatever
+anyone wants. Rental divided by the waste you typically find, divided
+again by what clients actually act on. Until that's a rand figure,
+"large energy user" is a feeling and every list is a guess.
+
+2. The best qualifying question in the country is the tariff name.
+Megaflex applies above 1 MVA of notified demand, so "we're on Megaflex"
+IS the qualification — no estimating needed. People read it off the bill
+without feeling interrogated, because it's admin, not commercial. Follow
+with "what's your NMD in kVA?" Ask both before you book anything and
+most of the wasted meetings disappear.
+
+Worth knowing too: NMD is contracted, not measured, and you're billed on
+the higher of notified or actual. So plenty of sites are paying every
+month for capacity they never touch and nobody's noticed. That's a
+finding your system produces in month one, and it's a better opener than
+any percentage.
+
+3. Your free Gap Analysis Report is a good lead magnet and you're
+spending it too early. Gate it on the tariff and the NMD rather than on
+a meeting. It's obviously necessary information, so it reads as
+competence, not screening — and anyone who answers has qualified
+themselves.
+
+One more thing, and check it with your accountant before you use it.
+Section 12L was due to lapse end of 2025 and Treasury extended it to
+31 December 2030, at up to 95c per kWh saved, with M&V by a SANAS-
+accredited body. Your system is the measurement layer those claims need.
+That turns a 60-month rental from a cost against savings into a cost
+against savings plus a deduction, which is a materially different
+conversation.
+
+Give the skill a run on three companies you already know — one you'd
+love, one you'd pass on, one you're unsure about. If it scores them the
+way you would, trust it on the list. If it doesn't, tell me where it's
+wrong and I'll fix the weightings. You know this market and the model
+doesn't.
+
+Groete
+Johannes
